@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/down-chevron-circle-fill</title>
+    <g id="Icon/Fill/down-chevron-circle-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="down-chevron-circle">
+                <path d="M24,12 C24,18.6270001 18.6270001,24 12,24 C5.37300002,24 0,18.6270001 0,12 C0,5.37300002 5.37300002,0 12,0 C18.6270001,0 24,5.37300002 24,12 Z M6.73920003,12.2893501 C6.15270003,12.8758501 6.15270003,13.8253501 6.73920003,14.4103501 C7.32570003,14.9968501 8.27520003,14.9968501 8.86020004,14.4103501 L11.9997,11.27085 L15.1392001,14.4103501 C15.7257001,14.9968501 16.6752001,14.9968501 17.2602001,14.4103501 C17.8467001,13.8253501 17.8467001,12.8758501 17.2602001,12.2893501 L11.9997,7.02885003 L6.73920003,12.2893501 Z" id="Combined-Shape" transform="translate(12.000000, 12.000000) scale(-1, 1) rotate(-180.000000) translate(-12.000000, -12.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

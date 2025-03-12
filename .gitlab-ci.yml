@@ -1,0 +1,19 @@
+image: alpine
+stages:
+  - build_and_push
+
+build and push docker image:
+  stage: build_and_push
+  variables: 
+    AWS_DEFAULT_REGION: eu-central-1
+    CI_REGISTRY_IMAGE: public.ecr.aws/z0z6u3g9/nebula/worker-dashboard
+  image:
+    name: gcr.io/kaniko-project/executor:v1.19.2-debug
+    entrypoint: [""]
+  script:
+    -  mkdir -p /kaniko/.docker
+    -  echo "{\"credsStore\":\"ecr-login\"}" > /kaniko/.docker/config.json
+    -  /kaniko/executor
+      --context "${CI_PROJECT_DIR}"
+      --dockerfile "${CI_PROJECT_DIR}/Dockerfile"
+      --destination "${CI_REGISTRY_IMAGE}:latest"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/notebook-outline</title>
+    <g id="Icon/Outline/notebook-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#474747" fill-rule="nonzero">
+            <g id="Outline">
+                <path d="M22.5,0 C23.3276666,0.00183315539 23.9981668,0.672333382 24,1.5 L24,1.5 L24,22.5 C23.9981668,23.3276666 23.3276666,23.9981668 22.5,24 L22.5,24 L3,24 L3,20.73 L0,20.73 L0,19.23 L3,19.23 L3,12.71 L0,12.71 L0,11.1933333 L3,11.1933333 L3,4.75 L0,4.75 L0,3.25 L3,3.25 L3,0 Z M22.5,1.5 L4.5,1.5 L4.5,22.5 L22.5,22.5 L22.5,1.5 Z M20.25,18.0466667 L20.25,19.5466667 L6.75,19.5466667 L6.75,18.0466667 L20.25,18.0466667 Z M20.25,13.5 L20.25,15 L6.75,15 L6.75,13.5 L20.25,13.5 Z M20.25,9 L20.25,10.5 L6.75,10.5 L6.75,9 L20.25,9 Z M20.25,4.5 L20.25,6 L6.75,6 L6.75,4.5 L20.25,4.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

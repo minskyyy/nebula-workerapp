@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/download-light-fill</title>
+    <g id="Icon/Fill/download-light-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="download-light" transform="translate(5.250000, 0.000000)">
+                <path d="M6.75000003,18 L0.440054147,11.7053438 C-0.146684716,11.1200267 -0.146684716,10.1721325 0.440054147,9.58681541 C1.026793,9.00149831 1.97698955,9.00149831 2.56372839,9.58681541 L5.24810875,12.2646913 L5.24810875,0 L8.25189131,0 L8.25189131,12.2646913 L10.9362717,9.58681541 C11.5230105,9.00149831 12.4732071,9.00149831 13.0599459,9.58681541 C13.6466848,10.1721325 13.6466848,11.1200267 13.0599459,11.7053438 L6.75000003,18 Z M0,24.0000001 L0,21.0000001 L13.5,21.0000001 L13.5,24.0000001 L0,24.0000001 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

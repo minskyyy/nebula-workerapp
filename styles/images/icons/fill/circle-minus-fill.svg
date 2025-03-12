@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/circle-minus-fill</title>
+    <g id="Icon/Fill/circle-minus-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="circle-minus">
+                <path d="M3.51450001,3.51450001 C8.20050003,-1.1715 15.7995001,-1.1715 20.4855001,3.51450001 C25.1715001,8.20050003 25.1715001,15.7995001 20.4855001,20.4855001 C15.7995001,25.1715001 8.20050003,25.1715001 3.51450001,20.4855001 C-1.1715,15.7995001 -1.1715,8.20050003 3.51450001,3.51450001 Z M6.00000003,13.5 L18,13.5 L18,10.5 L6.00000003,10.5 L6.00000003,13.5 Z" id="Circle-Minus"></path>
+            </g>
+        </g>
+    </g>
+</svg>

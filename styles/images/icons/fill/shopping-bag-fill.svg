@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/shopping-bag-fill</title>
+    <g id="Icon/Fill/shopping-bag-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="shopping-bag-fill" transform="translate(3.000000, 0.000000)">
+                <path d="M4.5,4.5 C4.5,2.01471863 6.51471865,0 9,0 C11.4852814,0 13.5,2.01471863 13.5,4.5 L18,4.5 L18,22.5 C18,23.3284272 17.3284272,24 16.5,24 L0,24 L0,6 C0,5.1715729 0.671572878,4.5 1.5,4.5 L4.5,4.5 Z M6.75000003,4.50000002 L11.25,4.50000002 C11.25,3.25735933 10.2426407,2.25000001 9.00000004,2.25000001 C7.75735938,2.25000001 6.75000003,3.25735933 6.75000003,4.50000002 Z" id="Icon/ShoppingBag/Fill"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,84 @@
+// @import '../../../node_modules/sass-rem-convert/_rem-convert.scss';
+@import './variables';
+@import './mixin';
+
+$font-family: 'PwC Helvetica Neue',sans-serif;
+
+
+$spacing-tokens: (
+  (spacing-1, rem-convert(2px)),
+  (spacing-2, rem-convert(4px)),
+  (spacing-3, rem-convert(8px)),
+  (spacing-4, rem-convert(12px)),
+  (spacing-5, rem-convert(16px)),
+  (spacing-6, rem-convert(20px)),
+  (spacing-7, rem-convert(24px)),
+  (spacing-8, rem-convert(48px)),
+);
+
+$typography-tokens: (
+    (typography-1, #{rem-convert(12px)}/#{rem-convert(14px)}),
+    (typography-2, #{rem-convert(14px)}/#{rem-convert(20px)}),
+    (typography-3, #{rem-convert(16px)}/#{rem-convert(24px)}),
+    (typography-4, #{rem-convert(20px)}/#{rem-convert(24px)}),
+    (typography-5, #{rem-convert(24px)}/#{rem-convert(32px)}),
+    (typography-6, #{rem-convert(48px)}/#{rem-convert(48px)}),
+    (typography-body-xs, 400 #{rem-convert(12px)}/#{rem-convert(14px)} $font-family),
+    (typography-body-s, 400 #{rem-convert(14px)}/#{rem-convert(20px)} $font-family),
+    (typography-body, 400 #{rem-convert(16px)}/#{rem-convert(24px)} $font-family),
+    (typography-heading-s, 500 #{rem-convert(20px)}/#{rem-convert(24px)} $font-family),
+    (typography-heading-m, 500 #{rem-convert(24px)}/#{rem-convert(32px)} $font-family),
+    (typography-heading-l, 500 #{rem-convert(36px)}/#{rem-convert(42px)} $font-family),
+    (typography-data, 500 #{rem-convert(48px)}/#{rem-convert(48px)} $font-family),
+    (typography-subheading, 500 #{rem-convert(20px)}/#{rem-convert(24px)} $font-family),
+    (typography-heading, 500 #{rem-convert(24px)}/#{rem-convert(32px)} $font-family),
+    (typography-large-heading, 500 #{rem-convert(36px)}/#{rem-convert(42px)} $font-family),
+);
+
+$font-weight-tokens: (
+    (font-weight-1, 400),
+    (font-weight-2, 500),
+    (font-weight-3, 700),
+);
+
+$border-radius-tokens: (
+    (border-radius-1, rem-convert(2px)),
+    (border-radius-2, rem-convert(4px)),
+    (border-radius-3, rem-convert(8px)),
+);
+
+$level-tokens: (
+    (level-1, 0 rem-convert(2px) rem-convert(4px) rem-convert(-2px) rgba($color-background-tertiary-rgb, $opacity-4)),
+    (level-2, 0 rem-convert(4px) rem-convert(8px) rem-convert(-2px) rgba($color-background-tertiary-rgb, $opacity-4), 0 0 rem-convert(1px) 0 rgba($color-background-tertiary-rgb, $opacity-2)),
+    (level-3, 0 rem-convert(8px) rem-convert(16px) rem-convert(-2px) rgba($color-background-tertiary-rgb, $opacity-4), 0 0 rem-convert(1px) 0 rgba($color-background-tertiary-rgb, $opacity-2)),
+);
+
+// $elevation-shadow-tokens: (
+//     (elevation-shadow-high, 0 rem-convert(8px) rem-convert(16px) rem-convert(-2px) rgba($elevation-shadow-color-rgb, 0.24)),
+//     (elevation-shadow-medium, 0 rem-convert(4px) rem-convert(8px) rem-convert(-2px) rgba($elevation-shadow-color-rgb, 0.24)),
+//     (elevation-shadow-low, 0 rem-convert(2px) rem-convert(4px) rem-convert(-2px) rgba($elevation-shadow-color-rgb, 0.24)),
+//     (elevation-shadow-flat, 0)
+// );
+
+$blur-tokens: (
+    (blur-1, blur(rem-convert(2px))),
+    (blur-2, blur(rem-convert(8px))),
+);
+
+$opacity-tokens: (
+    (opacity-1, .04),
+    (opacity-2, .08),
+    (opacity-3, .12),
+    (opacity-4, .24),
+    (opacity-5, .32),
+    (opacity-6, .48),
+    (opacity-7, 1),
+);
+
+$tokens: ($spacing-tokens, $typography-tokens, $font-weight-tokens, $border-radius-tokens, $level-tokens, $blur-tokens, $opacity-tokens);
+
+:host, :root, ::before, ::after {
+    @each $token in $tokens {
+        @include setToken($token);
+    }
+}

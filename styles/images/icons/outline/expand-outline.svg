@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/expand-outline</title>
+    <g id="Icon/Outline/expand-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="expand">
+                <path d="M0,0 L7.5,0 L7.5,1.5 L1.5,1.5 L1.5,7.5 L0,7.5 L0,0 Z M16.5000001,0 L24.0000001,0 L24.0000001,7.5 L22.5000001,7.5 L22.5000001,1.5 L16.5000001,1.5 L16.5000001,0 Z M22.5000001,16.5000001 L24.0000001,16.5000001 L24.0000001,24.0000001 L16.5000001,24.0000001 L16.5000001,22.5000001 L22.5000001,22.5000001 L22.5000001,16.5000001 Z M0,16.5000001 L1.5,16.5000001 L1.5,22.5000001 L7.5,22.5000001 L7.5,24.0000001 L0,24.0000001 L0,16.5000001 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

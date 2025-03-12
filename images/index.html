@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nebula Worker Dashboard</title>
+    <link rel="icon" href="images/favicon.ico" />
+
+    <!-- Tailwind CSS (via CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Dark Theme from Appkit -->
+    <link
+      rel="stylesheet"
+      href="https://appkitcdn.pwc.com/appkit4/cdn/styles/4.10.1/appkit.dark.min.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Appkit Web Components -->
+    <script
+      type="module"
+      src="https://pwc-appkit.azureedge.net/cdn/web-components/1.0.0/dist/appkit4/appkit4.esm.js"
+    ></script>
+    <!-- MQTT Library -->
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  </head>
+
+  <body class="flex flex-col h-screen">
+    <!-- Header -->
+    <header class="flex-none">
+      <apw-header id="defaultHeader" type="transparent" compact="false">
+        <span slot="title" class="ap-header-title">Nebula Worker-App</span>
+
+        <!-- Operator -->
+        <div
+          slot="options"
+          class="ap-header-options-item has-icon has-label"
+          tabindex="0"
+          role="button"
+          aria-label="Production Manager"
+        >
+          <span class="Appkit4-icon icon-avatar-outline"></span>
+          <span class="ap-header-options-label">Operator</span>
+        </div>
+
+        <!-- Shift -->
+        <div
+          slot="options"
+          class="ap-header-options-item has-icon has-label"
+          tabindex="0"
+          role="button"
+          aria-label="Shift Daytime"
+        >
+          <span class="Appkit4-icon icon-time-outline"></span>
+          <span class="ap-header-options-label">Shift Daytime</span>
+        </div>
+
+        <!-- Language -->
+        <div
+          slot="options"
+          class="ap-header-options-item has-icon has-label"
+          tabindex="0"
+          role="button"
+          aria-label="Language Selector"
+        >
+          <span class="Appkit4-icon icon-globe-outline"></span>
+          <span class="ap-header-options-label">EN</span>
+        </div>
+
+        <!-- Comments -->
+        <div
+          slot="options"
+          class="ap-header-options-item has-icon"
+          tabindex="0"
+          role="button"
+          aria-label="Comments"
+        >
+          <span class="Appkit4-icon icon-comment-outline"></span>
+        </div>
+
+        <!-- Settings -->
+        <div
+          slot="options"
+          class="ap-header-options-item has-icon"
+          tabindex="0"
+          role="button"
+          aria-label="Settings"
+        >
+          <span class="Appkit4-icon icon-setting-outline"></span>
+        </div>
+
+        <!-- Avatar -->
+        <apw-avatar
+          slot="user"
+          name="VR"
+          borderWidth="0"
+          diameter="40"
+          role="button"
+        ></apw-avatar>
+      </apw-header>
+    </header>
+
+    <!-- Main Content Area -->
+    <div class="flex-auto flex flex-col gap-2 p-4">
+      <!-- Machine Info / Sensor Data Row -->
+      <div class="flex flex-row w-full">
+        <!-- Basic Machine Info -->
+        <div class="flex flex-row items-stretch rounded-r">
+          <div class="flex flex-col container-bg py-2 px-4 mr-1">
+            <span class="text-white text-base font-medium"
+              >Transferpresse iXpress Pro</span
+            >
+            <span class="text-gray-400 text-sm">
+              <span class="Appkit4-icon icon-platform-outline"></span>
+              ID: plot1X_1234567890
+            </span>
+          </div>
+        </div>
+
+        <!-- Sensor Readouts -->
+        <div class="flex flex-row flex-auto gap-1 justify-around items-stretch">
+          <div
+            class="flex px-4 flex-row container-bg items-center flex-auto gap-2"
+          >
+            <span
+              class="Appkit4-icon text-2xl mr-2 icon-thermometer-outline text-white"
+            ></span>
+            <div class="flex flex-col">
+              <span class="text-gray-400 text-xs">Temperature</span>
+              <div class="text-white text-lg">
+                <span class="temperature-value-all">--</span>
+                <span>°C</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex px-4 flex-row container-bg items-center flex-auto gap-2"
+          >
+            <span
+              class="Appkit4-icon text-2xl mr-2 icon-download-outline text-white"
+            ></span>
+            <div class="flex flex-col">
+              <span class="text-gray-400 text-xs">Pressure</span>
+              <div class="text-white text-lg">
+                <span class="pressure-value-all">--</span>
+                <span>N</span>
+              </div>
+            </div>
+          </div>
+          <div
+            class="flex px-4 flex-row container-bg items-center flex-auto gap-2"
+          >
+            <span
+              class="Appkit4-icon text-2xl mr-2 icon-wait-outline text-white"
+            ></span>
+            <div class="flex flex-col">
+              <span class="text-gray-400 text-xs">Runtime</span>
+              <span id="runtime-value" class="text-white text-lg">0h 0min</span>
+            </div>
+          </div>
+          <div
+            class="flex px-4 flex-row container-bg items-center rounded-r-md flex-auto gap-2"
+          >
+            <span
+              class="Appkit4-icon text-2xl mr-2 icon-hashtag-outline text-white"
+            ></span>
+            <div class="flex flex-col">
+              <span class="text-gray-400 text-xs">Order</span>
+              <span id="order-value" class="text-white text-lg">-</span>
+            </div>
+          </div>
+          <!-- Cancel Production Button -->
+          <div class="px-4 container-bg p-2 rounded">
+            <button
+              id="cancel-production-btn"
+              class="py-2 px-6 accent-bg-alt hover:bg-red-900 text-white transition rounded-md"
+            >
+              <span
+                class="Appkit4-icon mr-2 icon-circle-delete-outline text-white"
+              ></span>
+              Cancel production
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lower Content Row -->
+      <div class="flex-auto flex flex-row mt-2 gap-4">
+        <!-- Left Column: Image & Charts -->
+        <div class="flex-auto flex flex-col gap-2 p-2 container-bg rounded">
+          <!-- Large Image Card -->
+          <div
+            class="container-bg-alt rounded flex-auto flex items-center justify-center"
+          >
+            <img
+              id="step-image"
+              src="images/imageS1.png"
+              alt="Step Image"
+              class="max-w-full max-h-full object-contain"
+            />
+          </div>
+
+          <!-- Bottom Charts -->
+          <div class="flex flex-row gap-4 items-stretch">
+            <!-- Temperature Card -->
+            <div
+              class="flex flex-auto flex-col py-2 px-4 rounded container-bg-alt"
+            >
+              <h3 class="flex items-center text-white">
+                <span
+                  class="Appkit4-icon text-xl mr-2 icon-thermometer-outline"
+                ></span>
+                Temperature
+              </h3>
+              <div class="text-2xl my-2 text-white">
+                <span
+                  class="Appkit4-icon status-icon text-lg mr-2 icon-warning-fill text-red-600"
+                ></span>
+                <span class="temperature-value-all">--</span>
+                <span class="text-sm text-gray-300">°C</span>
+              </div>
+              <div
+                id="temperature-barchart"
+                class="relative w-full h-12 rounded mb-8 container-bg"
+              >
+                <!-- Target range area -->
+                <div
+                  class="absolute top-0 bottom-0 bg-gray-500"
+                  style="left: 0; width: 0"
+                ></div>
+                <!-- Start indicator -->
+                <div
+                  class="absolute top-0 bottom-0 w-1 bg-white"
+                  style="left: 0"
+                ></div>
+                <!-- End indicator -->
+                <div
+                  class="absolute top-0 bottom-0 w-1 bg-white"
+                  style="left: 0"
+                ></div>
+                <!-- Fill bar -->
+                <div
+                  class="absolute top-0 bottom-0 bar-fill bg-red-600 transition-all duration-500 ease-in-out"
+                  style="width: 0"
+                ></div>
+                <div class="text-white text-sm absolute -bottom-6 left-0">
+                  <span class="lowerLimit">--</span> °C
+                </div>
+                <div class="text-white text-sm absolute -bottom-6 right-0">
+                  <span class="upperLimit">--</span> °C
+                </div>
+              </div>
+            </div>
+
+            <!-- Pressure Card -->
+            <div
+              class="flex flex-auto flex-col py-2 px-4 rounded container-bg-alt"
+            >
+              <h3 class="flex items-center text-white">
+                <span
+                  class="Appkit4-icon text-xl mr-2 icon-download-outline"
+                ></span>
+                Pressure
+              </h3>
+              <div class="text-2xl my-2 text-white">
+                <span
+                  class="Appkit4-icon status-icon text-xl mr-2 icon-warning-fill text-red-600"
+                ></span>
+                <span class="pressure-value-all">--</span>
+                <span class="text-sm text-gray-300 ml-1">bar</span>
+              </div>
+
+              <div
+                id="pressure-barchart"
+                class="relative w-full h-12 rounded mb-8 container-bg"
+              >
+                <!-- Target range area -->
+                <div
+                  class="absolute top-0 bottom-0 bg-gray-500"
+                  style="left: 0; width: 0"
+                ></div>
+                <!-- Start indicator -->
+                <div
+                  class="absolute top-0 bottom-0 w-1 bg-white"
+                  style="left: 0"
+                ></div>
+                <!-- End indicator -->
+                <div
+                  class="absolute top-0 bottom-0 w-1 bg-white"
+                  style="left: 0"
+                ></div>
+                <!-- Fill bar -->
+                <div
+                  class="absolute top-0 bottom-0 bar-fill bg-red-600 transition-all duration-500 ease-in-out"
+                  style="width: 0"
+                ></div>
+                <div class="text-white text-sm absolute -bottom-6 left-0">
+                  <span class="lowerLimit">--</span> bar
+                </div>
+                <div class="text-white text-sm absolute -bottom-6 right-0">
+                  <span class="upperLimit">--</span> bar
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Production Panels -->
+        <div
+          class="flex flex-col gap-2 w-1/2 select-none container-bg rounded p-2"
+        >
+          <!-- "Textile printing process" (Hidden initially) -->
+
+          <div
+            id="production-process-panel"
+            class="flex-none flex flex-col hidden"
+          >
+            <!-- Header row for steps panel -->
+            <div class="flex flex-row items-center mb-4">
+              <span
+                class="Appkit4-icon mr-2 icon-tree-view-outline text-white"
+              ></span>
+              <h3 class="flex-auto text-lg">Textile printing process</h3>
+              <div
+                class="text-xs animate-pulse border text-gray-300 border-2 py-1 px-2 rounded-xl border-solid border-blue-800"
+              >
+                Production time: <span id="production-time">00:00</span>
+              </div>
+            </div>
+
+            <!-- Steps Container -->
+            <div id="steps-container" class="flex flex-col gap-2 text-white">
+              <!-- Step 1: Machine preparation -->
+              <button
+                id="step-1"
+                class="border-primary rounded p-2 mb-2 flex flex-row items-top"
+              >
+                <div class="w-8 mr-4 h-8 flex-none">
+                  <div id="step-1-check" class="w-8 mr-4 h-8 hidden text-left">
+                    <span
+                      class="Appkit4-icon icon-circle-checkmark-fill text-green-500 text-2xl"
+                    ></span>
+                  </div>
+                  <div
+                    id="step-1-number"
+                    class="flex mr-4 justify-center items-center border-accent accent-bg h-8 w-8 text-center rounded-full text-sm mr-2"
+                  >
+                    1
+                  </div>
+                </div>
+                <div class="flex-auto text-left">
+                  <div class="mt-1">Machine preparation</div>
+                  <div class="text-gray-400 text-sm" id="step-1-content">
+                    Turn machine on and preheat to production temperature
+                  </div>
+                </div>
+              </button>
+
+              <!-- Step 2: Scan motif code -->
+              <div
+                id="step-2"
+                class="rounded p-2 flex flex-row items-top text-gray-400 mb-2"
+              >
+                <div class="w-8 mr-4 h-8 flex-none">
+                  <div id="step-2-check" class="w-8 mr-4 h-8 hidden text-left">
+                    <span
+                      class="Appkit4-icon icon-circle-checkmark-fill text-green-500 text-2xl"
+                    ></span>
+                  </div>
+                  <div
+                    id="step-2-number"
+                    class="flex mr-4 justify-center items-center border-accent accent-bg h-8 w-8 text-center rounded-full text-sm mr-2"
+                  >
+                    2
+                  </div>
+                </div>
+                <div class="flex-auto text-left">
+                  <div class="mt-1">Scan the motif code</div>
+                  <!-- Step 2 Content -->
+                  <div
+                    id="step-2-content"
+                    class="hidden flex flex-row flex-wrap justify-end"
+                  >
+                    <div class="w-full text-gray-400 text-sm">
+                      Scan the QR code on the motif or type in the ID
+                    </div>
+                    <div
+                      class="w-full mt-2 border-primary rounded items-center p-2 flex flex-row"
+                    >
+                      <label for="motif-id" class="block mr-2">ID</label>
+                      <input
+                        id="motif-id"
+                        type="text"
+                        class="w-full bg-transparent flex-auto rounded focus:outline-none"
+                        placeholder="e.g., 11-123"
+                      />
+                      <button id="empty-motif-id p-1">
+                        <span
+                          class="Appkit4-icon ml-2 icon-circle-delete-outline text-white"
+                        ></span>
+                      </button>
+                    </div>
+                    <button
+                      id="confirm-step-2"
+                      class="hover:bg-blue-900 mt-4 text-md accent-bg text-sm px-4 py-2 rounded"
+                    >
+                      <span
+                        class="Appkit4-icon icon-circle-checkmark-outline"
+                      ></span>
+                      Confirm ID
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Step 3: Insert textile and motif -->
+              <button
+                id="step-3"
+                disabled
+                class="border-primary rounded p-2 mb-2 flex flex-row items-top"
+              >
+                <div class="w-8 mr-4 h-8 flex-none">
+                  <div id="step-3-check" class="w-8 mr-4 h-8 hidden text-left">
+                    <span
+                      class="Appkit4-icon icon-circle-checkmark-fill text-green-500 text-2xl"
+                    ></span>
+                  </div>
+                  <div
+                    id="step-3-number"
+                    class="flex mr-4 justify-center items-center border-accent accent-bg h-8 w-8 text-center rounded-full text-sm mr-2"
+                  >
+                    3
+                  </div>
+                </div>
+                <div class="flex-auto text-left">
+                  <div class="mt-1">Insert textile and motif</div>
+                  <div id="step-3-content" class="hidden text-gray-400 text-sm">
+                    <ul class="list-disc ml-4">
+                      <li>
+                        Lay the textile flat on the lower plate of the press
+                      </li>
+                      <li>
+                        Position the motif with the printed side facing down
+                      </li>
+                      <li>Close the press</li>
+                    </ul>
+                  </div>
+                </div>
+              </button>
+
+              <!-- Step 4: Transfer process -->
+              <button
+                id="step-4"
+                disabled
+                class="rounded p-2 text-gray-400 mb-2 flex flex-row items-top"
+              >
+                <div class="w-8 mr-4 h-8 flex-none">
+                  <div id="step-4-check" class="w-8 mr-4 h-8 hidden text-left">
+                    <span
+                      class="Appkit4-icon icon-circle-checkmark-fill text-green-500 text-2xl"
+                    ></span>
+                  </div>
+                  <div
+                    id="step-4-number"
+                    class="flex mr-4 justify-center items-center border-accent accent-bg h-8 w-8 text-center rounded-full text-sm mr-2"
+                  >
+                    4
+                  </div>
+                </div>
+                <div class="flex-auto text-left">
+                  <div class="mt-1">Transfer process</div>
+                  <div class="text-gray-400 text-sm hidden" id="step-4-content">
+                    Keep the press closed until the timer has expired
+                  </div>
+                </div>
+              </button>
+
+              <!-- Step 5: Evaluate product quality -->
+              <div
+                id="step-5"
+                class="rounded p-2 text-gray-400 mb-2 flex flex-row items-top"
+              >
+                <div class="w-8 mr-4 h-8 flex-none">
+                  <div id="step-5-check" class="w-8 mr-4 h-8 hidden text-left">
+                    <span
+                      class="Appkit4-icon icon-circle-checkmark-fill text-green-500 text-2xl"
+                    ></span>
+                  </div>
+                  <div
+                    id="step-5-number"
+                    class="flex mr-4 justify-center items-center border-accent accent-bg h-8 w-8 text-center rounded-full text-sm mr-2"
+                  >
+                    5
+                  </div>
+                </div>
+                <div class="flex-auto text-left">
+                  <div class="mt-1">Evaluate product quality</div>
+                  <!-- Step 5 Content -->
+                  <div id="step-5-content" class="hidden flex flex-col">
+                    <div class="w-full text-gray-400 text-sm">
+                      Rate the quality of the finished print
+                    </div>
+                    <div class="w-full mt-2 flex flex-row gap-4">
+                      <button
+                        id="step-5-tolerance"
+                        class="accent-bg flex-auto hover:bg-blue-900 text-white px-4 py-2 rounded-md"
+                      >
+                        <span
+                          class="Appkit4-icon mr-2 icon-circle-checkmark-outline text-white"
+                        ></span>
+                        In tolerance
+                      </button>
+                      <button
+                        id="step-5-outof"
+                        class="accent-bg-alt flex-autohover:bg-red-900 text-white px-4 py-2 rounded-md"
+                      >
+                        <span
+                          class="Appkit4-icon mr-2 icon-circle-delete-outline text-white"
+                        ></span>
+                        Out of tolerance
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- "New production" (Initial and Last State) -->
+          <div
+            id="new-production-panel"
+            class="border-primary container-bg rounded p-2"
+          >
+            <h3 class="mb-4">New production</h3>
+            <button
+              id="start-production-btn"
+              class="p-2 accent-bg w-full hover:bg-blue-900 text-white transition rounded-md"
+            >
+              <span
+                class="Appkit4-icon mr-2 icon-play-outline text-white"
+              ></span>
+              Start new production
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Main JS file -->
+    <script src="main.js"></script>
+  </body>
+</html>

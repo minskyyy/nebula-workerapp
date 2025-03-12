@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/platform-fill</title>
+    <g id="Icon/Fill/platform-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 2.000000)" fill="#474747" fill-rule="nonzero">
+            <path d="M24,10.5 L21.1333333,8.80333333 L24,7.10333333 L12,0 L0,7.11333333 L2.86666667,8.81 L0,10.5 L2.86666667,12.1966667 L0,13.9066667 L12,21 L24,13.8833333 L21.13,12.19 L24,10.5 Z M12,18.9333333 L4.23666667,14.3433333 L5.79333333,13.42 L12,17.0866667 L18.2066667,13.42 L19.7633333,14.3433333 L12,18.9333333 Z M12,14.74 L4.23666667,10.1666667 L5.79333333,9.24333333 L12,12.8966667 L18.2066667,9.23 L19.7633333,10.1533333 L12,14.74 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

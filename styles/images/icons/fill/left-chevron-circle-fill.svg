@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/left-chevron-circle-fill</title>
+    <g id="Icon/Fill/left-chevron-circle-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="left-chevron-circle">
+                <path d="M12,24 C5.37300002,24 0,18.6270001 0,12 C0,5.37300002 5.37300002,0 12,0 C18.6270001,0 24,5.37300002 24,12 C24,18.6270001 18.6270001,24 12,24 Z M12.2893501,6.73920003 L7.02885003,11.9997 L12.2893501,17.2602001 C12.8758501,17.8467001 13.8253501,17.8467001 14.4103501,17.2602001 C14.9968501,16.6752001 14.9968501,15.7257001 14.4103501,15.1392001 L11.27085,11.9997 L14.4103501,8.86020004 C14.9968501,8.27520003 14.9968501,7.32570003 14.4103501,6.73920003 C13.8253501,6.15270003 12.8758501,6.15270003 12.2893501,6.73920003 Z" id="Down-Chevron-Circle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

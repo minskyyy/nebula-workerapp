@@ -1,0 +1,44 @@
+// @import '../../../../node_modules/sass-rem/_rem.scss';
+@import './variables';
+
+[tooltip] {
+  position: fixed;
+  padding: $spacing-3;
+  border-radius: $border-radius-2;
+  backdrop-filter: $blur-2;
+  background-color: rgba($color-background-container-inverse-rgb, 0.72);
+  transition: transform $transition-0, visibility $transition-0, opacity $transition-0;
+  visibility: visible;
+  z-index: 10000;
+  max-width: rem(240px);
+  color: $color-background-alt;
+  font-size: $typography-text-size-2;
+  line-height: $typography-line-height-16;
+
+  .ap-tooltip-text {
+    color: $color-background-alt;
+    font-size: $typography-text-size-2;
+    line-height: $typography-line-height-16;
+  }
+
+  &:not(.show) {
+    visibility: hidden;
+    opacity: 0;
+
+    &.right {
+      transform: translateX(rem(-5px));
+    }
+
+    &.left {
+      transform: translateX(rem(5px));
+    }
+
+    &.top {
+      transform: translateY(rem(5px));
+    }
+
+    &.bottom {
+      transform: translateY(rem(-5px));
+    }
+  }
+}

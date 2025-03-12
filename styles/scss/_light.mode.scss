@@ -1,0 +1,79 @@
+@import './variables';
+@import './mixin';
+
+// body {
+//     --color-background-default: #F2F2F2;
+//     --color-background-container: #FFFFFF;
+//     --color-background-alt: #FFFFFF;
+//     --color-background-hover-tertiary: #EBEBEB;
+//     --color-text-dark: #2D2D2D;
+//     --color-text-heading: #464646;
+//     --color-text-body: #7D7D7D;
+//     --color-text-disabled: #DDDDDD;
+//     --color-text-primary: #FFFFFF;
+//     --color-text-error: #FF3B30;
+// }
+
+$tokens: (
+  (color-background-default, $neutral-02), // #F3F3F3
+  (color-background-default-inverse, $neutral-21),
+  (color-background-alt, $neutral-01), // #FFFFFF
+  (color-background-alt-inverse, $neutral-22), // #111111
+  (color-background-container, $neutral-01), // #FFFFFF
+  (color-background-container-alt, $neutral-02), // #F3F3F3
+  (color-background-container-inverse, $neutral-23), // #000000
+  (color-background-secondary, $neutral-01), // #FFFFFF
+  (color-background-tertiary, $neutral-17), // #474747
+  (color-background-hover, $neutral-02), // #F3F3F3
+  (color-background-selected, $neutral-02), // #F3F3F3
+  (color-background-hover-selected, $neutral-03), // #E8E8E8
+  (color-background-triple-hover, $neutral-04), // #DDDDDD
+  (color-background-border, $neutral-05), // #D1D1D1
+  (color-background-danger, $states-error-05), // #C52A1A
+  (color-background-success, $states-success-06), // #21812D
+  (color-background-warning, $states-warning-05), // #FFBF1F
+  (color-background-danger-inverse, $states-error-05), // #C52A1A
+  (color-background-success-inverse, $states-success-06), // #21812D
+  (color-background-warning-inverse, $states-warning-05), // #FFBF1F
+  (color-background-icon-secondary, $neutral-01), // #FFFFFF
+  (color-background-icon-alt, $neutral-01), // #FFFFFF
+  (color-text-secondary, $neutral-01), // #FFFFFF
+  (color-text-heading, $neutral-20), // #252525
+  (color-text-body, $neutral-17), // #474747
+  (color-text-light, $neutral-14), // #696969
+  (color-text-disabled, $neutral-04), // #DDDDDD
+  (color-text-error, $states-error-05), // #C52A1A
+  (color-text-success, $states-success-06), // #21812D
+  (color-text-warning, $states-warning-05), // #FFBF1F
+  (color-background-mask, $neutral-20), // #252525
+  (elevation-container-high-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-high-selected, $neutral-02), // #F3F3F3
+  (elevation-container-high-hover, $neutral-02), // #F3F3F3
+  (elevation-container-high-default, $neutral-01), // #FFFFFF
+  (elevation-container-medium-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-medium-selected, $neutral-02), // #F3F3F3
+  (elevation-container-medium-hover, $neutral-02), // #F3F3F3
+  (elevation-container-medium-default, $neutral-01), // #FFFFFF
+  (elevation-container-low-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-low-selected, $neutral-02), // #F3F3F3
+  (elevation-container-low-hover, $neutral-02), // #F3F3F3
+  (elevation-container-low-default, $neutral-01), // #FFFFFF
+  (elevation-container-flat-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-flat-selected, $neutral-02), // #F3F3F3
+  (elevation-container-flat-hover, $neutral-02), // #F3F3F3
+  (elevation-container-flat-default, $neutral-01), // #FFFFFF
+);
+
+:host, :root, ::before, ::after {
+  @include setColorToken($tokens);
+}
+
+$box-shadow: (
+  (box-shadow-1, $level-1),
+  (box-shadow-2, $level-2),
+  (box-shadow-3, $level-3),
+);
+
+:host, :root, ::before, ::after {
+  @include setToken($box-shadow);
+}

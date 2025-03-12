@@ -1,0 +1,4021 @@
+@font-face {
+    font-family: "appkit4-font";
+    src: url("font-icon/font/appkit4-font.eot");
+    src: url("font-icon/font/appkit4-font.eot#iefix") format("embedded-opentype"), url("font-icon/font/appkit4-font.woff2") format("woff2"), url("font-icon/font/appkit4-font.woff") format("woff"), url("font-icon/font/appkit4-font.ttf") format("truetype"), url("font-icon/font/appkit4-font.svg#appkit4-font") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.Appkit4-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.Appkit4-icon::before {
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    line-height: inherit;
+    text-align: center;
+    text-transform: none;
+    text-decoration: inherit;
+    font-family: "appkit4-font";
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-variant: normal;
+    letter-spacing: normal;
+    speak: none;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.Appkit4-icon.icon-3by3grid-outline:before {
+    content: "\e800"
+}
+
+.Appkit4-icon.icon-add-user-outline:before {
+    content: "\e801"
+}
+
+.Appkit4-icon.icon-airplane-outline:before {
+    content: "\e802"
+}
+
+.Appkit4-icon.icon-apparel-outline:before {
+    content: "\e803"
+}
+
+.Appkit4-icon.icon-archive-alt-outline:before {
+    content: "\e804"
+}
+
+.Appkit4-icon.icon-arrow-decrease-outline:before {
+    content: "\e805"
+}
+
+.Appkit4-icon.icon-accessible-outline:before {
+    content: "\e806"
+}
+
+.Appkit4-icon.icon-arrow-up-outline:before {
+    content: "\e807"
+}
+
+.Appkit4-icon.icon-arrow-down-outline:before {
+    content: "\e808"
+}
+
+.Appkit4-icon.icon-alert-outline:before {
+    content: "\e809"
+}
+
+.Appkit4-icon.icon-arrow-increase-outline:before {
+    content: "\e80a"
+}
+
+.Appkit4-icon.icon-archive-outline:before {
+    content: "\e80b"
+}
+
+.Appkit4-icon.icon-arrow-left-outline:before {
+    content: "\e80c"
+}
+
+.Appkit4-icon.icon-atm-outline:before {
+    content: "\e80d"
+}
+
+.Appkit4-icon.icon-gantt-chart-outline:before {
+    content: "\e80e"
+}
+
+.Appkit4-icon.icon-arrow-right-outline:before {
+    content: "\e80f"
+}
+
+.Appkit4-icon.icon-box-open-fill:before {
+    content: "\e810"
+}
+
+.Appkit4-icon.icon-exit-fill:before {
+    content: "\e811"
+}
+
+.Appkit4-icon.icon-camera-mic-speakers-fill:before {
+    content: "\e812"
+}
+
+.Appkit4-icon.icon-audience-outline:before {
+    content: "\e813"
+}
+
+.Appkit4-icon.icon-circle-percent-fill:before {
+    content: "\e814"
+}
+
+.Appkit4-icon.icon-battery-medium-outline:before {
+    content: "\e815"
+}
+
+.Appkit4-icon.icon-battery-low-outline:before {
+    content: "\e816"
+}
+
+.Appkit4-icon.icon-bargraph-outline:before {
+    content: "\e817"
+}
+
+.Appkit4-icon.icon-avatar-outline:before {
+    content: "\e818"
+}
+
+.Appkit4-icon.icon-art-themes-outline:before {
+    content: "\e819"
+}
+
+.Appkit4-icon.icon-battery-high-outline:before {
+    content: "\e81a"
+}
+
+.Appkit4-icon.icon-circuit-board-box-fill:before {
+    content: "\e81b"
+}
+
+.Appkit4-icon.icon-automobile-outline:before {
+    content: "\e81c"
+}
+
+.Appkit4-icon.icon-boat-outline:before {
+    content: "\e81d"
+}
+
+.Appkit4-icon.icon-brightness-outline:before {
+    content: "\e81e"
+}
+
+.Appkit4-icon.icon-calculator-outline:before {
+    content: "\e81f"
+}
+
+.Appkit4-icon.icon-calendar-accepted-outline:before {
+    content: "\e820"
+}
+
+.Appkit4-icon.icon-beaker-outline:before {
+    content: "\e821"
+}
+
+.Appkit4-icon.icon-bridge-chart-outline:before {
+    content: "\e822"
+}
+
+.Appkit4-icon.icon-box-open-outline:before {
+    content: "\e823"
+}
+
+.Appkit4-icon.icon-bar-chart-outline:before {
+    content: "\e824"
+}
+
+.Appkit4-icon.icon-box-outline:before {
+    content: "\e825"
+}
+
+.Appkit4-icon.icon-bubble-plot-outline:before {
+    content: "\e826"
+}
+
+.Appkit4-icon.icon-business-services-printer-outline:before {
+    content: "\e827"
+}
+
+.Appkit4-icon.icon-bus-public-transportation-outline:before {
+    content: "\e828"
+}
+
+.Appkit4-icon.icon-bot-outline:before {
+    content: "\e829"
+}
+
+.Appkit4-icon.icon-building-outline:before {
+    content: "\e82a"
+}
+
+.Appkit4-icon.icon-call-outline:before {
+    content: "\e82b"
+}
+
+.Appkit4-icon.icon-camera-outline:before {
+    content: "\e82c"
+}
+
+.Appkit4-icon.icon-capital-outline:before {
+    content: "\e82d"
+}
+
+.Appkit4-icon.icon-camera-mic-speakers-outline:before {
+    content: "\e82e"
+}
+
+.Appkit4-icon.icon-change-outline:before {
+    content: "\e82f"
+}
+
+.Appkit4-icon.icon-calendar-declined-outline:before {
+    content: "\e830"
+}
+
+.Appkit4-icon.icon-calendar-outline:before {
+    content: "\e831"
+}
+
+.Appkit4-icon.icon-chevron-double-down-outline:before {
+    content: "\e832"
+}
+
+.Appkit4-icon.icon-circle-delete-outline:before {
+    content: "\e833"
+}
+
+.Appkit4-icon.icon-carers-space-outline:before {
+    content: "\e834"
+}
+
+.Appkit4-icon.icon-credit-card-fill:before {
+    content: "\e835"
+}
+
+.Appkit4-icon.icon-center-map-outline:before {
+    content: "\e836"
+}
+
+.Appkit4-icon.icon-circle-checkmark-outline:before {
+    content: "\e837"
+}
+
+.Appkit4-icon.icon-circle-more-outline:before {
+    content: "\e838"
+}
+
+.Appkit4-icon.icon-circle-percent-outline:before {
+    content: "\e839"
+}
+
+.Appkit4-icon.icon-debt-free-fill:before {
+    content: "\e83a"
+}
+
+.Appkit4-icon.icon-circle-minus-outline:before {
+    content: "\e83b"
+}
+
+.Appkit4-icon.icon-circuit-board-box-outline:before {
+    content: "\e83c"
+}
+
+.Appkit4-icon.icon-clinic-outline:before {
+    content: "\e83d"
+}
+
+.Appkit4-icon.icon-desk-chair-fill:before {
+    content: "\e83e"
+}
+
+.Appkit4-icon.icon-cloud-outline:before {
+    content: "\e83f"
+}
+
+.Appkit4-icon.icon-circle-plus-outline:before {
+    content: "\e840"
+}
+
+.Appkit4-icon.icon-comment-outline:before {
+    content: "\e841"
+}
+
+.Appkit4-icon.icon-cogs-outline:before {
+    content: "\e842"
+}
+
+.Appkit4-icon.icon-convert-outline:before {
+    content: "\e843"
+}
+
+.Appkit4-icon.icon-compass-outline:before {
+    content: "\e844"
+}
+
+.Appkit4-icon.icon-contacts-outline:before {
+    content: "\e845"
+}
+
+.Appkit4-icon.icon-confirmed-outline:before {
+    content: "\e846"
+}
+
+.Appkit4-icon.icon-circle-save-outline:before {
+    content: "\e847"
+}
+
+.Appkit4-icon.icon-configuration-outline:before {
+    content: "\e848"
+}
+
+.Appkit4-icon.icon-community-outline:before {
+    content: "\e849"
+}
+
+.Appkit4-icon.icon-data-outline:before {
+    content: "\e84a"
+}
+
+.Appkit4-icon.icon-credit-card-payment-outline:before {
+    content: "\e84b"
+}
+
+.Appkit4-icon.icon-credit-card-outline:before {
+    content: "\e84c"
+}
+
+.Appkit4-icon.icon-debt-free-outline:before {
+    content: "\e84d"
+}
+
+.Appkit4-icon.icon-copy-outline:before {
+    content: "\e84e"
+}
+
+.Appkit4-icon.icon-cost-dollar-outline:before {
+    content: "\e84f"
+}
+
+.Appkit4-icon.icon-dial-high-outline:before {
+    content: "\e850"
+}
+
+.Appkit4-icon.icon-database-outline:before {
+    content: "\e851"
+}
+
+.Appkit4-icon.icon-desktop-outline:before {
+    content: "\e852"
+}
+
+.Appkit4-icon.icon-delete-outline:before {
+    content: "\e853"
+}
+
+.Appkit4-icon.icon-dial-low-outline:before {
+    content: "\e854"
+}
+
+.Appkit4-icon.icon-dining-outline:before {
+    content: "\e855"
+}
+
+.Appkit4-icon.icon-dial-medium-outline:before {
+    content: "\e856"
+}
+
+.Appkit4-icon.icon-doc-outline:before {
+    content: "\e857"
+}
+
+.Appkit4-icon.icon-desk-chair-outline:before {
+    content: "\e858"
+}
+
+.Appkit4-icon.icon-disability-insurance-outline:before {
+    content: "\e859"
+}
+
+.Appkit4-icon.icon-door-closed-outline:before {
+    content: "\e85a"
+}
+
+.Appkit4-icon.icon-door-opened-outline:before {
+    content: "\e85c"
+}
+
+.Appkit4-icon.icon-document-text-outline:before {
+    content: "\e85d"
+}
+
+.Appkit4-icon.icon-display-power-outline:before {
+    content: "\e85e"
+}
+
+.Appkit4-icon.icon-down-chevron-outline:before {
+    content: "\e85f"
+}
+
+.Appkit4-icon.icon-down-chevron-circle-outline:before {
+    content: "\e860"
+}
+
+.Appkit4-icon.icon-download-cloud-outline:before {
+    content: "\e861"
+}
+
+.Appkit4-icon.icon-duplicate-outline:before {
+    content: "\e862"
+}
+
+.Appkit4-icon.icon-downtrend-outline:before {
+    content: "\e863"
+}
+
+.Appkit4-icon.icon-download-outline:before {
+    content: "\e864"
+}
+
+.Appkit4-icon.icon-download-light-outline:before {
+    content: "\e865"
+}
+
+.Appkit4-icon.icon-edit-outline:before {
+    content: "\e866"
+}
+
+.Appkit4-icon.icon-education-outline:before {
+    content: "\e867"
+}
+
+.Appkit4-icon.icon-elevator-outline:before {
+    content: "\e868"
+}
+
+.Appkit4-icon.icon-email-outline:before {
+    content: "\e869"
+}
+
+.Appkit4-icon.icon-end-process-outline:before {
+    content: "\e86a"
+}
+
+.Appkit4-icon.icon-engagement-outline:before {
+    content: "\e86b"
+}
+
+.Appkit4-icon.icon-open-in-new-outline:before {
+    content: "\e86c"
+}
+
+.Appkit4-icon.icon-exit-outline:before {
+    content: "\e86d"
+}
+
+.Appkit4-icon.icon-expand-outline:before {
+    content: "\e86e"
+}
+
+.Appkit4-icon.icon-expand-chevron-outline:before {
+    content: "\e86f"
+}
+
+.Appkit4-icon.icon-extension-outline:before {
+    content: "\e870"
+}
+
+.Appkit4-icon.icon-family-outline:before {
+    content: "\e871"
+}
+
+.Appkit4-icon.icon-female-symbol-outline:before {
+    content: "\e872"
+}
+
+.Appkit4-icon.icon-file-outline:before {
+    content: "\e873"
+}
+
+.Appkit4-icon.icon-filter-outline:before {
+    content: "\e874"
+}
+
+.Appkit4-icon.icon-fire-exit-outline:before {
+    content: "\e875"
+}
+
+.Appkit4-icon.icon-fire-extinguisher-outline:before {
+    content: "\e876"
+}
+
+.Appkit4-icon.icon-firehose-outline:before {
+    content: "\e877"
+}
+
+.Appkit4-icon.icon-firstaid-outline:before {
+    content: "\e878"
+}
+
+.Appkit4-icon.icon-flag-outline:before {
+    content: "\e879"
+}
+
+.Appkit4-icon.icon-fnb-outline:before {
+    content: "\e87a"
+}
+
+.Appkit4-icon.icon-folder-closed-outline:before {
+    content: "\e87b"
+}
+
+.Appkit4-icon.icon-folder-opened-outline:before {
+    content: "\e87c"
+}
+
+.Appkit4-icon.icon-folder-add-outline:before {
+    content: "\e87d"
+}
+
+.Appkit4-icon.icon-folder-delete-outline:before {
+    content: "\e87e"
+}
+
+.Appkit4-icon.icon-gameroom-outline:before {
+    content: "\e87f"
+}
+
+.Appkit4-icon.icon-checkbox-selected-fill:before {
+    content: "\e880"
+}
+
+.Appkit4-icon.icon-gender-neutral-outline:before {
+    content: "\e881"
+}
+
+.Appkit4-icon.icon-globe-map-outline:before {
+    content: "\e882"
+}
+
+.Appkit4-icon.icon-globe-outline:before {
+    content: "\e883"
+}
+
+.Appkit4-icon.icon-governance-outline:before {
+    content: "\e884"
+}
+
+.Appkit4-icon.icon-grid-view-outline:before {
+    content: "\e885"
+}
+
+.Appkit4-icon.icon-grow-revenue-outline:before {
+    content: "\e886"
+}
+
+.Appkit4-icon.icon-growth-outline:before {
+    content: "\e887"
+}
+
+.Appkit4-icon.icon-hand-outline:before {
+    content: "\e888"
+}
+
+.Appkit4-icon.icon-hand-wave-outline:before {
+    content: "\e889"
+}
+
+.Appkit4-icon.icon-help-question-outline:before {
+    content: "\e88a"
+}
+
+.Appkit4-icon.icon-view-off-outline:before {
+    content: "\e88b"
+}
+
+.Appkit4-icon.icon-home-outline:before {
+    content: "\e88c"
+}
+
+.Appkit4-icon.icon-horizontal-more-outline:before {
+    content: "\e88d"
+}
+
+.Appkit4-icon.icon-hospital-outline:before {
+    content: "\e88e"
+}
+
+.Appkit4-icon.icon-hub-outline:before {
+    content: "\e88f"
+}
+
+.Appkit4-icon.icon-idcard-outline:before {
+    content: "\e890"
+}
+
+.Appkit4-icon.icon-image-outline:before {
+    content: "\e891"
+}
+
+.Appkit4-icon.icon-immersive-technology-outline:before {
+    content: "\e892"
+}
+
+.Appkit4-icon.icon-infinity-outline:before {
+    content: "\e893"
+}
+
+.Appkit4-icon.icon-information-outline:before {
+    content: "\e894"
+}
+
+.Appkit4-icon.icon-jewelry-outline:before {
+    content: "\e895"
+}
+
+.Appkit4-icon.icon-junk-outline:before {
+    content: "\e896"
+}
+
+.Appkit4-icon.icon-keyboard-outline:before {
+    content: "\e897"
+}
+
+.Appkit4-icon.icon-labs-outline:before {
+    content: "\e898"
+}
+
+.Appkit4-icon.icon-layout-outline:before {
+    content: "\e899"
+}
+
+.Appkit4-icon.icon-leader-outline:before {
+    content: "\e89a"
+}
+
+.Appkit4-icon.icon-left-chevron-circle-outline:before {
+    content: "\e89b"
+}
+
+.Appkit4-icon.icon-left-chevron-outline:before {
+    content: "\e89c"
+}
+
+.Appkit4-icon.icon-library-outline:before {
+    content: "\e89d"
+}
+
+.Appkit4-icon.icon-library-reports-outline:before {
+    content: "\e89e"
+}
+
+.Appkit4-icon.icon-life-insurance-outline:before {
+    content: "\e89f"
+}
+
+.Appkit4-icon.icon-lightbulb-outline:before {
+    content: "\e8a0"
+}
+
+.Appkit4-icon.icon-like-outline:before {
+    content: "\e8a1"
+}
+
+.Appkit4-icon.icon-link-outline:before {
+    content: "\e8a2"
+}
+
+.Appkit4-icon.icon-link-broken-outline:before {
+    content: "\e8a3"
+}
+
+.Appkit4-icon.icon-link-unlinked-outline:before {
+    content: "\e8a4"
+}
+
+.Appkit4-icon.icon-list-view-outline:before {
+    content: "\e8a5"
+}
+
+.Appkit4-icon.icon-list-bar-view-outline:before {
+    content: "\e8a6"
+}
+
+.Appkit4-icon.icon-accessibility-outline:before {
+    content: "\e8a7"
+}
+
+.Appkit4-icon.icon-location-locked-outline:before {
+    content: "\e8a8"
+}
+
+.Appkit4-icon.icon-location-outline:before {
+    content: "\e8a9"
+}
+
+.Appkit4-icon.icon-lockclosed-locked-outline:before {
+    content: "\e8aa"
+}
+
+.Appkit4-icon.icon-lockers-outline:before {
+    content: "\e8ab"
+}
+
+.Appkit4-icon.icon-lockopen-unlock-outline:before {
+    content: "\e8ac"
+}
+
+.Appkit4-icon.icon-logout-outline:before {
+    content: "\e8ad"
+}
+
+.Appkit4-icon.icon-login-outline:before {
+    content: "\e8ae"
+}
+
+.Appkit4-icon.icon-male-symbol-outline:before {
+    content: "\e8af"
+}
+
+.Appkit4-icon.icon-man-outline:before {
+    content: "\e8b0"
+}
+
+.Appkit4-icon.icon-management-outline:before {
+    content: "\e8b1"
+}
+
+.Appkit4-icon.icon-man-and-woman-outline:before {
+    content: "\e8b2"
+}
+
+.Appkit4-icon.icon-manufacturer-outline:before {
+    content: "\e8b3"
+}
+
+.Appkit4-icon.icon-marketing-outline:before {
+    content: "\e8b4"
+}
+
+.Appkit4-icon.icon-meeting-outline:before {
+    content: "\e8b5"
+}
+
+.Appkit4-icon.icon-meeting-room-outline:before {
+    content: "\e8b6"
+}
+
+.Appkit4-icon.icon-menu-outline:before {
+    content: "\e8b7"
+}
+
+.Appkit4-icon.icon-menu-view-outline:before {
+    content: "\e8b8"
+}
+
+.Appkit4-icon.icon-microphone-outline:before {
+    content: "\e8b9"
+}
+
+.Appkit4-icon.icon-minimize-outline:before {
+    content: "\e8ba"
+}
+
+.Appkit4-icon.icon-digital-techtransformation-fill:before {
+    content: "\e8bb"
+}
+
+.Appkit4-icon.icon-mortgage-outline:before {
+    content: "\e8bc"
+}
+
+.Appkit4-icon.icon-mortgage-payment-outline:before {
+    content: "\e8bd"
+}
+
+.Appkit4-icon.icon-move-outline:before {
+    content: "\e8be"
+}
+
+.Appkit4-icon.icon-neighborhood-outline:before {
+    content: "\e8bf"
+}
+
+.Appkit4-icon.icon-network-outline:before {
+    content: "\e8c0"
+}
+
+.Appkit4-icon.icon-network-port-outline:before {
+    content: "\e8c1"
+}
+
+.Appkit4-icon.icon-news-outline:before {
+    content: "\e8c2"
+}
+
+.Appkit4-icon.icon-news-report-outline:before {
+    content: "\e8c3"
+}
+
+.Appkit4-icon.icon-note-outline:before {
+    content: "\e8c4"
+}
+
+.Appkit4-icon.icon-notebook-outline:before {
+    content: "\e8c5"
+}
+
+.Appkit4-icon.icon-noteplus-outline:before {
+    content: "\e8c6"
+}
+
+.Appkit4-icon.icon-notification-outline:before {
+    content: "\e8c7"
+}
+
+.Appkit4-icon.icon-notpublished-outline:before {
+    content: "\e8c8"
+}
+
+.Appkit4-icon.icon-office-outline:before {
+    content: "\e8c9"
+}
+
+.Appkit4-icon.icon-oilpipeline-outline:before {
+    content: "\e8ca"
+}
+
+.Appkit4-icon.icon-oilplatform-outline:before {
+    content: "\e8cb"
+}
+
+.Appkit4-icon.icon-oiltank-outline:before {
+    content: "\e8cc"
+}
+
+.Appkit4-icon.icon-open-in-new-window-outline:before {
+    content: "\e8cd"
+}
+
+.Appkit4-icon.icon-paper-outline:before {
+    content: "\e8ce"
+}
+
+.Appkit4-icon.icon-paper-airplane-outline:before {
+    content: "\e8cf"
+}
+
+.Appkit4-icon.icon-paperclip-outline:before {
+    content: "\e8d0"
+}
+
+.Appkit4-icon.icon-parks-outdoors-outline:before {
+    content: "\e8d1"
+}
+
+.Appkit4-icon.icon-partnership-outline:before {
+    content: "\e8d2"
+}
+
+.Appkit4-icon.icon-particulates-outline:before {
+    content: "\e8d3"
+}
+
+.Appkit4-icon.icon-pause-outline:before {
+    content: "\e8d4"
+}
+
+.Appkit4-icon.icon-payment-outline:before {
+    content: "\e8d5"
+}
+
+.Appkit4-icon.icon-pdf-outline:before {
+    content: "\e8d6"
+}
+
+.Appkit4-icon.icon-pencil-outline:before {
+    content: "\e8d7"
+}
+
+.Appkit4-icon.icon-person-outline:before {
+    content: "\e8d8"
+}
+
+.Appkit4-icon.icon-physician-outline:before {
+    content: "\e8d9"
+}
+
+.Appkit4-icon.icon-pie-chart-outline:before {
+    content: "\e8da"
+}
+
+.Appkit4-icon.icon-placeholder-outline:before {
+    content: "\e8db"
+}
+
+.Appkit4-icon.icon-platform-outline:before {
+    content: "\e8dc"
+}
+
+.Appkit4-icon.icon-play-outline:before {
+    content: "\e8dd"
+}
+
+.Appkit4-icon.icon-disability-insurance-fill:before {
+    content: "\e8de"
+}
+
+.Appkit4-icon.icon-powerbi-outline:before {
+    content: "\e8df"
+}
+
+.Appkit4-icon.icon-power-button-outline:before {
+    content: "\e8e0"
+}
+
+.Appkit4-icon.icon-power-plant-outline:before {
+    content: "\e8e1"
+}
+
+.Appkit4-icon.icon-powerport-plug-outlet-outline:before {
+    content: "\e8e2"
+}
+
+.Appkit4-icon.icon-ppt-outline:before {
+    content: "\e8e3"
+}
+
+.Appkit4-icon.icon-prescription-outline:before {
+    content: "\e8e4"
+}
+
+.Appkit4-icon.icon-printer-outline:before {
+    content: "\e8e5"
+}
+
+.Appkit4-icon.icon-productivity-outline:before {
+    content: "\e8e6"
+}
+
+.Appkit4-icon.icon-profitability-outline:before {
+    content: "\e8e7"
+}
+
+.Appkit4-icon.icon-projector-outline:before {
+    content: "\e8e8"
+}
+
+.Appkit4-icon.icon-purpose-outline:before {
+    content: "\e8e9"
+}
+
+.Appkit4-icon.icon-qrcode-outline:before {
+    content: "\e8ea"
+}
+
+.Appkit4-icon.icon-query-outline:before {
+    content: "\e8eb"
+}
+
+.Appkit4-icon.icon-radio-outline:before {
+    content: "\e8ec"
+}
+
+.Appkit4-icon.icon-rating-outline:before {
+    content: "\e8ed"
+}
+
+.Appkit4-icon.icon-realestate-outline:before {
+    content: "\e8ee"
+}
+
+.Appkit4-icon.icon-redo-outline:before {
+    content: "\e8ef"
+}
+
+.Appkit4-icon.icon-refresh-outline:before {
+    content: "\e8f0"
+}
+
+.Appkit4-icon.icon-return-outline:before {
+    content: "\e8f1"
+}
+
+.Appkit4-icon.icon-revenue-outline:before {
+    content: "\e8f2"
+}
+
+.Appkit4-icon.icon-right-chevron-circle-outline:before {
+    content: "\e8f3"
+}
+
+.Appkit4-icon.icon-right-chevron-outline:before {
+    content: "\e8f4"
+}
+
+.Appkit4-icon.icon-save-outline:before {
+    content: "\e8f5"
+}
+
+.Appkit4-icon.icon-savemoney-outline:before {
+    content: "\e8f6"
+}
+
+.Appkit4-icon.icon-savings-outline:before {
+    content: "\e8f7"
+}
+
+.Appkit4-icon.icon-screen-mirroring-outline:before {
+    content: "\e8f8"
+}
+
+.Appkit4-icon.icon-search-outline:before {
+    content: "\e8f9"
+}
+
+.Appkit4-icon.icon-serenity-space-outline:before {
+    content: "\e8fa"
+}
+
+.Appkit4-icon.icon-service-outline:before {
+    content: "\e8fb"
+}
+
+.Appkit4-icon.icon-setting-outline:before {
+    content: "\e8fc"
+}
+
+.Appkit4-icon.icon-share-outline:before {
+    content: "\e8fd"
+}
+
+.Appkit4-icon.icon-ship-outline:before {
+    content: "\e8fe"
+}
+
+.Appkit4-icon.icon-shopping-bag-outline:before {
+    content: "\e8ff"
+}
+
+.Appkit4-icon.icon-shopping-cart-outline:before {
+    content: "\e900"
+}
+
+.Appkit4-icon.icon-shopping-basket-outline:before {
+    content: "\e901"
+}
+
+.Appkit4-icon.icon-shower-outline:before {
+    content: "\e902"
+}
+
+.Appkit4-icon.icon-shuttlebus-outline:before {
+    content: "\e903"
+}
+
+.Appkit4-icon.icon-signpost-outline:before {
+    content: "\e904"
+}
+
+.Appkit4-icon.icon-sorting-ascendant-outline:before {
+    content: "\e905"
+}
+
+.Appkit4-icon.icon-sorting-descendant-outline:before {
+    content: "\e906"
+}
+
+.Appkit4-icon.icon-sorting-outline:before {
+    content: "\e907"
+}
+
+.Appkit4-icon.icon-spark-line-outline:before {
+    content: "\e908"
+}
+
+.Appkit4-icon.icon-speedometer-outline:before {
+    content: "\e909"
+}
+
+.Appkit4-icon.icon-spider-chart-outline:before {
+    content: "\e90a"
+}
+
+.Appkit4-icon.icon-spinner-outline:before {
+    content: "\e90b"
+}
+
+.Appkit4-icon.icon-star-outline:before {
+    content: "\e90c"
+}
+
+.Appkit4-icon.icon-stewardship-outline:before {
+    content: "\e90d"
+}
+
+.Appkit4-icon.icon-survey-checkmark-outline:before {
+    content: "\e90e"
+}
+
+.Appkit4-icon.icon-survey-outline:before {
+    content: "\e90f"
+}
+
+.Appkit4-icon.icon-table-data-outline:before {
+    content: "\e910"
+}
+
+.Appkit4-icon.icon-table-data-compressed-outline:before {
+    content: "\e911"
+}
+
+.Appkit4-icon.icon-tag-outline:before {
+    content: "\e912"
+}
+
+.Appkit4-icon.icon-talent-outline:before {
+    content: "\e913"
+}
+
+.Appkit4-icon.icon-tanker-outline:before {
+    content: "\e914"
+}
+
+.Appkit4-icon.icon-target-outline:before {
+    content: "\e915"
+}
+
+.Appkit4-icon.icon-telecom-outline:before {
+    content: "\e916"
+}
+
+.Appkit4-icon.icon-thermometer-outline:before {
+    content: "\e917"
+}
+
+.Appkit4-icon.icon-thumb-down-outline:before {
+    content: "\e918"
+}
+
+.Appkit4-icon.icon-thumb-up-outline:before {
+    content: "\e919"
+}
+
+.Appkit4-icon.icon-ticket-outline:before {
+    content: "\e91a"
+}
+
+.Appkit4-icon.icon-time-outline:before {
+    content: "\e91b"
+}
+
+.Appkit4-icon.icon-toggle-outline:before {
+    content: "\e91c"
+}
+
+.Appkit4-icon.icon-touchscreen-outline:before {
+    content: "\e91d"
+}
+
+.Appkit4-icon.icon-train-railway-outline:before {
+    content: "\e91e"
+}
+
+.Appkit4-icon.icon-transform-outline:before {
+    content: "\e91f"
+}
+
+.Appkit4-icon.icon-truck-outline:before {
+    content: "\e920"
+}
+
+.Appkit4-icon.icon-truck-connected-outline:before {
+    content: "\e921"
+}
+
+.Appkit4-icon.icon-typography-fonts-outline:before {
+    content: "\e922"
+}
+
+.Appkit4-icon.icon-umbrella-outline:before {
+    content: "\e923"
+}
+
+.Appkit4-icon.icon-up-chevron-circle-outline:before {
+    content: "\e924"
+}
+
+.Appkit4-icon.icon-up-chevron-outline:before {
+    content: "\e925"
+}
+
+.Appkit4-icon.icon-upload-light-outline:before {
+    content: "\e926"
+}
+
+.Appkit4-icon.icon-upload-outline:before {
+    content: "\e927"
+}
+
+.Appkit4-icon.icon-uptrend-outline:before {
+    content: "\e928"
+}
+
+.Appkit4-icon.icon-venn-ab-horizontal-outline:before {
+    content: "\e929"
+}
+
+.Appkit4-icon.icon-venn-ab-vertical-outline:before {
+    content: "\e92a"
+}
+
+.Appkit4-icon.icon-venn-abc-outline:before {
+    content: "\e92b"
+}
+
+.Appkit4-icon.icon-venn-abc-reversed-outline:before {
+    content: "\e92c"
+}
+
+.Appkit4-icon.icon-vertical-more-outline:before {
+    content: "\e92d"
+}
+
+.Appkit4-icon.icon-video-outline:before {
+    content: "\e92e"
+}
+
+.Appkit4-icon.icon-video-conference-outline:before {
+    content: "\e92f"
+}
+
+.Appkit4-icon.icon-view-outline:before {
+    content: "\e930"
+}
+
+.Appkit4-icon.icon-visitor-outline:before {
+    content: "\e931"
+}
+
+.Appkit4-icon.icon-volume-off-outline:before {
+    content: "\e932"
+}
+
+.Appkit4-icon.icon-volume-on-outline:before {
+    content: "\e933"
+}
+
+.Appkit4-icon.icon-volume-up-outline:before {
+    content: "\e934"
+}
+
+.Appkit4-icon.icon-wait-outline:before {
+    content: "\e935"
+}
+
+.Appkit4-icon.icon-walking-workstation-outline:before {
+    content: "\e936"
+}
+
+.Appkit4-icon.icon-wallet-outline:before {
+    content: "\e937"
+}
+
+.Appkit4-icon.icon-waterdrop-outline:before {
+    content: "\e938"
+}
+
+.Appkit4-icon.icon-wealth-outline:before {
+    content: "\e939"
+}
+
+.Appkit4-icon.icon-webcast-studio-outline:before {
+    content: "\e93a"
+}
+
+.Appkit4-icon.icon-weight-outline:before {
+    content: "\e93b"
+}
+
+.Appkit4-icon.icon-wifi-outline:before {
+    content: "\e93c"
+}
+
+.Appkit4-icon.icon-windmill-outline:before {
+    content: "\e93d"
+}
+
+.Appkit4-icon.icon-woman-outline:before {
+    content: "\e93e"
+}
+
+.Appkit4-icon.icon-workflow-outline:before {
+    content: "\e93f"
+}
+
+.Appkit4-icon.icon-xbrl-outline:before {
+    content: "\e940"
+}
+
+.Appkit4-icon.icon-xls-outline:before {
+    content: "\e941"
+}
+
+.Appkit4-icon.icon-plus-outline:before {
+    content: "\e942"
+}
+
+.Appkit4-icon.icon-minus-outline:before {
+    content: "\e943"
+}
+
+.Appkit4-icon.icon-close-outline:before {
+    content: "\e944"
+}
+
+.Appkit4-icon.icon-check-mark-outline:before {
+    content: "\e945"
+}
+
+.Appkit4-icon.icon-check-hook-outline:before {
+    content: "\e946"
+}
+
+.Appkit4-icon.icon-arrow-down-fill:before {
+    content: "\e947"
+}
+
+.Appkit4-icon.icon-alert-fill:before {
+    content: "\e948"
+}
+
+.Appkit4-icon.icon-arrow-decrease-fill:before {
+    content: "\e949"
+}
+
+.Appkit4-icon.icon-arrow-increase-fill:before {
+    content: "\e94a"
+}
+
+.Appkit4-icon.icon-archive-alt-fill:before {
+    content: "\e94b"
+}
+
+.Appkit4-icon.icon-add-user-fill:before {
+    content: "\e94c"
+}
+
+.Appkit4-icon.icon-arrow-right-fill:before {
+    content: "\e94d"
+}
+
+.Appkit4-icon.icon-arrow-left-fill:before {
+    content: "\e94e"
+}
+
+.Appkit4-icon.icon-display-power-fill:before {
+    content: "\e94f"
+}
+
+.Appkit4-icon.icon-airplane-fill:before {
+    content: "\e950"
+}
+
+.Appkit4-icon.icon-arrow-up-fill:before {
+    content: "\e951"
+}
+
+.Appkit4-icon.icon-apparel-fill:before {
+    content: "\e952"
+}
+
+.Appkit4-icon.icon-lockers-fill:before {
+    content: "\e953"
+}
+
+.Appkit4-icon.icon-arrowdown-fill:before {
+    content: "\e954"
+}
+
+.Appkit4-icon.icon-man-fill:before {
+    content: "\e955"
+}
+
+.Appkit4-icon.icon-news-report-fill:before {
+    content: "\e956"
+}
+
+.Appkit4-icon.icon-atm-fill:before {
+    content: "\e957"
+}
+
+.Appkit4-icon.icon-notpublished-fill:before {
+    content: "\e958"
+}
+
+.Appkit4-icon.icon-audience-fill:before {
+    content: "\e959"
+}
+
+.Appkit4-icon.icon-bar-chart-fill:before {
+    content: "\e95a"
+}
+
+.Appkit4-icon.icon-battery-high-fill:before {
+    content: "\e95b"
+}
+
+.Appkit4-icon.icon-battery-low-fill:before {
+    content: "\e95c"
+}
+
+.Appkit4-icon.icon-automobile-fill:before {
+    content: "\e95d"
+}
+
+.Appkit4-icon.icon-bot-fill:before {
+    content: "\e95e"
+}
+
+.Appkit4-icon.icon-battery-medium-fill:before {
+    content: "\e95f"
+}
+
+.Appkit4-icon.icon-bridge-chart-fill:before {
+    content: "\e960"
+}
+
+.Appkit4-icon.icon-art-themes-fill:before {
+    content: "\e961"
+}
+
+.Appkit4-icon.icon-boat-fill:before {
+    content: "\e962"
+}
+
+.Appkit4-icon.icon-avatar-fill:before {
+    content: "\e963"
+}
+
+.Appkit4-icon.icon-beaker-fill:before {
+    content: "\e964"
+}
+
+.Appkit4-icon.icon-calculator-fill:before {
+    content: "\e965"
+}
+
+.Appkit4-icon.icon-box-fill:before {
+    content: "\e966"
+}
+
+.Appkit4-icon.icon-brightness-fill:before {
+    content: "\e967"
+}
+
+.Appkit4-icon.icon-business-services-printer-fill:before {
+    content: "\e968"
+}
+
+.Appkit4-icon.icon-building-fill:before {
+    content: "\e969"
+}
+
+.Appkit4-icon.icon-calendar-declined-fill:before {
+    content: "\e96a"
+}
+
+.Appkit4-icon.icon-oiltank-fill:before {
+    content: "\e96b"
+}
+
+.Appkit4-icon.icon-bus-public-transportation-fill:before {
+    content: "\e96c"
+}
+
+.Appkit4-icon.icon-camera-fill:before {
+    content: "\e96d"
+}
+
+.Appkit4-icon.icon-calendar-accepted-fill:before {
+    content: "\e96e"
+}
+
+.Appkit4-icon.icon-call-fill:before {
+    content: "\e96f"
+}
+
+.Appkit4-icon.icon-productivity-fill:before {
+    content: "\e970"
+}
+
+.Appkit4-icon.icon-bubble-plot-fill:before {
+    content: "\e971"
+}
+
+.Appkit4-icon.icon-calendar-fill:before {
+    content: "\e972"
+}
+
+.Appkit4-icon.icon-carers-space-fill:before {
+    content: "\e973"
+}
+
+.Appkit4-icon.icon-change-fill:before {
+    content: "\e974"
+}
+
+.Appkit4-icon.icon-capital-fill:before {
+    content: "\e975"
+}
+
+.Appkit4-icon.icon-savemoney-fill:before {
+    content: "\e976"
+}
+
+.Appkit4-icon.icon-center-map-fill:before {
+    content: "\e977"
+}
+
+.Appkit4-icon.icon-chevron-double-down-fill:before {
+    content: "\e978"
+}
+
+.Appkit4-icon.icon-circle-checkmark-fill:before {
+    content: "\e979"
+}
+
+.Appkit4-icon.icon-circle-delete-fill:before {
+    content: "\e97a"
+}
+
+.Appkit4-icon.icon-clinic-fill:before {
+    content: "\e97b"
+}
+
+.Appkit4-icon.icon-circle-minus-fill:before {
+    content: "\e97c"
+}
+
+.Appkit4-icon.icon-ship-fill:before {
+    content: "\e97d"
+}
+
+.Appkit4-icon.icon-shuttlebus-fill:before {
+    content: "\e97e"
+}
+
+.Appkit4-icon.icon-circle-plus-fill:before {
+    content: "\e97f"
+}
+
+.Appkit4-icon.icon-circle-more-fill:before {
+    content: "\e980"
+}
+
+.Appkit4-icon.icon-comment-fill:before {
+    content: "\e981"
+}
+
+.Appkit4-icon.icon-cogs-fill:before {
+    content: "\e982"
+}
+
+.Appkit4-icon.icon-circle-save-fill:before {
+    content: "\e983"
+}
+
+.Appkit4-icon.icon-cloud-fill:before {
+    content: "\e984"
+}
+
+.Appkit4-icon.icon-spinner-fill:before {
+    content: "\e985"
+}
+
+.Appkit4-icon.icon-community-fill:before {
+    content: "\e986"
+}
+
+.Appkit4-icon.icon-compass-fill:before {
+    content: "\e987"
+}
+
+.Appkit4-icon.icon-configuration-fill:before {
+    content: "\e988"
+}
+
+.Appkit4-icon.icon-confirmed-fill:before {
+    content: "\e989"
+}
+
+.Appkit4-icon.icon-cost-dollar-fill:before {
+    content: "\e98a"
+}
+
+.Appkit4-icon.icon-contacts-fill:before {
+    content: "\e98b"
+}
+
+.Appkit4-icon.icon-data-fill:before {
+    content: "\e98c"
+}
+
+.Appkit4-icon.icon-checkbox-indeterminate-fill:before {
+    content: "\e98d"
+}
+
+.Appkit4-icon.icon-credit-card-payment-fill:before {
+    content: "\e98e"
+}
+
+.Appkit4-icon.icon-checkbox-deselected-fill:before {
+    content: "\e98f"
+}
+
+.Appkit4-icon.icon-delete-fill:before {
+    content: "\e990"
+}
+
+.Appkit4-icon.icon-desktop-fill:before {
+    content: "\e991"
+}
+
+.Appkit4-icon.icon-radio-selected-fill:before {
+    content: "\e992"
+}
+
+.Appkit4-icon.icon-database-fill:before {
+    content: "\e993"
+}
+
+.Appkit4-icon.icon-dial-low-fill:before {
+    content: "\e995"
+}
+
+.Appkit4-icon.icon-convert-fill:before {
+    content: "\e996"
+}
+
+.Appkit4-icon.icon-dial-high-fill:before {
+    content: "\e997"
+}
+
+.Appkit4-icon.icon-radio-deselected-fill:before {
+    content: "\e998"
+}
+
+.Appkit4-icon.icon-dial-medium-fill:before {
+    content: "\e999"
+}
+
+.Appkit4-icon.icon-arrow-right-small-outline:before {
+    content: "\e99a"
+}
+
+.Appkit4-icon.icon-arrow-left-small-outline:before {
+    content: "\e99b"
+}
+
+.Appkit4-icon.icon-dining-fill:before {
+    content: "\e99c"
+}
+
+.Appkit4-icon.icon-door-opened-fill:before {
+    content: "\e99d"
+}
+
+.Appkit4-icon.icon-doc-fill:before {
+    content: "\e99e"
+}
+
+.Appkit4-icon.icon-download-fill:before {
+    content: "\e99f"
+}
+
+.Appkit4-icon.icon-door-closed-fill:before {
+    content: "\e9a0"
+}
+
+.Appkit4-icon.icon-arrow-increase-small-outline:before {
+    content: "\e9a1"
+}
+
+.Appkit4-icon.icon-down-chevron-circle-fill:before {
+    content: "\e9a2"
+}
+
+.Appkit4-icon.icon-download-light-fill:before {
+    content: "\e9a3"
+}
+
+.Appkit4-icon.icon-down-chevron-fill:before {
+    content: "\e9a4"
+}
+
+.Appkit4-icon.icon-education-fill:before {
+    content: "\e9a5"
+}
+
+.Appkit4-icon.icon-edit-fill:before {
+    content: "\e9a6"
+}
+
+.Appkit4-icon.icon-duplicate-fill:before {
+    content: "\e9a7"
+}
+
+.Appkit4-icon.icon-email-fill:before {
+    content: "\e9a8"
+}
+
+.Appkit4-icon.icon-end-process-fill:before {
+    content: "\e9a9"
+}
+
+.Appkit4-icon.icon-elevator-fill:before {
+    content: "\e9aa"
+}
+
+.Appkit4-icon.icon-engagement-fill:before {
+    content: "\e9ab"
+}
+
+.Appkit4-icon.icon-open-in-new-fill:before {
+    content: "\e9ac"
+}
+
+.Appkit4-icon.icon-error-fill:before {
+    content: "\e9ad"
+}
+
+.Appkit4-icon.icon-arrow-down-small-outline:before {
+    content: "\e9ae"
+}
+
+.Appkit4-icon.icon-expand-fill:before {
+    content: "\e9af"
+}
+
+.Appkit4-icon.icon-extension-fill:before {
+    content: "\e9b0"
+}
+
+.Appkit4-icon.icon-family-fill:before {
+    content: "\e9b1"
+}
+
+.Appkit4-icon.icon-female-symbol-fill:before {
+    content: "\e9b2"
+}
+
+.Appkit4-icon.icon-file-fill:before {
+    content: "\e9b3"
+}
+
+.Appkit4-icon.icon-filter-fill:before {
+    content: "\e9b4"
+}
+
+.Appkit4-icon.icon-fire-exit-fill:before {
+    content: "\e9b5"
+}
+
+.Appkit4-icon.icon-fire-extinguisher-fill:before {
+    content: "\e9b6"
+}
+
+.Appkit4-icon.icon-firehose-fill:before {
+    content: "\e9b7"
+}
+
+.Appkit4-icon.icon-firstaid-fill:before {
+    content: "\e9b8"
+}
+
+.Appkit4-icon.icon-flag-fill:before {
+    content: "\e9b9"
+}
+
+.Appkit4-icon.icon-fnb-fill:before {
+    content: "\e9ba"
+}
+
+.Appkit4-icon.icon-folder-closed-fill:before {
+    content: "\e9bb"
+}
+
+.Appkit4-icon.icon-folder-opened-fill:before {
+    content: "\e9bc"
+}
+
+.Appkit4-icon.icon-folder-add-fill:before {
+    content: "\e9bd"
+}
+
+.Appkit4-icon.icon-folder-delete-fill:before {
+    content: "\e9be"
+}
+
+.Appkit4-icon.icon-foodbeverage-fill:before {
+    content: "\e9bf"
+}
+
+.Appkit4-icon.icon-gameroom-fill:before {
+    content: "\e9c0"
+}
+
+.Appkit4-icon.icon-gantt-chart-fill:before {
+    content: "\e9c1"
+}
+
+.Appkit4-icon.icon-gender-neutral-fill:before {
+    content: "\e9c2"
+}
+
+.Appkit4-icon.icon-globe-fill:before {
+    content: "\e9c3"
+}
+
+.Appkit4-icon.icon-globe-map-fill:before {
+    content: "\e9c4"
+}
+
+.Appkit4-icon.icon-governance-fill:before {
+    content: "\e9c5"
+}
+
+.Appkit4-icon.icon-grid-view-fill:before {
+    content: "\e9c6"
+}
+
+.Appkit4-icon.icon-grow-revenue-fill:before {
+    content: "\e9c7"
+}
+
+.Appkit4-icon.icon-growth-fill:before {
+    content: "\e9c8"
+}
+
+.Appkit4-icon.icon-hand-fill:before {
+    content: "\e9c9"
+}
+
+.Appkit4-icon.icon-hb-3qtr-lft-fill:before {
+    content: "\e9ca"
+}
+
+.Appkit4-icon.icon-hb-3qtr-rt-fill:before {
+    content: "\e9cb"
+}
+
+.Appkit4-icon.icon-hb-empty-fill:before {
+    content: "\e9cc"
+}
+
+.Appkit4-icon.icon-hb-full-dot-fill:before {
+    content: "\e9cd"
+}
+
+.Appkit4-icon.icon-hb-full-fill:before {
+    content: "\e9ce"
+}
+
+.Appkit4-icon.icon-hb-half-btm-fill:before {
+    content: "\e9cf"
+}
+
+.Appkit4-icon.icon-hb-half-lft-fill:before {
+    content: "\e9d0"
+}
+
+.Appkit4-icon.icon-hb-half-rt-fill:before {
+    content: "\e9d1"
+}
+
+.Appkit4-icon.icon-hb-half-top-fill:before {
+    content: "\e9d2"
+}
+
+.Appkit4-icon.icon-hb-qtr-lft-fill:before {
+    content: "\e9d3"
+}
+
+.Appkit4-icon.icon-hb-qtr-rt-fill:before {
+    content: "\e9d4"
+}
+
+.Appkit4-icon.icon-help-question-fill:before {
+    content: "\e9d5"
+}
+
+.Appkit4-icon.icon-arrow-decrease-small-outline:before {
+    content: "\e9d6"
+}
+
+.Appkit4-icon.icon-horizontal-more-fill:before {
+    content: "\e9d7"
+}
+
+.Appkit4-icon.icon-hospital-fill:before {
+    content: "\e9d8"
+}
+
+.Appkit4-icon.icon-hub-fill:before {
+    content: "\e9d9"
+}
+
+.Appkit4-icon.icon-idcard-fill:before {
+    content: "\e9da"
+}
+
+.Appkit4-icon.icon-image-fill:before {
+    content: "\e9db"
+}
+
+.Appkit4-icon.icon-immersive-technology-fill:before {
+    content: "\e9dc"
+}
+
+.Appkit4-icon.icon-infinity-fill:before {
+    content: "\e9dd"
+}
+
+.Appkit4-icon.icon-information-fill:before {
+    content: "\e9de"
+}
+
+.Appkit4-icon.icon-arrow-up-small-outline:before {
+    content: "\e9df"
+}
+
+.Appkit4-icon.icon-keyboard-fill:before {
+    content: "\e9e0"
+}
+
+.Appkit4-icon.icon-labs-fill:before {
+    content: "\e9e1"
+}
+
+.Appkit4-icon.icon-layout-fill:before {
+    content: "\e9e2"
+}
+
+.Appkit4-icon.icon-leader-fill:before {
+    content: "\e9e3"
+}
+
+.Appkit4-icon.icon-left-chevron-circle-fill:before {
+    content: "\e9e4"
+}
+
+.Appkit4-icon.icon-left-chevron-fill:before {
+    content: "\e9e5"
+}
+
+.Appkit4-icon.icon-library-fill:before {
+    content: "\e9e6"
+}
+
+.Appkit4-icon.icon-library-reports-fill:before {
+    content: "\e9e7"
+}
+
+.Appkit4-icon.icon-life-insurance-fill:before {
+    content: "\e9e8"
+}
+
+.Appkit4-icon.icon-lightbulb-fill:before {
+    content: "\e9e9"
+}
+
+.Appkit4-icon.icon-like-fill:before {
+    content: "\e9ea"
+}
+
+.Appkit4-icon.icon-link-fill:before {
+    content: "\e9eb"
+}
+
+.Appkit4-icon.icon-link-broken-fill:before {
+    content: "\e9ec"
+}
+
+.Appkit4-icon.icon-link-unlinked-fill:before {
+    content: "\e9ed"
+}
+
+.Appkit4-icon.icon-list-view-fill:before {
+    content: "\e9ee"
+}
+
+.Appkit4-icon.icon-location-fill:before {
+    content: "\e9ef"
+}
+
+.Appkit4-icon.icon-location-locked-fill:before {
+    content: "\e9f0"
+}
+
+.Appkit4-icon.icon-lockclosed-locked-fill:before {
+    content: "\e9f1"
+}
+
+.Appkit4-icon.icon-circle-empty-outline:before {
+    content: "\e9f2"
+}
+
+.Appkit4-icon.icon-lockopen-unlock-fill:before {
+    content: "\e9f3"
+}
+
+.Appkit4-icon.icon-login-fill:before {
+    content: "\e9f4"
+}
+
+.Appkit4-icon.icon-logout-fill:before {
+    content: "\e9f5"
+}
+
+.Appkit4-icon.icon-male-symbol-fill:before {
+    content: "\e9f6"
+}
+
+.Appkit4-icon.icon-circle-warning-outline:before {
+    content: "\e9f7"
+}
+
+.Appkit4-icon.icon-management-fill:before {
+    content: "\e9f8"
+}
+
+.Appkit4-icon.icon-man-and-woman-fill:before {
+    content: "\e9f9"
+}
+
+.Appkit4-icon.icon-manufacturer-fill:before {
+    content: "\e9fa"
+}
+
+.Appkit4-icon.icon-marketing-fill:before {
+    content: "\e9fb"
+}
+
+.Appkit4-icon.icon-meeting-fill:before {
+    content: "\e9fc"
+}
+
+.Appkit4-icon.icon-meeting-room-fill:before {
+    content: "\e9fd"
+}
+
+.Appkit4-icon.icon-menu-fill:before {
+    content: "\e9fe"
+}
+
+.Appkit4-icon.icon-menu-view-fill:before {
+    content: "\e9ff"
+}
+
+.Appkit4-icon.icon-microphone-fill:before {
+    content: "\ea00"
+}
+
+.Appkit4-icon.icon-minimize-fill:before {
+    content: "\ea01"
+}
+
+.Appkit4-icon.icon-circle-radio-outline:before {
+    content: "\ea02"
+}
+
+.Appkit4-icon.icon-mortgage-fill:before {
+    content: "\ea03"
+}
+
+.Appkit4-icon.icon-mortgage-payment-fill:before {
+    content: "\ea04"
+}
+
+.Appkit4-icon.icon-move-fill:before {
+    content: "\ea05"
+}
+
+.Appkit4-icon.icon-neighborhood-fill:before {
+    content: "\ea06"
+}
+
+.Appkit4-icon.icon-network-fill:before {
+    content: "\ea07"
+}
+
+.Appkit4-icon.icon-network-port-fill:before {
+    content: "\ea08"
+}
+
+.Appkit4-icon.icon-news-fill:before {
+    content: "\ea09"
+}
+
+.Appkit4-icon.icon-moon-outline:before {
+    content: "\ea0a"
+}
+
+.Appkit4-icon.icon-note-fill:before {
+    content: "\ea0b"
+}
+
+.Appkit4-icon.icon-notebook-fill:before {
+    content: "\ea0c"
+}
+
+.Appkit4-icon.icon-noteplus-fill:before {
+    content: "\ea0d"
+}
+
+.Appkit4-icon.icon-notification-fill:before {
+    content: "\ea0e"
+}
+
+.Appkit4-icon.icon-accessibility-fill:before {
+    content: "\ea0f"
+}
+
+.Appkit4-icon.icon-office-fill:before {
+    content: "\ea10"
+}
+
+.Appkit4-icon.icon-oilpipeline-fill:before {
+    content: "\ea11"
+}
+
+.Appkit4-icon.icon-oilplatform-fill:before {
+    content: "\ea12"
+}
+
+.Appkit4-icon.icon-open-in-new-window-fill:before {
+    content: "\ea14"
+}
+
+.Appkit4-icon.icon-paper-airplane-fill:before {
+    content: "\ea15"
+}
+
+.Appkit4-icon.icon-parks-outdoors-fill:before {
+    content: "\ea16"
+}
+
+.Appkit4-icon.icon-partnership-fill:before {
+    content: "\ea17"
+}
+
+.Appkit4-icon.icon-particulates-fill:before {
+    content: "\ea18"
+}
+
+.Appkit4-icon.icon-pause-fill:before {
+    content: "\ea19"
+}
+
+.Appkit4-icon.icon-payment-fill:before {
+    content: "\ea1a"
+}
+
+.Appkit4-icon.icon-pdf-fill:before {
+    content: "\ea1b"
+}
+
+.Appkit4-icon.icon-pencil-fill:before {
+    content: "\ea1c"
+}
+
+.Appkit4-icon.icon-person-fill:before {
+    content: "\ea1d"
+}
+
+.Appkit4-icon.icon-physician-fill:before {
+    content: "\ea1e"
+}
+
+.Appkit4-icon.icon-pie-chart-fill:before {
+    content: "\ea1f"
+}
+
+.Appkit4-icon.icon-platform-fill:before {
+    content: "\ea20"
+}
+
+.Appkit4-icon.icon-play-fill:before {
+    content: "\ea21"
+}
+
+.Appkit4-icon.icon-powerbi-fill:before {
+    content: "\ea23"
+}
+
+.Appkit4-icon.icon-power-button-fill:before {
+    content: "\ea24"
+}
+
+.Appkit4-icon.icon-power-plant-fill:before {
+    content: "\ea25"
+}
+
+.Appkit4-icon.icon-powerport-plug-outlet-fill:before {
+    content: "\ea26"
+}
+
+.Appkit4-icon.icon-ppt-fill:before {
+    content: "\ea27"
+}
+
+.Appkit4-icon.icon-prescription-fill:before {
+    content: "\ea28"
+}
+
+.Appkit4-icon.icon-printer-fill:before {
+    content: "\ea29"
+}
+
+.Appkit4-icon.icon-profitability-fill:before {
+    content: "\ea2b"
+}
+
+.Appkit4-icon.icon-projector-fill:before {
+    content: "\ea2c"
+}
+
+.Appkit4-icon.icon-purpose-fill:before {
+    content: "\ea2d"
+}
+
+.Appkit4-icon.icon-qrcode-fill:before {
+    content: "\ea2e"
+}
+
+.Appkit4-icon.icon-query-fill:before {
+    content: "\ea2f"
+}
+
+.Appkit4-icon.icon-radio-fill:before {
+    content: "\ea30"
+}
+
+.Appkit4-icon.icon-rating-fill:before {
+    content: "\ea31"
+}
+
+.Appkit4-icon.icon-realestate-fill:before {
+    content: "\ea32"
+}
+
+.Appkit4-icon.icon-refresh-fill:before {
+    content: "\ea33"
+}
+
+.Appkit4-icon.icon-revenue-fill:before {
+    content: "\ea34"
+}
+
+.Appkit4-icon.icon-right-chevron-circle-fill:before {
+    content: "\ea35"
+}
+
+.Appkit4-icon.icon-right-chevron-fill:before {
+    content: "\ea36"
+}
+
+.Appkit4-icon.icon-save-fill:before {
+    content: "\ea37"
+}
+
+.Appkit4-icon.icon-savings-fill:before {
+    content: "\ea39"
+}
+
+.Appkit4-icon.icon-screen-mirroring-fill:before {
+    content: "\ea3a"
+}
+
+.Appkit4-icon.icon-search-fill:before {
+    content: "\ea3b"
+}
+
+.Appkit4-icon.icon-serenity-space-fill:before {
+    content: "\ea3c"
+}
+
+.Appkit4-icon.icon-service-fill:before {
+    content: "\ea3d"
+}
+
+.Appkit4-icon.icon-setting-fill:before {
+    content: "\ea3e"
+}
+
+.Appkit4-icon.icon-share-fill:before {
+    content: "\ea3f"
+}
+
+.Appkit4-icon.icon-shareios-fill:before {
+    content: "\ea40"
+}
+
+.Appkit4-icon.icon-shopping-bag-fill:before {
+    content: "\ea42"
+}
+
+.Appkit4-icon.icon-shopping-cart-fill:before {
+    content: "\ea43"
+}
+
+.Appkit4-icon.icon-shopping-basket-fill:before {
+    content: "\ea44"
+}
+
+.Appkit4-icon.icon-shower-fill:before {
+    content: "\ea45"
+}
+
+.Appkit4-icon.icon-signpost-fill:before {
+    content: "\ea47"
+}
+
+.Appkit4-icon.icon-sorting-ascendant-fill:before {
+    content: "\ea48"
+}
+
+.Appkit4-icon.icon-sorting-descendant-fill:before {
+    content: "\ea49"
+}
+
+.Appkit4-icon.icon-sorting-fill:before {
+    content: "\ea4a"
+}
+
+.Appkit4-icon.icon-spark-line-fill:before {
+    content: "\ea4b"
+}
+
+.Appkit4-icon.icon-speedometer-fill:before {
+    content: "\ea4c"
+}
+
+.Appkit4-icon.icon-spider-chart-fill:before {
+    content: "\ea4d"
+}
+
+.Appkit4-icon.icon-stewardship-fill:before {
+    content: "\ea4f"
+}
+
+.Appkit4-icon.icon-success-fill:before {
+    content: "\ea50"
+}
+
+.Appkit4-icon.icon-survey-checkmark-fill:before {
+    content: "\ea51"
+}
+
+.Appkit4-icon.icon-survey-fill:before {
+    content: "\ea52"
+}
+
+.Appkit4-icon.icon-table-data-fill:before {
+    content: "\ea53"
+}
+
+.Appkit4-icon.icon-tag-fill:before {
+    content: "\ea54"
+}
+
+.Appkit4-icon.icon-talent-fill:before {
+    content: "\ea55"
+}
+
+.Appkit4-icon.icon-tanker-fill:before {
+    content: "\ea56"
+}
+
+.Appkit4-icon.icon-target-fill:before {
+    content: "\ea57"
+}
+
+.Appkit4-icon.icon-telecom-fill:before {
+    content: "\ea58"
+}
+
+.Appkit4-icon.icon-thermometer-fill:before {
+    content: "\ea59"
+}
+
+.Appkit4-icon.icon-thumb-down-fill:before {
+    content: "\ea5a"
+}
+
+.Appkit4-icon.icon-thumb-up-fill:before {
+    content: "\ea5b"
+}
+
+.Appkit4-icon.icon-ticket-fill:before {
+    content: "\ea5c"
+}
+
+.Appkit4-icon.icon-time-fill:before {
+    content: "\ea5d"
+}
+
+.Appkit4-icon.icon-toggle-fill:before {
+    content: "\ea5e"
+}
+
+.Appkit4-icon.icon-touchscreen-fill:before {
+    content: "\ea5f"
+}
+
+.Appkit4-icon.icon-train-railway-fill:before {
+    content: "\ea60"
+}
+
+.Appkit4-icon.icon-transform-fill:before {
+    content: "\ea61"
+}
+
+.Appkit4-icon.icon-truck-fill:before {
+    content: "\ea62"
+}
+
+.Appkit4-icon.icon-truck-connected-fill:before {
+    content: "\ea63"
+}
+
+.Appkit4-icon.icon-typography-fonts-fill:before {
+    content: "\ea64"
+}
+
+.Appkit4-icon.icon-umbrella-fill:before {
+    content: "\ea65"
+}
+
+.Appkit4-icon.icon-up-chevron-circle-fill:before {
+    content: "\ea66"
+}
+
+.Appkit4-icon.icon-up-chevron-fill:before {
+    content: "\ea67"
+}
+
+.Appkit4-icon.icon-upload-fill:before {
+    content: "\ea68"
+}
+
+.Appkit4-icon.icon-upload-light-fill:before {
+    content: "\ea69"
+}
+
+.Appkit4-icon.icon-venn-ab-horizontal-fill:before {
+    content: "\ea6b"
+}
+
+.Appkit4-icon.icon-venn-ab-vertical-fill:before {
+    content: "\ea6c"
+}
+
+.Appkit4-icon.icon-venn-abc-fill:before {
+    content: "\ea6d"
+}
+
+.Appkit4-icon.icon-venn-abc-reversed-fill:before {
+    content: "\ea6e"
+}
+
+.Appkit4-icon.icon-vertical-more-fill:before {
+    content: "\ea6f"
+}
+
+.Appkit4-icon.icon-video-fill:before {
+    content: "\ea70"
+}
+
+.Appkit4-icon.icon-video-conference-fill:before {
+    content: "\ea71"
+}
+
+.Appkit4-icon.icon-view-fill:before {
+    content: "\ea72"
+}
+
+.Appkit4-icon.icon-visitor-fill:before {
+    content: "\ea73"
+}
+
+.Appkit4-icon.icon-volume-off-fill:before {
+    content: "\ea74"
+}
+
+.Appkit4-icon.icon-volume-on-fill:before {
+    content: "\ea75"
+}
+
+.Appkit4-icon.icon-volume-up-fill:before {
+    content: "\ea76"
+}
+
+.Appkit4-icon.icon-wait-fill:before {
+    content: "\ea77"
+}
+
+.Appkit4-icon.icon-walking-workstation-fill:before {
+    content: "\ea78"
+}
+
+.Appkit4-icon.icon-wallet-fill:before {
+    content: "\ea79"
+}
+
+.Appkit4-icon.icon-warning-fill:before {
+    content: "\ea7a"
+}
+
+.Appkit4-icon.icon-waterdrop-fill:before {
+    content: "\ea7b"
+}
+
+.Appkit4-icon.icon-wealth-fill:before {
+    content: "\ea7c"
+}
+
+.Appkit4-icon.icon-webcast-studio-fill:before {
+    content: "\ea7d"
+}
+
+.Appkit4-icon.icon-weight-fill:before {
+    content: "\ea7e"
+}
+
+.Appkit4-icon.icon-wifi-fill:before {
+    content: "\ea7f"
+}
+
+.Appkit4-icon.icon-windmill-fill:before {
+    content: "\ea80"
+}
+
+.Appkit4-icon.icon-jewelry-fill:before {
+    content: "\ea81"
+}
+
+.Appkit4-icon.icon-workflow-fill:before {
+    content: "\ea82"
+}
+
+.Appkit4-icon.icon-xbrl-fill:before {
+    content: "\ea83"
+}
+
+.Appkit4-icon.icon-xls-fill:before {
+    content: "\ea84"
+}
+
+.Appkit4-icon.icon-check-mark-fill:before {
+    content: "\ea85"
+}
+
+.Appkit4-icon.icon-close-fill:before {
+    content: "\ea86"
+}
+
+.Appkit4-icon.icon-downtrend-fill:before {
+    content: "\ea87"
+}
+
+.Appkit4-icon.icon-home-fill:before {
+    content: "\ea88"
+}
+
+.Appkit4-icon.icon-minus-fill:before {
+    content: "\ea89"
+}
+
+.Appkit4-icon.icon-plus-fill:before {
+    content: "\ea8a"
+}
+
+.Appkit4-icon.icon-uptrend-fill:before {
+    content: "\ea8b"
+}
+
+.Appkit4-icon.icon-woman-fill:before {
+    content: "\ea8c"
+}
+
+.Appkit4-icon.icon-pin-outline:before {
+    content: "\ea9b"
+}
+
+.Appkit4-icon.icon-unpin-outline:before {
+    content: "\ea9c"
+}
+
+.Appkit4-icon.icon-view-off-fill:before {
+    content: "\ebb0"
+}
+
+.Appkit4-icon.icon-data-lowercase-outline:before {
+    content: "\ebb1"
+}
+
+.Appkit4-icon.icon-data-addsuffix-outline:before {
+    content: "\ebb2"
+}
+
+.Appkit4-icon.icon-data-addprefix-outline:before {
+    content: "\ebb3"
+}
+
+.Appkit4-icon.icon-data-mixed-outline:before {
+    content: "\ebb4"
+}
+
+.Appkit4-icon.icon-data-letters-outline:before {
+    content: "\ebb5"
+}
+
+.Appkit4-icon.icon-data-trim-outline:before {
+    content: "\ebb6"
+}
+
+.Appkit4-icon.icon-data-numeric-outline:before {
+    content: "\ebb7"
+}
+
+.Appkit4-icon.icon-data-uppercase-outline:before {
+    content: "\ebb8"
+}
+
+.Appkit4-icon.icon-data-value-outline:before {
+    content: "\ebb9"
+}
+
+.Appkit4-icon.icon-data-letters-fill:before {
+    content: "\ebba"
+}
+
+.Appkit4-icon.icon-data-addprefix-fill:before {
+    content: "\ebbb"
+}
+
+.Appkit4-icon.icon-data-addsuffix-fill:before {
+    content: "\ebbc"
+}
+
+.Appkit4-icon.icon-data-lowercase-fill:before {
+    content: "\ebbd"
+}
+
+.Appkit4-icon.icon-data-value-fill:before {
+    content: "\ebbe"
+}
+
+.Appkit4-icon.icon-data-numeric-fill:before {
+    content: "\ebbf"
+}
+
+.Appkit4-icon.icon-data-trim-fill:before {
+    content: "\ebc0"
+}
+
+.Appkit4-icon.icon-data-uppercase-fill:before {
+    content: "\ebc1"
+}
+
+.Appkit4-icon.icon-data-mixed-fill:before {
+    content: "\ebc2"
+}
+
+.Appkit4-icon.icon-digital-techtransformation-outline:before {
+    content: "\ebc3"
+}
+
+.Appkit4-icon.icon-error-outline:before {
+    content: "\ebc4"
+}
+
+.Appkit4-icon.icon-warning-outline:before {
+    content: "\ebc5"
+}
+
+.Appkit4-icon.icon-success-outline:before {
+    content: "\ebc6"
+}
+
+.Appkit4-icon.icon-foodbeverage-outline:before {
+    content: "\ebc7"
+}
+
+.Appkit4-icon.icon-3by3grid-fill:before {
+    content: "\ebc8"
+}
+
+.Appkit4-icon.icon-archive-fill:before {
+    content: "\ebc9"
+}
+
+.Appkit4-icon.icon-arrow-increase-small-fill:before {
+    content: "\ebca"
+}
+
+.Appkit4-icon.icon-arrow-decrease-small-fill:before {
+    content: "\ebcb"
+}
+
+.Appkit4-icon.icon-paper-fill:before {
+    content: "\ebcc"
+}
+
+.Appkit4-icon.icon-arrow-left-small-fill:before {
+    content: "\ebcd"
+}
+
+.Appkit4-icon.icon-pin-small-fill:before {
+    content: "\ebce"
+}
+
+.Appkit4-icon.icon-check-hook-fill:before {
+    content: "\ebcf"
+}
+
+.Appkit4-icon.icon-redo-fill:before {
+    content: "\ebd0"
+}
+
+.Appkit4-icon.icon-return-fill:before {
+    content: "\ebd1"
+}
+
+.Appkit4-icon.icon-unpin-fill:before {
+    content: "\ebd2"
+}
+
+.Appkit4-icon.icon-pin-fill:before {
+    content: "\ebd3"
+}
+
+.Appkit4-icon.icon-table-data-compressed-fill:before {
+    content: "\ebd4"
+}
+
+.Appkit4-icon.icon-moon-fill:before {
+    content: "\ebd5"
+}
+
+.Appkit4-icon.icon-paperclip-fill:before {
+    content: "\ebd6"
+}
+
+.Appkit4-icon.icon-arrow-down-small-fill:before {
+    content: "\ebd7"
+}
+
+.Appkit4-icon.icon-placeholder-fill:before {
+    content: "\ebd8"
+}
+
+.Appkit4-icon.icon-circle-empty-fill:before {
+    content: "\ebd9"
+}
+
+.Appkit4-icon.icon-copy-fill:before {
+    content: "\ebda"
+}
+
+.Appkit4-icon.icon-list-bar-view-fill:before {
+    content: "\ebdb"
+}
+
+.Appkit4-icon.icon-junk-fill:before {
+    content: "\ebdc"
+}
+
+.Appkit4-icon.icon-arrow-right-small-fill:before {
+    content: "\ebdd"
+}
+
+.Appkit4-icon.icon-arrow-up-small-fill:before {
+    content: "\ebde"
+}
+
+.Appkit4-icon.icon-enter-left-outline:before {
+    content: "\ed07"
+}
+
+.Appkit4-icon.icon-enter-right-outline:before {
+    content: "\ed08"
+}
+
+.Appkit4-icon.icon-align-center-fill:before {
+    content: "\ed0e"
+}
+
+.Appkit4-icon.icon-align-left-fill:before {
+    content: "\ed0f"
+}
+
+.Appkit4-icon.icon-align-right-fill:before {
+    content: "\ed10"
+}
+
+.Appkit4-icon.icon-bold-fill:before {
+    content: "\ed11"
+}
+
+.Appkit4-icon.icon-bulleted-list-fill:before {
+    content: "\ed12"
+}
+
+.Appkit4-icon.icon-caret-down-fill:before {
+    content: "\ed13"
+}
+
+.Appkit4-icon.icon-font-italic-fill:before {
+    content: "\ed14"
+}
+
+.Appkit4-icon.icon-font-fill:before {
+    content: "\ed15"
+}
+
+.Appkit4-icon.icon-font-size-fill:before {
+    content: "\ed16"
+}
+
+.Appkit4-icon.icon-font-strikethrough-fill:before {
+    content: "\ed17"
+}
+
+.Appkit4-icon.icon-font-underline-fill:before {
+    content: "\ed18"
+}
+
+.Appkit4-icon.icon-hyperlink-broken-fill:before {
+    content: "\ed19"
+}
+
+.Appkit4-icon.icon-hyperlink-fill:before {
+    content: "\ed1a"
+}
+
+.Appkit4-icon.icon-indent-fill:before {
+    content: "\ed1b"
+}
+
+.Appkit4-icon.icon-insert-picture-fill:before {
+    content: "\ed1c"
+}
+
+.Appkit4-icon.icon-justify-fill:before {
+    content: "\ed1d"
+}
+
+.Appkit4-icon.icon-numbered-list-fill:before {
+    content: "\ed1e"
+}
+
+.Appkit4-icon.icon-redo-alt-fill:before {
+    content: "\ed1f"
+}
+
+.Appkit4-icon.icon-reduce-indent-fill:before {
+    content: "\ed20"
+}
+
+.Appkit4-icon.icon-undo-fill:before {
+    content: "\ed21"
+}
+
+.Appkit4-icon.icon-3dimensions-fill:before {
+    content: "\ee4d"
+}
+
+.Appkit4-icon.icon-accept-fill:before {
+    content: "\ee4e"
+}
+
+.Appkit4-icon.icon-account-alert-fill:before {
+    content: "\ee4f"
+}
+
+.Appkit4-icon.icon-4lframework-fill:before {
+    content: "\ee50"
+}
+
+.Appkit4-icon.icon-account-box-fill:before {
+    content: "\ee51"
+}
+
+.Appkit4-icon.icon-account-check-fill:before {
+    content: "\ee52"
+}
+
+.Appkit4-icon.icon-account-remove-fill:before {
+    content: "\ee53"
+}
+
+.Appkit4-icon.icon-account-switch-fill:before {
+    content: "\ee54"
+}
+
+.Appkit4-icon.icon-air-filter-fill:before {
+    content: "\ee55"
+}
+
+.Appkit4-icon.icon-account-convert-fill:before {
+    content: "\ee56"
+}
+
+.Appkit4-icon.icon-arrow-down-bold-fill:before {
+    content: "\ee57"
+}
+
+.Appkit4-icon.icon-analysis-fill:before {
+    content: "\ee58"
+}
+
+.Appkit4-icon.icon-ask-question-fill:before {
+    content: "\ee59"
+}
+
+.Appkit4-icon.icon-arrow-up-bold-fill:before {
+    content: "\ee5a"
+}
+
+.Appkit4-icon.icon-book-fill:before {
+    content: "\ee5b"
+}
+
+.Appkit4-icon.icon-budget-fill:before {
+    content: "\ee5c"
+}
+
+.Appkit4-icon.icon-biometrics-fill:before {
+    content: "\ee5d"
+}
+
+.Appkit4-icon.icon-award-ribbon-fill:before {
+    content: "\ee5e"
+}
+
+.Appkit4-icon.icon-button-fill:before {
+    content: "\ee5f"
+}
+
+.Appkit4-icon.icon-chevron-double-left-fill:before {
+    content: "\ee60"
+}
+
+.Appkit4-icon.icon-calendar-clock-fill:before {
+    content: "\ee61"
+}
+
+.Appkit4-icon.icon-aggregate-fill:before {
+    content: "\ee62"
+}
+
+.Appkit4-icon.icon-circle-star-fill:before {
+    content: "\ee63"
+}
+
+.Appkit4-icon.icon-chevron-double-right-fill:before {
+    content: "\ee64"
+}
+
+.Appkit4-icon.icon-checkbox-fill:before {
+    content: "\ee65"
+}
+
+.Appkit4-icon.icon-cloud-alert-fill:before {
+    content: "\ee66"
+}
+
+.Appkit4-icon.icon-cloud-check-fill:before {
+    content: "\ee67"
+}
+
+.Appkit4-icon.icon-cloud-disable-fill:before {
+    content: "\ee68"
+}
+
+.Appkit4-icon.icon-cloud-clock-fill:before {
+    content: "\ee69"
+}
+
+.Appkit4-icon.icon-cloud-delete-fill:before {
+    content: "\ee6a"
+}
+
+.Appkit4-icon.icon-clapping-applause-fill:before {
+    content: "\ee6b"
+}
+
+.Appkit4-icon.icon-cloud-loading-fill:before {
+    content: "\ee6c"
+}
+
+.Appkit4-icon.icon-confetti-celebration-fill:before {
+    content: "\ee6d"
+}
+
+.Appkit4-icon.icon-cookie-fill:before {
+    content: "\ee6e"
+}
+
+.Appkit4-icon.icon-commentary-fill:before {
+    content: "\ee6f"
+}
+
+.Appkit4-icon.icon-dashboard-fill:before {
+    content: "\ee70"
+}
+
+.Appkit4-icon.icon-dictionary-fill:before {
+    content: "\ee71"
+}
+
+.Appkit4-icon.icon-document-alert-fill:before {
+    content: "\ee72"
+}
+
+.Appkit4-icon.icon-document-download-fill:before {
+    content: "\ee73"
+}
+
+.Appkit4-icon.icon-document-file-fill:before {
+    content: "\ee74"
+}
+
+.Appkit4-icon.icon-currency-exchange-fill:before {
+    content: "\ee75"
+}
+
+.Appkit4-icon.icon-database-search-fill:before {
+    content: "\ee76"
+}
+
+.Appkit4-icon.icon-document-link-fill:before {
+    content: "\ee77"
+}
+
+.Appkit4-icon.icon-document-export-fill:before {
+    content: "\ee78"
+}
+
+.Appkit4-icon.icon-document-multiple-fill:before {
+    content: "\ee79"
+}
+
+.Appkit4-icon.icon-container-fill:before {
+    content: "\ee7a"
+}
+
+.Appkit4-icon.icon-document-policies-fill:before {
+    content: "\ee7b"
+}
+
+.Appkit4-icon.icon-document-send-fill:before {
+    content: "\ee7c"
+}
+
+.Appkit4-icon.icon-exclamation-fill:before {
+    content: "\ee7d"
+}
+
+.Appkit4-icon.icon-filter-remove-fill:before {
+    content: "\ee7e"
+}
+
+.Appkit4-icon.icon-folder-download-fill:before {
+    content: "\ee7f"
+}
+
+.Appkit4-icon.icon-flags-fill:before {
+    content: "\ee80"
+}
+
+.Appkit4-icon.icon-flash-drive-fill:before {
+    content: "\ee81"
+}
+
+.Appkit4-icon.icon-fire-fill:before {
+    content: "\ee82"
+}
+
+.Appkit4-icon.icon-folder-open-angled-fill:before {
+    content: "\ee83"
+}
+
+.Appkit4-icon.icon-flower-fill:before {
+    content: "\ee84"
+}
+
+.Appkit4-icon.icon-extend-fill:before {
+    content: "\ee85"
+}
+
+.Appkit4-icon.icon-folder-plus-fill:before {
+    content: "\ee86"
+}
+
+.Appkit4-icon.icon-footer-fill:before {
+    content: "\ee87"
+}
+
+.Appkit4-icon.icon-group-fill:before {
+    content: "\ee88"
+}
+
+.Appkit4-icon.icon-gift-fill:before {
+    content: "\ee89"
+}
+
+.Appkit4-icon.icon-hashtag-fill:before {
+    content: "\ee8a"
+}
+
+.Appkit4-icon.icon-header-fill:before {
+    content: "\ee8b"
+}
+
+.Appkit4-icon.icon-holding-glass-fill:before {
+    content: "\ee8c"
+}
+
+.Appkit4-icon.icon-information-letter-fill:before {
+    content: "\ee8d"
+}
+
+.Appkit4-icon.icon-home-filter-fill:before {
+    content: "\ee8e"
+}
+
+.Appkit4-icon.icon-kanban-fill:before {
+    content: "\ee8f"
+}
+
+.Appkit4-icon.icon-hazard-fill:before {
+    content: "\ee90"
+}
+
+.Appkit4-icon.icon-kpi-fill:before {
+    content: "\ee91"
+}
+
+.Appkit4-icon.icon-key-change-fill:before {
+    content: "\ee92"
+}
+
+.Appkit4-icon.icon-lens-aperture-fill:before {
+    content: "\ee93"
+}
+
+.Appkit4-icon.icon-list-format-fill:before {
+    content: "\ee94"
+}
+
+.Appkit4-icon.icon-mailbox-fill:before {
+    content: "\ee95"
+}
+
+.Appkit4-icon.icon-list-play-fill:before {
+    content: "\ee96"
+}
+
+.Appkit4-icon.icon-lock-off-fill:before {
+    content: "\ee97"
+}
+
+.Appkit4-icon.icon-map-fill:before {
+    content: "\ee98"
+}
+
+.Appkit4-icon.icon-map-location-fill:before {
+    content: "\ee99"
+}
+
+.Appkit4-icon.icon-manage-resources-fill:before {
+    content: "\ee9a"
+}
+
+.Appkit4-icon.icon-mute-fill:before {
+    content: "\ee9b"
+}
+
+.Appkit4-icon.icon-notifications-alert-fill:before {
+    content: "\ee9c"
+}
+
+.Appkit4-icon.icon-notifications-first-fill:before {
+    content: "\ee9d"
+}
+
+.Appkit4-icon.icon-mentions-fill:before {
+    content: "\ee9e"
+}
+
+.Appkit4-icon.icon-object-fill:before {
+    content: "\ee9f"
+}
+
+.Appkit4-icon.icon-notifications-off-fill:before {
+    content: "\eea0"
+}
+
+.Appkit4-icon.icon-octagram-fill:before {
+    content: "\eea1"
+}
+
+.Appkit4-icon.icon-org-chart-fill:before {
+    content: "\eea2"
+}
+
+.Appkit4-icon.icon-palm-tree-fill:before {
+    content: "\eea3"
+}
+
+.Appkit4-icon.icon-pen-fill:before {
+    content: "\eea4"
+}
+
+.Appkit4-icon.icon-permitted-with-caution-fill:before {
+    content: "\eea5"
+}
+
+.Appkit4-icon.icon-pinboard-fill:before {
+    content: "\eea6"
+}
+
+.Appkit4-icon.icon-place-fill:before {
+    content: "\eea7"
+}
+
+.Appkit4-icon.icon-poll-fill:before {
+    content: "\eea8"
+}
+
+.Appkit4-icon.icon-placing-glass-fill:before {
+    content: "\eea9"
+}
+
+.Appkit4-icon.icon-praise-gratitude-fill:before {
+    content: "\eeaa"
+}
+
+.Appkit4-icon.icon-power-bi-report-fill:before {
+    content: "\eeab"
+}
+
+.Appkit4-icon.icon-revert-fill:before {
+    content: "\eeac"
+}
+
+.Appkit4-icon.icon-ribbon-1st-place-fill:before {
+    content: "\eead"
+}
+
+.Appkit4-icon.icon-reject-fill:before {
+    content: "\eeae"
+}
+
+.Appkit4-icon.icon-ribbon-2nd-place-fill:before {
+    content: "\eeaf"
+}
+
+.Appkit4-icon.icon-ribbon-3rd-place-fill:before {
+    content: "\eeb0"
+}
+
+.Appkit4-icon.icon-search-not-found-fill:before {
+    content: "\eeb1"
+}
+
+.Appkit4-icon.icon-sections-fill:before {
+    content: "\eeb2"
+}
+
+.Appkit4-icon.icon-selection-fill:before {
+    content: "\eeb3"
+}
+
+.Appkit4-icon.icon-shield-check-fill:before {
+    content: "\eeb4"
+}
+
+.Appkit4-icon.icon-shield-fill:before {
+    content: "\eeb5"
+}
+
+.Appkit4-icon.icon-shield-half-fill:before {
+    content: "\eeb6"
+}
+
+.Appkit4-icon.icon-shield-off-fill:before {
+    content: "\eeb7"
+}
+
+.Appkit4-icon.icon-side-eyes-fill:before {
+    content: "\eeb8"
+}
+
+.Appkit4-icon.icon-sign-off-fill:before {
+    content: "\eeb9"
+}
+
+.Appkit4-icon.icon-site-link-fill:before {
+    content: "\eeba"
+}
+
+.Appkit4-icon.icon-sitting-fill:before {
+    content: "\eebb"
+}
+
+.Appkit4-icon.icon-smartphone-fill:before {
+    content: "\eebc"
+}
+
+.Appkit4-icon.icon-speak-fill:before {
+    content: "\eebd"
+}
+
+.Appkit4-icon.icon-star-fill:before {
+    content: "\eebe"
+}
+
+.Appkit4-icon.icon-sticker-fill:before {
+    content: "\eebf"
+}
+
+.Appkit4-icon.icon-strategy-fill:before {
+    content: "\eec0"
+}
+
+.Appkit4-icon.icon-summary-prioritization-fill:before {
+    content: "\eec1"
+}
+
+.Appkit4-icon.icon-survey-scale1-fill:before {
+    content: "\eec2"
+}
+
+.Appkit4-icon.icon-survey-scale2-fill:before {
+    content: "\eec3"
+}
+
+.Appkit4-icon.icon-survey-scale3-fill:before {
+    content: "\eec4"
+}
+
+.Appkit4-icon.icon-survey-scale4-fill:before {
+    content: "\eec5"
+}
+
+.Appkit4-icon.icon-survey-scale5-fill:before {
+    content: "\eec6"
+}
+
+.Appkit4-icon.icon-tablet-fill:before {
+    content: "\eec7"
+}
+
+.Appkit4-icon.icon-text-box-fill:before {
+    content: "\eec8"
+}
+
+.Appkit4-icon.icon-text-fill:before {
+    content: "\eec9"
+}
+
+.Appkit4-icon.icon-time-lapse-fill:before {
+    content: "\eeca"
+}
+
+.Appkit4-icon.icon-tree-view-fill:before {
+    content: "\eecb"
+}
+
+.Appkit4-icon.icon-trophy-fill:before {
+    content: "\eecc"
+}
+
+.Appkit4-icon.icon-uncertainty-fill:before {
+    content: "\eecd"
+}
+
+.Appkit4-icon.icon-update-fill:before {
+    content: "\eece"
+}
+
+.Appkit4-icon.icon-user-inactive-fill:before {
+    content: "\eecf"
+}
+
+.Appkit4-icon.icon-vector-fill:before {
+    content: "\eed0"
+}
+
+.Appkit4-icon.icon-water-leak-fill:before {
+    content: "\eed1"
+}
+
+.Appkit4-icon.icon-webcast-fill:before {
+    content: "\eed2"
+}
+
+.Appkit4-icon.icon-website-fill:before {
+    content: "\eed3"
+}
+
+.Appkit4-icon.icon-workout-fill:before {
+    content: "\eed4"
+}
+
+.Appkit4-icon.icon-zoom-in-fill:before {
+    content: "\eed5"
+}
+
+.Appkit4-icon.icon-zoom-out-fill:before {
+    content: "\eed6"
+}
+
+.Appkit4-icon.icon-accept-outline:before {
+    content: "\eed7"
+}
+
+.Appkit4-icon.icon-4lframework-outline:before {
+    content: "\eed8"
+}
+
+.Appkit4-icon.icon-3dimensions-outline:before {
+    content: "\eed9"
+}
+
+.Appkit4-icon.icon-account-alert-outline:before {
+    content: "\eeda"
+}
+
+.Appkit4-icon.icon-account-box-outline:before {
+    content: "\eedb"
+}
+
+.Appkit4-icon.icon-account-check-outline:before {
+    content: "\eedc"
+}
+
+.Appkit4-icon.icon-account-convert-outline:before {
+    content: "\eedd"
+}
+
+.Appkit4-icon.icon-account-switch-outline:before {
+    content: "\eede"
+}
+
+.Appkit4-icon.icon-account-remove-outline:before {
+    content: "\eedf"
+}
+
+.Appkit4-icon.icon-aggregate-outline:before {
+    content: "\eee0"
+}
+
+.Appkit4-icon.icon-air-filter-outline:before {
+    content: "\eee1"
+}
+
+.Appkit4-icon.icon-analysis-outline:before {
+    content: "\eee2"
+}
+
+.Appkit4-icon.icon-arrow-down-bold-outline:before {
+    content: "\eee3"
+}
+
+.Appkit4-icon.icon-arrow-up-bold-outline:before {
+    content: "\eee4"
+}
+
+.Appkit4-icon.icon-ask-question-outline:before {
+    content: "\eee5"
+}
+
+.Appkit4-icon.icon-award-ribbon-outline:before {
+    content: "\eee6"
+}
+
+.Appkit4-icon.icon-biometrics-outline:before {
+    content: "\eee7"
+}
+
+.Appkit4-icon.icon-budget-outline:before {
+    content: "\eee8"
+}
+
+.Appkit4-icon.icon-book-outline:before {
+    content: "\eee9"
+}
+
+.Appkit4-icon.icon-button-outline:before {
+    content: "\eeea"
+}
+
+.Appkit4-icon.icon-calendar-clock-outline:before {
+    content: "\eeeb"
+}
+
+.Appkit4-icon.icon-checkbox-outline:before {
+    content: "\eeec"
+}
+
+.Appkit4-icon.icon-chevron-double-left-outline:before {
+    content: "\eeed"
+}
+
+.Appkit4-icon.icon-chevron-double-right-outline:before {
+    content: "\eeee"
+}
+
+.Appkit4-icon.icon-clapping-applause-outline:before {
+    content: "\eeef"
+}
+
+.Appkit4-icon.icon-cloud-alert-outline:before {
+    content: "\eef0"
+}
+
+.Appkit4-icon.icon-circle-star-outline:before {
+    content: "\eef1"
+}
+
+.Appkit4-icon.icon-cloud-check-outline:before {
+    content: "\eef2"
+}
+
+.Appkit4-icon.icon-cloud-clock-outline:before {
+    content: "\eef3"
+}
+
+.Appkit4-icon.icon-cloud-disable-outline:before {
+    content: "\eef4"
+}
+
+.Appkit4-icon.icon-cloud-delete-outline:before {
+    content: "\eef5"
+}
+
+.Appkit4-icon.icon-commentary-outline:before {
+    content: "\eef6"
+}
+
+.Appkit4-icon.icon-confetti-celebration-outline:before {
+    content: "\eef7"
+}
+
+.Appkit4-icon.icon-cloud-loading-outline:before {
+    content: "\eef8"
+}
+
+.Appkit4-icon.icon-container-outline:before {
+    content: "\eef9"
+}
+
+.Appkit4-icon.icon-dashboard-outline:before {
+    content: "\eefa"
+}
+
+.Appkit4-icon.icon-currency-exchange-outline:before {
+    content: "\eefb"
+}
+
+.Appkit4-icon.icon-database-search-outline:before {
+    content: "\eefc"
+}
+
+.Appkit4-icon.icon-dictionary-outline:before {
+    content: "\eefd"
+}
+
+.Appkit4-icon.icon-cookie-outline:before {
+    content: "\eefe"
+}
+
+.Appkit4-icon.icon-document-alert-outline:before {
+    content: "\eeff"
+}
+
+.Appkit4-icon.icon-document-download-outline:before {
+    content: "\ef00"
+}
+
+.Appkit4-icon.icon-document-export-outline:before {
+    content: "\ef01"
+}
+
+.Appkit4-icon.icon-document-file-outline:before {
+    content: "\ef02"
+}
+
+.Appkit4-icon.icon-document-multiple-outline:before {
+    content: "\ef03"
+}
+
+.Appkit4-icon.icon-document-link-outline:before {
+    content: "\ef04"
+}
+
+.Appkit4-icon.icon-document-policies-outline:before {
+    content: "\ef05"
+}
+
+.Appkit4-icon.icon-extend-outline:before {
+    content: "\ef06"
+}
+
+.Appkit4-icon.icon-document-send-outline:before {
+    content: "\ef07"
+}
+
+.Appkit4-icon.icon-exclamation-outline:before {
+    content: "\ef08"
+}
+
+.Appkit4-icon.icon-fire-outline:before {
+    content: "\ef09"
+}
+
+.Appkit4-icon.icon-flower-outline:before {
+    content: "\ef0a"
+}
+
+.Appkit4-icon.icon-folder-download-outline:before {
+    content: "\ef0b"
+}
+
+.Appkit4-icon.icon-flash-drive-outline:before {
+    content: "\ef0c"
+}
+
+.Appkit4-icon.icon-folder-open-angled-outline:before {
+    content: "\ef0d"
+}
+
+.Appkit4-icon.icon-folder-plus-outline:before {
+    content: "\ef0e"
+}
+
+.Appkit4-icon.icon-footer-outline:before {
+    content: "\ef0f"
+}
+
+.Appkit4-icon.icon-filter-remove-outline:before {
+    content: "\ef10"
+}
+
+.Appkit4-icon.icon-gift-outline:before {
+    content: "\ef11"
+}
+
+.Appkit4-icon.icon-group-outline:before {
+    content: "\ef12"
+}
+
+.Appkit4-icon.icon-hashtag-outline:before {
+    content: "\ef13"
+}
+
+.Appkit4-icon.icon-hazard-outline:before {
+    content: "\ef14"
+}
+
+.Appkit4-icon.icon-header-outline:before {
+    content: "\ef15"
+}
+
+.Appkit4-icon.icon-flags-outline:before {
+    content: "\ef16"
+}
+
+.Appkit4-icon.icon-holding-glass-outline:before {
+    content: "\ef17"
+}
+
+.Appkit4-icon.icon-home-filter-outline:before {
+    content: "\ef18"
+}
+
+.Appkit4-icon.icon-information-letter-outline:before {
+    content: "\ef19"
+}
+
+.Appkit4-icon.icon-kanban-outline:before {
+    content: "\ef1a"
+}
+
+.Appkit4-icon.icon-key-change-outline:before {
+    content: "\ef1b"
+}
+
+.Appkit4-icon.icon-kpi-outline:before {
+    content: "\ef1c"
+}
+
+.Appkit4-icon.icon-lens-aperture-outline:before {
+    content: "\ef1d"
+}
+
+.Appkit4-icon.icon-list-format-outline:before {
+    content: "\ef1e"
+}
+
+.Appkit4-icon.icon-list-play-outline:before {
+    content: "\ef1f"
+}
+
+.Appkit4-icon.icon-lock-off-outline:before {
+    content: "\ef20"
+}
+
+.Appkit4-icon.icon-manage-resources-outline:before {
+    content: "\ef21"
+}
+
+.Appkit4-icon.icon-mailbox-outline:before {
+    content: "\ef22"
+}
+
+.Appkit4-icon.icon-map-location-outline:before {
+    content: "\ef23"
+}
+
+.Appkit4-icon.icon-map-outline:before {
+    content: "\ef24"
+}
+
+.Appkit4-icon.icon-mute-outline:before {
+    content: "\ef25"
+}
+
+.Appkit4-icon.icon-mentions-outline:before {
+    content: "\ef26"
+}
+
+.Appkit4-icon.icon-notifications-first-outline:before {
+    content: "\ef27"
+}
+
+.Appkit4-icon.icon-notifications-off-outline:before {
+    content: "\ef28"
+}
+
+.Appkit4-icon.icon-notifications-alert-outline:before {
+    content: "\ef29"
+}
+
+.Appkit4-icon.icon-object-outline:before {
+    content: "\ef2a"
+}
+
+.Appkit4-icon.icon-org-chart-outline:before {
+    content: "\ef2b"
+}
+
+.Appkit4-icon.icon-octagram-outline:before {
+    content: "\ef2c"
+}
+
+.Appkit4-icon.icon-pen-outline:before {
+    content: "\ef2d"
+}
+
+.Appkit4-icon.icon-permitted-with-caution-outline:before {
+    content: "\ef2e"
+}
+
+.Appkit4-icon.icon-pinboard-outline:before {
+    content: "\ef2f"
+}
+
+.Appkit4-icon.icon-placing-glass-outline:before {
+    content: "\ef30"
+}
+
+.Appkit4-icon.icon-place-outline:before {
+    content: "\ef31"
+}
+
+.Appkit4-icon.icon-power-bi-report-outline:before {
+    content: "\ef32"
+}
+
+.Appkit4-icon.icon-poll-outline:before {
+    content: "\ef33"
+}
+
+.Appkit4-icon.icon-reject-outline:before {
+    content: "\ef34"
+}
+
+.Appkit4-icon.icon-revert-outline:before {
+    content: "\ef35"
+}
+
+.Appkit4-icon.icon-praise-gratitude-outline:before {
+    content: "\ef36"
+}
+
+.Appkit4-icon.icon-ribbon-1st-place-outline:before {
+    content: "\ef37"
+}
+
+.Appkit4-icon.icon-palm-tree-outline:before {
+    content: "\ef38"
+}
+
+.Appkit4-icon.icon-ribbon-3rd-place-outline:before {
+    content: "\ef39"
+}
+
+.Appkit4-icon.icon-ribbon-2nd-place-outline:before {
+    content: "\ef3a"
+}
+
+.Appkit4-icon.icon-search-not-found-outline:before {
+    content: "\ef3b"
+}
+
+.Appkit4-icon.icon-sections-outline:before {
+    content: "\ef3c"
+}
+
+.Appkit4-icon.icon-selection-outline:before {
+    content: "\ef3d"
+}
+
+.Appkit4-icon.icon-shield-check-outline:before {
+    content: "\ef3e"
+}
+
+.Appkit4-icon.icon-shield-half-outline:before {
+    content: "\ef3f"
+}
+
+.Appkit4-icon.icon-shield-off-outline:before {
+    content: "\ef40"
+}
+
+.Appkit4-icon.icon-shield-outline:before {
+    content: "\ef41"
+}
+
+.Appkit4-icon.icon-side-eyes-outline:before {
+    content: "\ef42"
+}
+
+.Appkit4-icon.icon-sign-off-outline:before {
+    content: "\ef43"
+}
+
+.Appkit4-icon.icon-site-link-outline:before {
+    content: "\ef44"
+}
+
+.Appkit4-icon.icon-sitting-outline:before {
+    content: "\ef45"
+}
+
+.Appkit4-icon.icon-smartphone-outline:before {
+    content: "\ef46"
+}
+
+.Appkit4-icon.icon-speak-outline:before {
+    content: "\ef47"
+}
+
+.Appkit4-icon.icon-sticker-outline:before {
+    content: "\ef48"
+}
+
+.Appkit4-icon.icon-strategy-outline:before {
+    content: "\ef49"
+}
+
+.Appkit4-icon.icon-summary-prioritization-outline:before {
+    content: "\ef4a"
+}
+
+.Appkit4-icon.icon-survey-scale1-outline:before {
+    content: "\ef4b"
+}
+
+.Appkit4-icon.icon-survey-scale2-outline:before {
+    content: "\ef4c"
+}
+
+.Appkit4-icon.icon-survey-scale3-outline:before {
+    content: "\ef4d"
+}
+
+.Appkit4-icon.icon-survey-scale4-outline:before {
+    content: "\ef4e"
+}
+
+.Appkit4-icon.icon-survey-scale5-outline:before {
+    content: "\ef4f"
+}
+
+.Appkit4-icon.icon-tablet-outline:before {
+    content: "\ef50"
+}
+
+.Appkit4-icon.icon-text-box-outline:before {
+    content: "\ef51"
+}
+
+.Appkit4-icon.icon-text-outline:before {
+    content: "\ef52"
+}
+
+.Appkit4-icon.icon-time-lapse-outline:before {
+    content: "\ef53"
+}
+
+.Appkit4-icon.icon-tree-view-outline:before {
+    content: "\ef54"
+}
+
+.Appkit4-icon.icon-trophy-outline:before {
+    content: "\ef55"
+}
+
+.Appkit4-icon.icon-uncertainty-outline:before {
+    content: "\ef56"
+}
+
+.Appkit4-icon.icon-update-outline:before {
+    content: "\ef57"
+}
+
+.Appkit4-icon.icon-user-inactive-outline:before {
+    content: "\ef58"
+}
+
+.Appkit4-icon.icon-vector-outline:before {
+    content: "\ef59"
+}
+
+.Appkit4-icon.icon-water-leak-outline:before {
+    content: "\ef5a"
+}
+
+.Appkit4-icon.icon-webcast-outline:before {
+    content: "\ef5b"
+}
+
+.Appkit4-icon.icon-website-outline:before {
+    content: "\ef5c"
+}
+
+.Appkit4-icon.icon-workout-outline:before {
+    content: "\ef5d"
+}
+
+.Appkit4-icon.icon-zoom-in-outline:before {
+    content: "\ef5e"
+}
+
+.Appkit4-icon.icon-zoom-out-outline:before {
+    content: "\ef5f"
+}
+
+.Appkit4-icon.icon-expand-chevron-fill:before {
+    content: "\efc1"
+}
+
+.Appkit4-icon.icon-collapse-chevron-fill:before {
+    content: "\efc2"
+}
+
+.Appkit4-icon.icon-collapse-chevron-outline:before {
+    content: "\efc3"
+}
+
+.Appkit4-icon.icon-success-incomplete-outline:before {
+    content: "\efc4"
+}
+
+.Appkit4-icon.icon-drag-handle-outline:before {
+    content: "\efc5"
+}
+
+.Appkit4-icon.icon-drag-handle-fill:before {
+    content: "\efc6"
+}
+
+.Appkit4-icon.icon-success-incomplete-fill:before {
+    content: "\efc7"
+}
+
+/*# sourceMappingURL=appkit.icon.min.css.map */

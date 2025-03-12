@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/sorting-ascendant-fill</title>
+    <g id="Icon/Fill/sorting-ascendant-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.582192, 0.164384)" fill="#474747" fill-rule="nonzero">
+            <g id="sorting-ascendant">
+                <path d="M6.0032877,0 L9.53424661,0 L9.53424661,23.671233 L0,14.2487671 L2.50191782,11.7731507 L5.99013704,15.2252056 L6.0032877,0 Z M8.88986303,0.657534249 L6.64767127,0.657534249 L6.64767127,16.7769864 L2.51506851,12.6838357 L0.933698636,14.2487671 L8.88986303,22.1194521 L8.88986303,0.657534249 Z M20.8635617,9.69863015 L12.1249316,1.0520548 L12.1249316,23.6252056 L15.0115069,23.6252056 L15.0115069,7.94630142 L18.8219179,11.7172603 L20.8635617,9.69863015 Z" id="Symbols"></path>
+            </g>
+        </g>
+    </g>
+</svg>

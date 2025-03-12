@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/enter-left-outline</title>
+    <g id="Icon/Outline/enter-left-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="enter-left-outline">
+                <path d="M18.0297001,17.0691001 L16.9692001,18.1296001 L10.8402,12.0006001 L16.9692001,5.87010002 L18.0297001,6.93060003 L13.7112001,11.2506 L23.9997001,11.2506 L23.9997001,12.7506001 L13.7112001,12.7506001 L18.0297001,17.0691001 Z M3,3 L10,3 L10,21 L3,21 L3,3 Z M22.5,22.5 L22.5,18.7500001 L24,18.7500001 L24,22.5 C24,23.3280001 23.328,24 22.5,24 L1.5,24 C0.672000003,24 0,23.3280001 0,22.5 L0,1.5 C0,0.672000003 0.672000003,0 1.5,0 L22.5,0 C23.328,0 24,0.672000003 24,1.5 L24,5.25000002 L22.5,5.25000002 L22.5,1.5 L1.5,1.5 L1.5,22.5 L22.5,22.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

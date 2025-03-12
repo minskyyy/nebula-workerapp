@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/right-chevron-outline</title>
+    <g id="Icon/Outline/right-chevron-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="right-chevron" transform="translate(5.467499, 0.000000)">
+                <path d="M12.8411338,0.21975229 C12.5481308,-0.0732507633 12.0731258,-0.0732507633 11.7801227,0.21975229 L0,11.999875 L11.7801227,23.7809978 C11.9271243,23.9269994 12.1191263,24 12.3111283,24 C12.5031303,24 12.6951323,23.9269994 12.8411338,23.7809978 C13.1341369,23.4879947 13.1341369,23.0129898 12.8411338,22.7199868 L2.12102209,11.999875 L12.8411338,1.28076335 C13.1341369,0.987760294 13.1341369,0.512755343 12.8411338,0.21975229" id="Fill-1" transform="translate(6.530443, 12.000000) scale(-1, 1) translate(-6.530443, -12.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

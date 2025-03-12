@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/wallet-outline</title>
+    <g id="Icon/Outline/wallet-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 2.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="Outline">
+                <path d="M0,20.06 L0,0 L21.36,0 L21.36,1.59333333 L1.59333333,1.59333333 L1.59333333,18.4666667 L22.4066667,18.4666667 L22.4066667,4.69666667 L6.01666667,4.69666667 L6.01666667,3.09 L24,3.09 L24,20.06 L0,20.06 Z M16.1233333,11.16 C16.1233333,10.4236203 16.720287,9.82666667 17.4566667,9.82666667 C18.1930463,9.82666667 18.79,10.4236203 18.79,11.16 C18.79,11.8963797 18.1930463,12.4933333 17.4566667,12.4933333 C16.720287,12.4933333 16.1233333,11.8963797 16.1233333,11.16 L16.1233333,11.16 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

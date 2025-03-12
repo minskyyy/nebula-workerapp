@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/archive-alt-fill</title>
+    <g id="Icon/Fill/archive-alt-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="archive" transform="translate(3.000000, 0.000000)">
+                <path d="M9,18.4186073 L0.600000002,24 C0.181242001,24 0,23.8604095 0,23.4418608 L0,1.67441783 C0,0.761162441 0.887901004,0 2.10000001,0 L15.9000001,0 C17.1121021,0 18,0.761162441 18,1.67441783 L18,23.4418608 C18,23.8604095 17.8187581,24 17.4000001,24 L9,18.4186073 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

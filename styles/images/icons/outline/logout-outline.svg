@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/log-out-outline</title>
+    <g id="Icon/Outline/log-out-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="log-out">
+                <path d="M16.8102001,6.93060003 L17.8707001,5.87010002 L23.9997001,11.9991 L17.8707001,18.1296001 L16.8102001,17.0691001 L21.1287001,12.7491001 L10.8402,12.7491001 L10.8402,11.2491 L21.1287001,11.2491 L16.8102001,6.93060003 Z M13.5,22.5 L13.5,18.7500001 L15,18.7500001 L15,22.5 C15,23.3280001 14.3280001,24 13.5,24 L1.5,24 C0.672000003,24 0,23.3280001 0,22.5 L0,1.5 C0,0.672000003 0.672000003,0 1.5,0 L13.5,0 C14.3280001,0 15,0.672000003 15,1.5 L15,5.25000002 L13.5,5.25000002 L13.5,1.5 L1.5,1.5 L1.5,22.5 L13.5,22.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/survey-checkmark-fill</title>
+    <g id="Icon/Fill/survey-checkmark-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="survey-checkmark" transform="translate(2.250000, 0.000000)">
+                <path d="M15.005771,9.00000004 L3.75000002,9.00000004 L3.75000002,21 L15.75,21 L15.75,12.5040415 L9.77200002,18.5050001 L5.25000002,13.984 L7.37100003,11.863 L9.76800004,14.2580001 L15.005771,9.00000004 Z M16.5,1.50000001 L18,1.50000001 C18.8280001,1.50000001 19.5,2.17200001 19.5,3.00000001 L19.5,22.5 C19.5,23.3280001 18.8280001,24 18,24 L1.5,24 C0.672000003,24 0,23.3280001 0,22.5 L0,3.00000001 C0,2.17200001 0.672000003,1.50000001 1.5,1.50000001 L3,1.50000001 L3,6.00000001 L16.5,6.00000001 L16.5,1.50000001 Z M5.25000002,0 L14.25,0 L14.25,1.5 L14.25,3 L5.25000002,3 L5.25000002,1.5 L5.25000002,0 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

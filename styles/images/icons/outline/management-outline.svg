@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/management-outline</title>
+    <g id="Icon/Outline/management-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, 0.750000)" fill="#474747" fill-rule="nonzero">
+            <g id="management-outline">
+                <path d="M9.00000003,1.5 L9.00000003,3 L7.50000003,3 L7.50000003,1.5 C7.50000003,0.66666667 8.16666671,0 9.00000003,0 L15,0 C15.8333334,0 16.5,0.66666667 16.5,1.5 L16.5,3 L15,3 L15,1.5 L9.00000003,1.5 Z M22.5,4.50000002 C23.3333334,4.50000002 24,5.16666669 24,6.00000002 L24,21 C24,21.8333334 23.3333334,22.5 22.5,22.5 L1.5,22.5 C0.66666667,22.5 0,21.8333334 0,21 L0,4.50000002 L22.5,4.50000002 Z M22.5,6.00000002 L1.50000001,6.00000002 L1.50000001,9.00000002 L22.5,9.00000002 L22.5,6.00000002 Z M1.50000001,21 L22.5,21 L22.5,10.5 L1.50000001,10.5 L1.50000001,21 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

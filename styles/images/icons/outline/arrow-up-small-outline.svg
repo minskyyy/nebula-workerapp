@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/arrow-up-small-outline</title>
+    <g id="Icon/Outline/arrow-up-small-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(5.000000, 4.000000)" fill="#474747" fill-rule="nonzero" stroke="#474747" stroke-width="0.5">
+            <g id="arrow-up">
+                <path d="M12.9497475,7.50000001 L7.43933982,1.98959234 C7.24407767,1.7943302 7.24407767,1.47774771 7.43933982,1.28248556 C7.63460197,1.08722341 7.95118447,1.08722341 8.14644662,1.28248556 L14.863961,8.00000001 L8.14644662,14.7175144 C7.95118447,14.9127766 7.63460197,14.9127766 7.43933982,14.7175144 C7.24407767,14.5222523 7.24407767,14.2056698 7.43933982,14.0104077 L12.9497475,8.50000001 L-0.636038951,8.50000001 C-0.912181392,8.50000001 -1.13603895,8.27614236 -1.13603895,8.00000001 C-1.13603895,7.72385766 -0.912181392,7.50000001 -0.636038951,7.50000001 L12.9497475,7.50000001 Z" id="Combined-Shape-Copy" transform="translate(6.863961, 8.000000) scale(-1, 1) rotate(-90.000000) translate(-6.863961, -8.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

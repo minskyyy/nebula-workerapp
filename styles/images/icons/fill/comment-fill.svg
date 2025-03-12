@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/comment-fill</title>
+    <g id="Icon/Fill/comment-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="comment">
+                <path d="M8.20315863,20.748026 L3,24 L3,17.8484742 C1.14421947,15.9546685 0,13.3609576 0,10.5 C0,4.70101014 4.70101014,0 10.5,0 L13.5,0 C19.29899,0 24,4.70101014 24,10.5 C24,16.2989899 19.29899,21 13.5,21 L10.5,21 C9.71103807,21 8.94239974,20.9129842 8.20315863,20.748026 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

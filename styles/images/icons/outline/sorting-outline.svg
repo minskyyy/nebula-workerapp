@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/sorting-outline</title>
+    <g id="Icon/Outline/sorting-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.763700, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="sorting">
+                <path d="M3.58047831,3.75860261 L4.64102761,4.8181523 L0.463802888,8.9963766 L20.2314018,8.9963766 L20.2314018,10.4957394 L-3.15565886,10.4957394 L3.58047831,3.75860261 Z M-3.75860261,13.494265 L19.6294575,13.494265 L12.8913212,20.2314018 L11.8317715,19.171852 L16.0099958,14.9936278 L-3.75860261,14.9936278 L-3.75860261,13.494265 Z" id="Combined-Shape" transform="translate(8.236400, 11.995002) rotate(90.000000) translate(-8.236400, -11.995002) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

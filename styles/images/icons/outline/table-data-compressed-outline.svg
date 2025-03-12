@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/table-data-compressed-outline</title>
+    <g id="Icon/Outline/table-data-compressed-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 2.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="Outline">
+                <path d="M22.5,0 L1.5,0 C0.672333382,0.00183315539 0.00183315539,0.672333382 0,1.5 L0,19.5 C0.00183315539,20.3276666 0.672333382,20.9981668 1.5,21 L22.5,21 C23.3276666,20.9981668 23.9981668,20.3276666 24,19.5 L24,1.5 C23.9981668,0.672333382 23.3276666,0.00183315539 22.5,0 Z M11.25,19.5 L1.5,19.5 L1.5,14.9733333 L11.25,14.9733333 L11.25,19.5 Z M11.25,13.4733333 L1.5,13.4733333 L1.5,7.63333333 L11.25,7.63333333 L11.25,13.4733333 Z M11.25,6.14 L1.5,6.14 L1.5,1.5 L11.25,1.5 L11.25,6.14 Z M22.5,19.5 L12.75,19.5 L12.75,14.9733333 L22.5,14.9733333 L22.5,19.5 Z M22.5,13.4733333 L12.75,13.4733333 L12.75,7.63333333 L22.5,7.63333333 L22.5,13.4733333 Z M22.5,6.14 L12.75,6.14 L12.75,1.5 L22.5,1.5 L22.5,6.14 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

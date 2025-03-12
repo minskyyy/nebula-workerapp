@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/pencil-outline</title>
+    <g id="Icon/Outline/pencil-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="Pencil-outline">
+                <path d="M21.9675333,0.43933319 L23.5606669,2.03246683 C24.1464445,2.61824441 24.1464445,3.56797753 23.5606669,4.15375511 L5.40279282,22.3116292 L0,24 L1.68837089,18.5972073 L19.8462449,0.43933319 C20.4320225,-0.146444397 21.3817557,-0.146444397 21.9675333,0.43933319 Z M20.9090565,4.68407718 L22.5000228,3.09311097 L20.9068891,1.49997733 L19.3159229,3.09094355 L20.9090565,4.68407718 Z M19.8484124,5.74472133 L18.2552788,4.1515877 L3.00998566,19.3968808 L2.28583517,21.7141649 L4.6031193,20.9900144 L19.8484124,5.74472133 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

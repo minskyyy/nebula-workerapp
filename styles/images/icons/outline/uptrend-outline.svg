@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/uptrend-outline</title>
+    <g id="Icon/Outline/uptrend-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="uptrend" transform="translate(0.000000, 3.000000)">
+                <path d="M12,0 L24,18 L0,18 L12,0 Z M12.0000001,2.70416347 L2.80277565,16.5000001 L21.1972244,16.5000001 L12.0000001,2.70416347 Z" id="icons/outline/Uptrend_32"></path>
+            </g>
+        </g>
+    </g>
+</svg>

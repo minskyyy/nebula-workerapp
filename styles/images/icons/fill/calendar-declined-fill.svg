@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/calendar-declined-fill</title>
+    <g id="Icon/Fill/calendar-declined-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="calendar-declined" transform="translate(1.500000, 0.000000)">
+                <path d="M21,9.00000004 L21,22.5 C21,23.2903637 20.3877026,23.9385869 19.6118938,23.9958833 L19.5,24 L1.5,24 C0.709636368,24 0.0614132253,23.3877026 0.00411683252,22.6118938 L0,22.5 L0,9.00000004 L21,9.00000004 Z M14.0083161,12.0000001 L10.5,15.5083161 L6.991684,12.0000001 L6.00000003,12.991684 L9.50831606,16.5000001 L6.00000003,20.0083161 L6.991684,21.0000001 L10.5,17.491684 L14.0083161,21.0000001 L15,20.0083161 L11.491684,16.5000001 L15,12.991684 L14.0083161,12.0000001 Z M6,0 L6,3 L15,3 L15,0 L18,0 L18,3 L21,3 L21,6 L0,6 L0,3 L3,3 L3,0 L6,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/management-fill</title>
+    <g id="Icon/Fill/management-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, 0.750000)" fill="#474747" fill-rule="nonzero">
+            <g id="Management_Fill_RGB_Dark-Grey">
+                <path d="M0,10.5 L0,21.0020805 C0,21.8342581 0.66666667,22.5 1.5,22.5 L22.5,22.5 C23.3333334,22.5 24,21.8342581 24,21.0020805 L24,10.5 L0,10.5 Z" id="Path"></path>
+                <path d="M22.5055866,4.5195739 L17.2500001,4.5 L17.2500001,1.5 C17.2500001,0.671572878 16.5784272,0 15.7500001,0 L8.25000003,0 C7.42157291,0 6.75000003,0.671572878 6.75000003,1.5 L6.75000003,4.52513968 L0,4.52513968 L0,9 L24,9 L24,6.0195635 C24,5.19331722 23.3318272,4.52265114 22.5055866,4.5195739 Z M15,4.50000002 L9.00000004,4.50000002 L9.00000004,2.25000001 L15,2.25000001 L15,4.50000002 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

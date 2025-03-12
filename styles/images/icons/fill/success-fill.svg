@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/success-fill</title>
+    <g id="Icon/Fill/success-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon" fill="#474747" fill-rule="nonzero">
+            <g id="circle-checkmark-outline">
+                <path d="M12,0 C18.6171429,0 24,5.38285714 24,12 C24,18.6171429 18.6171429,24 12,24 C5.38285714,24 0,18.6171429 0,12 C0,5.38285714 5.38285714,0 12,0 Z M17.1406857,7.35291429 L10.2972572,14.2214857 L7.55668569,11.4820571 L6.34525714,12.6934857 L10.2984,16.6477714 L18.3544,8.5632 L17.1406857,7.35291429 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

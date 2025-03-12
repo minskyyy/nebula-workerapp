@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/video-outline</title>
+    <g id="Icon/Outline/video-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="Outline">
+                <path d="M13.5133333,0 L20.04,7.29666667 L20.04,24 L0,24 L0,0 L13.5133333,0 Z M12.2666667,1.44333333 L1.44,1.44333333 L1.44,22.5566667 L18.6,22.5566667 L18.6,8.17 L12.2666667,8.17 L12.2666667,1.44333333 Z M16.74,10.4933333 L16.92,10.6733333 L16.83,10.7666667 L16.83,19.6466667 L16.92,19.7366667 L16.74,19.9166667 L12.3366667,15.5133333 L12.3366667,19.1966667 L3.34,19.1966667 L3.34,11.2133333 L12.3366667,11.2133333 L12.3366667,14.8966667 L16.74,10.4933333 Z M13.71,2.03333333 L13.71,6.72666667 L17.8766667,6.72666667 L13.71,2.03333333 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

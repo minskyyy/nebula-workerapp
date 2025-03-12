@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <base href="/appkit4/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    #onetrust-pc-sdk .ot-pc-footer-logo a {
+      display: none !important;
+    }
+
+    #ot-sdk-btn-floating.ot-floating-button {
+      margin-left: calc(100vw - 75px);
+      transition: none;
+      display: none !important;
+    }
+  </style>
+  <script id="pendo-script" src="https://cdn.pendo.io/agent/static/3c269e85-5112-4a9a-540c-424eb4d3e985/pendo.js" type="text/plain" class="optanon-category-2" defer="" charset="utf-8"></script>
+  <script>
+    function getSiteHeader() {
+      const env = window.location.href.indexOf('appkit') < 0 ? 'local' :
+              (window.location.href.indexOf('appkitdev') > -1 ? 'DEV' :
+                      (window.location.href.indexOf('appkitqa') > -1 ? 'QA' :
+                              (window.location.href.indexOf('appkitstage') > -1 ? 'STAGE': 'PROD')));
+      if (env === 'STAGE') {
+        document.title = 'Appkit 4 [Stage]'
+      } else if (env === 'QA') {
+        document.title = 'Appkit 4 [QA]'
+      } else if (env === 'DEV') {
+        document.title = 'Appkit 4 [Dev]'
+      } else {
+        document.title = 'Appkit 4'
+      }
+    }
+    getSiteHeader();
+    function addScript(url) {
+      var script = document.createElement('script');
+      script.type = 'application/javascript';
+      script.src = url;
+      document.head.appendChild(script);
+    }
+    addScript('https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js');
+  </script>
+<link rel="stylesheet" href="styles.59bdd12fc23fe5d8.css" crossorigin="anonymous" integrity="sha384-R1wMbuLXO6LNYjoyRUBqNcqlknZ8CMEf9lQ5xJtidrZgktBfBs0BNi2v/Jz6JatT"></head>
+
+<body>
+  <app-root></app-root>
+
+  <!-- Start Google Tag Manager (noscript) -->
+  <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTXVFN2" height="0" width="0"
+    style="display:none;visibility:hidden"></iframe></noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+<script src="runtime.76f7a6fa48f06406.js" type="module" crossorigin="anonymous" integrity="sha384-JOAlzuYUVmHcTMLuxnMx29WElFOH1JBGdJE7H/cdwnXJAoSvXLm/2pFZF1OWaOHm"></script><script src="polyfills.f0023a3793c72345.js" type="module" crossorigin="anonymous" integrity="sha384-jcpM99bV+074uQEzPpxMM3M7s2HRpo0qHgbYabyPekoXBjEzOq7Fs2GWBhegMHBd"></script><script src="scripts.78902302cdb3789b.js" defer crossorigin="anonymous" integrity="sha384-om0c26t8lF34ny3Rx3kr7v5N4Yg/oP4vUyFE/KprL8/Kgni1XZ3+Xjq+jBK48d7o"></script><script src="main.cd568d56dd181cd2.js" type="module" crossorigin="anonymous" integrity="sha384-M4nJv57+ilhN6jOeJlqp2fCWEgijEasy3WurcCeJtQg/dkkZqUhOVm878y0PkrXL"></script></body>
+
+</html>

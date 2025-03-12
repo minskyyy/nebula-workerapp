@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/left-chevron-fill</title>
+    <g id="Icon/Fill/left-chevron-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(4.500000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="left-chevron">
+                <path d="M11.3407638,0.659236269 L0,12 L11.3407638,23.3407638 C12.2187455,24.2197455 13.6437158,24.2197455 14.5226975,23.3407638 C15.4006792,22.4617821 15.4006792,21.0378118 14.5226975,20.1588301 L6.3628675,12 L14.5226975,3.84116999 C14.9616883,3.40117915 15.1816838,2.82619113 15.1816838,2.25020313 C15.1816838,1.67421513 14.9616883,1.09822713 14.5226975,0.659236269 C13.6437158,-0.219745423 12.2187455,-0.219745423 11.3407638,0.659236269" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

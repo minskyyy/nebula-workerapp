@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/vertical-more-fill</title>
+    <g id="Icon/Fill/vertical-more-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="vertical-more" transform="translate(9.000000, 0.000000)">
+                <path d="M3,6 C1.34300003,6 0,4.65700002 0,3 C0,1.34300001 1.34300003,0 3,0 C4.65699999,0 6,1.34300001 6,3 C6,4.65700002 4.65699999,6 3,6 Z M3,9.00000004 C4.65699999,9.00000004 6,10.3430001 6,12 C6,13.657 4.65699999,15 3,15 C1.34300003,15 0,13.657 0,12 C0,10.3430001 1.34300003,9.00000004 3,9.00000004 Z M3,18.0000001 C4.65699999,18.0000001 6,19.3430001 6,21.0000001 C6,22.6570001 4.65699999,24.0000001 3,24.0000001 C1.34300003,24.0000001 0,22.6570001 0,21.0000001 C0,19.3430001 1.34300003,18.0000001 3,18.0000001 Z" id="Vertical-More"></path>
+            </g>
+        </g>
+    </g>
+</svg>

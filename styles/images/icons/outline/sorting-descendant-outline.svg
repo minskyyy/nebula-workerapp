@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/sorting-descendant-outline</title>
+    <g id="Icon/Outline/sorting-descendant-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="sorting-descendant" transform="translate(3.750000, 0.000000)">
+                <path d="M0.744827591,15.6413794 L5.2137931,19.3655174 L5.2137931,0 L6.70344828,0 L6.70344828,23.0896553 L0,16.386207 L0.744827591,15.6413794 Z M11.3379311,4.82317243 L15.6413794,8.41820696 L16.6080001,7.44827589 L9.51724144,0.344275864 L9.51724144,24.0000001 L11.3379311,24.0000001 L11.3379311,4.82317243 Z M9.84827592,1.14537931 L16.1379311,7.43503451 L15.618207,7.95475863 L10.9837242,4.10151726 L10.9837242,23.6689656 L9.82510347,23.6689656 L9.84827592,1.14537931 Z" id="Group"></path>
+            </g>
+        </g>
+    </g>
+</svg>

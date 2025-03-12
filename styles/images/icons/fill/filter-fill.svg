@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/filter-fill</title>
+    <g id="Icon/Fill/filter-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000675, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="filter">
+                <path d="M0,6.00161243 L23.9986502,6.00161243 L16.499072,10.5013593 L15.9156048,15.7510641 L8.08304536,15.7510641 L7.49957818,10.5013593 L0,6.00161243 Z M8.41677659,18.7502954 L15.5818736,18.7502954 L14.9984064,24.0000001 L9.00024377,24.0000001 L8.41677659,18.7502954 Z M0,6.00116246 L0,0 L23.9986502,0 L23.9986502,6.00116246 L0,6.00116246 Z" id="Filter"></path>
+            </g>
+        </g>
+    </g>
+</svg>

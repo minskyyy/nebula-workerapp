@@ -1,0 +1,412 @@
+@import './variables';
+@import './mixin';
+
+$light-mode-tokens: (
+  (color-background-default, $neutral-02), // #F3F3F3
+  (color-background-default-inverse, $neutral-21), // #191919
+  (color-background-alt, $neutral-01), // #FFFFFF
+  (color-background-alt-inverse, $neutral-22), // #111111
+  (color-background-container, $neutral-01), // #FFFFFF
+  (color-background-container-alt, $neutral-02), // #F3F3F3
+  (color-background-container-inverse, $neutral-23), // #000000
+  (color-background-secondary, $neutral-01), // #FFFFFF
+  (color-background-tertiary, $neutral-17), // #474747
+  (color-background-hover, $neutral-02), // #F3F3F3
+  (color-background-selected, $neutral-02), // #F3F3F3
+  (color-background-hover-selected, $neutral-03), // #E8E8E8
+  (color-background-triple-hover, $neutral-04), // #DDDDDD
+  (color-background-border, $neutral-05), // #D1D1D1
+  (color-background-danger, $states-error-05), // #C52A1A
+  (color-background-success, $states-success-06), // #21812D
+  (color-background-warning, $states-warning-05), // #FFBF1F
+  (color-background-danger-inverse, $states-error-05), // #C52A1A
+  (color-background-success-inverse, $states-success-06), // #21812D
+  (color-background-warning-inverse, $states-warning-05), // #FFBF1F
+  (color-background-icon-secondary, $neutral-01), // #FFFFFF
+  (color-background-icon-alt, $neutral-01), // #FFFFFF
+  (color-background-mask, $neutral-20), // #252525
+  (color-text-secondary, $neutral-01), // #FFFFFF
+  (color-text-heading, $neutral-20), // #252525
+  (color-text-body, $neutral-17), // #474747
+  (color-text-light, $neutral-14), // #696969
+  (color-text-disabled, $neutral-04), // #DDDDDD
+  (color-text-error, $states-error-05), // #C52A1A
+  (color-text-success, $states-success-06), // #21812D
+  (color-text-warning, $states-warning-05), // #FFBF1F
+  (elevation-container-high-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-high-selected, $neutral-02), // #F3F3F3
+  (elevation-container-high-hover, $neutral-02), // #F3F3F3
+  (elevation-container-high-default, $neutral-01), // #FFFFFF
+  (elevation-container-medium-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-medium-selected, $neutral-02), // #F3F3F3
+  (elevation-container-medium-hover, $neutral-02), // #F3F3F3
+  (elevation-container-medium-default, $neutral-01), // #FFFFFF
+  (elevation-container-low-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-low-selected, $neutral-02), // #F3F3F3
+  (elevation-container-low-hover, $neutral-02), // #F3F3F3
+  (elevation-container-low-default, $neutral-01), // #FFFFFF
+  (elevation-container-flat-hover-selected, $neutral-03), // #E8E8E8
+  (elevation-container-flat-selected, $neutral-02), // #F3F3F3
+  (elevation-container-flat-hover, $neutral-02), // #F3F3F3
+  (elevation-container-flat-default, $neutral-01), // #FFFFFF
+);
+
+$dark-mode-tokens: (
+  (color-background-default, $neutral-21), // #191919
+  (color-background-default-inverse, $neutral-01), // #FFFFFF
+  (color-background-alt, $neutral-23), // #000000
+  (color-background-alt-inverse, $neutral-01), // #FFFFFF
+  (color-background-container, $neutral-20), // #252525
+  (color-background-container-alt, $neutral-18), // #3B3B3B
+  (color-background-container-inverse, $neutral-01), // #FFFFFF
+  (color-background-secondary, $neutral-01), // #FFFFFF
+  (color-background-tertiary, $neutral-01), // #FFFFFF
+  (color-background-hover, $neutral-19), // #303030
+  (color-background-selected, $neutral-19), // #303030
+  (color-background-hover-selected, $neutral-18), // #3B3B3B
+  (color-background-triple-hover, $neutral-17), // #474747
+  (color-background-border, $neutral-14), // #696969
+  (color-background-danger, $states-error-05), // #C52A1A
+  (color-background-success, $states-success-06), // #21812D
+  (color-background-warning, $states-warning-05), // #FFBF1F
+  (color-background-danger-inverse, $states-error-05), // #C52A1A
+  (color-background-success-inverse, $states-success-06), // #21812D
+  (color-background-warning-inverse, $states-warning-05), // #FFBF1F
+  (color-background-icon-secondary, $neutral-01), // #FFFFFF
+  (color-background-icon-alt, $neutral-01), // #FFFFFF
+  (color-background-mask, $neutral-20), // #252525
+  (color-text-secondary, $neutral-01), // #FFFFFF
+  (color-text-heading, $neutral-01), // #FFFFFF
+  (color-text-body, $neutral-05), // #D1D1D1
+  (color-text-light, $neutral-10), // #979797
+  (color-text-disabled, $neutral-14), // #696969
+  (color-text-error, $states-error-03), // #DC7F76
+  (color-text-success, $states-success-06), // #21812D
+  (color-text-warning, $states-warning-05), // #FFBF1F
+  (elevation-container-high-hover-selected, $neutral-16), // #535353
+  (elevation-container-high-selected, $neutral-17), // #474747
+  (elevation-container-high-hover, $neutral-17), // #474747
+  (elevation-container-high-default, $neutral-18), // #3B3B3B
+  (elevation-container-medium-hover-selected, $neutral-17), // #474747
+  (elevation-container-medium-selected, $neutral-18), // #3B3B3B
+  (elevation-container-medium-hover, $neutral-18), // #3B3B3B
+  (elevation-container-medium-default, $neutral-19), // #303030
+  (elevation-container-low-hover-selected, $neutral-18), // #3B3B3B
+  (elevation-container-low-selected, $neutral-19), // #303030
+  (elevation-container-low-hover, $neutral-19), // #303030
+  (elevation-container-low-default, $neutral-20), // #252525
+  (elevation-container-flat-hover-selected, $neutral-18), // #3B3B3B
+  (elevation-container-flat-selected, $neutral-19), // #303030
+  (elevation-container-flat-hover, $neutral-19), // #303030
+  (elevation-container-flat-default, $neutral-20), // #252525
+);
+
+@include setMode('light', $light-mode-tokens);
+@include setMode('dark', $dark-mode-tokens);
+
+$themes: (
+  ( 
+    'orange', 
+    (
+      (color-background-primary, $primary-orange-05),
+      (color-background-primary-light, $primary-orange-04),
+      (color-background-primary-code, $primary-orange-05),
+      (color-background-icon-primary, $primary-orange-05),
+      (color-text-primary, $primary-orange-05),
+      (color-text-link-primary, $primary-orange-05),
+      (color-text-link-secondary, $primary-orange-05), 
+      (color-text-link-primary-inverse, $primary-orange-05), 
+      (color-text-link-secondary-inverse, $primary-orange-05),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  ( 
+    'blue', 
+    (
+      (color-background-primary, $primary-blue-04),
+      (color-background-primary-light, $primary-blue-03),
+      (color-background-primary-code, $primary-blue-04),
+      (color-background-icon-primary, $primary-blue-04),
+      (color-text-primary, $primary-blue-04),
+      (color-text-link-primary, $primary-blue-04),
+      (color-text-link-secondary, $primary-blue-04), 
+      (color-text-link-primary-inverse, $primary-blue-04), 
+      (color-text-link-secondary-inverse, $primary-blue-04),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  ( 
+    'teal', 
+    (
+      (color-background-primary, $primary-teal-07),
+      (color-background-primary-light, $primary-teal-06),
+      (color-background-primary-code, $primary-teal-07),
+      (color-background-icon-primary, $primary-teal-07),
+      (color-text-primary, $primary-teal-07),
+      (color-text-link-primary, $primary-teal-07),
+      (color-text-link-secondary, $primary-teal-07), 
+      (color-text-link-primary-inverse, $primary-teal-07), 
+      (color-text-link-secondary-inverse, $primary-teal-07),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  ( 
+    'pink', 
+    (
+      (color-background-primary, $primary-pink-05),
+      (color-background-primary-light, $primary-pink-04),
+      (color-background-primary-code, $primary-pink-05),
+      (color-background-icon-primary, $primary-pink-05),
+      (color-text-primary, $primary-pink-05),
+      (color-text-link-primary, $primary-pink-05),
+      (color-text-link-secondary, $primary-pink-05), 
+      (color-text-link-primary-inverse, $primary-pink-05), 
+      (color-text-link-secondary-inverse, $primary-pink-05),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  ( 
+    'red', 
+    (
+      (color-background-primary, $primary-red-05),
+      (color-background-primary-light, $primary-red-04),
+      (color-background-primary-code, $primary-red-05),
+      (color-background-icon-primary, $primary-red-05),
+      (color-text-primary, $primary-red-05),
+      (color-text-link-primary, $primary-red-05),
+      (color-text-link-secondary, $primary-red-05), 
+      (color-text-link-primary-inverse, $primary-red-05), 
+      (color-text-link-secondary-inverse, $primary-red-05),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  ( 
+    'black', 
+    (
+      (color-background-primary, $data-gray-dark),
+      (color-background-primary-light, $neutral-17),
+      (color-background-primary-code, $neutral-01),
+      (color-background-icon-primary, $data-gray-dark),
+      (color-text-primary, $data-gray-dark),
+      (color-text-link-primary, $data-gray-dark),
+      (color-text-link-secondary, $data-gray-dark), 
+      (color-text-link-primary-inverse, $data-gray-dark), 
+      (color-text-link-secondary-inverse, $data-gray-dark),
+      (color-text-tertiary, $neutral-01),
+    )
+  )
+);
+
+$modeThemes: (
+  // ( 
+  //   'light',
+  //   'orange', 
+  //   (
+  //     (color-background-primary, $primary-orange-05),
+  //     (color-background-primary-code, $primary-orange-05),
+  //     (color-background-icon-primary, $primary-orange-05),
+  //     (color-text-primary, $primary-orange-05),
+  //     (color-text-link-primary, $primary-orange-05),
+  //     (color-text-link-secondary, $primary-orange-05), 
+  //     (color-text-link-primary-inverse, $primary-orange-05), 
+  //     (color-text-link-secondary-inverse, $primary-orange-05),
+  //   )
+  // ),
+  ( 
+    'dark',
+    'orange', 
+    (
+      (color-background-primary, $primary-orange-05),
+      (color-background-primary-light, $primary-orange-04),
+      (color-background-primary-code, #FB734D),
+      (color-background-icon-primary, #FB734D),
+      (color-text-primary, #FB734D),
+      (color-text-link-primary, #FB734D),
+      (color-text-link-secondary, #FB734D), 
+      (color-text-link-primary-inverse, #FB734D), 
+      (color-text-link-secondary-inverse, #FB734D),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  // ( 
+  //   'light',
+  //   'blue', 
+  //   (
+  //     (color-background-primary, $primary-blue-04),
+  //     (color-background-primary-code, $primary-blue-04),
+  //     (color-background-icon-primary, $primary-blue-04),
+  //     (color-text-primary, $primary-blue-04),
+  //     (color-text-link-primary, $primary-blue-04),
+  //     (color-text-link-secondary, $primary-blue-04), 
+  //     (color-text-link-primary-inverse, $primary-blue-04), 
+  //     (color-text-link-secondary-inverse, $primary-blue-04),
+  //   )
+  // ),
+  ( 
+    'dark',
+    'blue', 
+    (
+      (color-background-primary, $primary-blue-04),
+      (color-background-primary-light, $primary-blue-03),
+      (color-background-primary-code, $primary-blue-02),
+      (color-background-icon-primary, $primary-blue-02),
+      (color-text-primary, $primary-blue-02),
+      (color-text-link-primary, $primary-blue-02),
+      (color-text-link-secondary, $primary-blue-02), 
+      (color-text-link-primary-inverse, $primary-blue-02), 
+      (color-text-link-secondary-inverse, $primary-blue-02),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  // ( 
+  //   'light',
+  //   'teal', 
+  //   (
+  //     (color-background-primary, $primary-teal-07),
+  //     (color-background-primary-code, $primary-teal-07),
+  //     (color-background-icon-primary, $primary-teal-07),
+  //     (color-text-primary, $primary-teal-07),
+  //     (color-text-link-primary, $primary-teal-07),
+  //     (color-text-link-secondary, $primary-teal-07), 
+  //     (color-text-link-primary-inverse, $primary-teal-07), 
+  //     (color-text-link-secondary-inverse, $primary-teal-07),
+  //   )
+  // ),
+  ( 
+    'dark',
+    'teal', 
+    (
+      (color-background-primary, $primary-teal-07),
+      (color-background-primary-light, $primary-teal-06),
+      (color-background-primary-code, #50AD95),
+      (color-background-icon-primary, #50AD95),
+      (color-text-primary, #50AD95),
+      (color-text-link-primary, #50AD95),
+      (color-text-link-secondary, #50AD95), 
+      (color-text-link-primary-inverse, #50AD95), 
+      (color-text-link-secondary-inverse, #50AD95),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  // ( 
+  //   'light',
+  //   'pink', 
+  //   (
+  //     (color-background-primary, $primary-pink-05),
+  //     (color-background-primary-code, $primary-pink-05),
+  //     (color-background-icon-primary, $primary-pink-05),
+  //     (color-text-primary, $primary-pink-05),
+  //     (color-text-link-primary, $primary-pink-05),
+  //     (color-text-link-secondary, $primary-pink-05), 
+  //     (color-text-link-primary-inverse, $primary-pink-05), 
+  //     (color-text-link-secondary-inverse, $primary-pink-05),
+  //   )
+  // ),
+  ( 
+    'dark',
+    'pink', 
+    (
+      (color-background-primary, $primary-pink-05),
+      (color-background-primary-light, $primary-pink-04),
+      (color-background-primary-code, $primary-pink-04),
+      (color-background-icon-primary, $primary-pink-04),
+      (color-text-primary, $primary-pink-04),
+      (color-text-link-primary, $primary-pink-04),
+      (color-text-link-secondary, $primary-pink-04), 
+      (color-text-link-primary-inverse, $primary-pink-04), 
+      (color-text-link-secondary-inverse, $primary-pink-04),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  // ( 
+  //   'light',
+  //   'red', 
+  //   (
+  //     (color-background-primary, $primary-red-05),
+  //     (color-background-primary-code, $primary-red-05),
+  //     (color-background-icon-primary, $primary-red-05),
+  //     (color-text-primary, $primary-red-05),
+  //     (color-text-link-primary, $primary-red-05),
+  //     (color-text-link-secondary, $primary-red-05), 
+  //     (color-text-link-primary-inverse, $primary-red-05), 
+  //     (color-text-link-secondary-inverse, $primary-red-05),
+  //   )
+  // ),
+  ( 
+    'dark',
+    'red', 
+    (
+      (color-background-primary, $primary-red-05),
+      (color-background-primary-light, $primary-red-04),
+      (color-background-primary-code, #E96E61),
+      (color-background-icon-primary, #E96E61),
+      (color-text-primary, #E96E61),
+      (color-text-link-primary, #E96E61),
+      (color-text-link-secondary, #E96E61), 
+      (color-text-link-primary-inverse, #E96E61), 
+      (color-text-link-secondary-inverse, #E96E61),
+      (color-text-tertiary, $neutral-01),
+    )
+  ),
+  // ( 
+  //   'light',
+  //   'black', 
+  //   (
+  //     (color-background-primary, $data-gray-dark),
+  //     (color-background-primary-code, $neutral-01),
+  //     (color-background-icon-primary, $data-gray-dark),
+  //     (color-text-primary, $data-gray-dark),
+  //     (color-text-link-primary, $data-gray-dark),
+  //     (color-text-link-secondary, $data-gray-dark), 
+  //     (color-text-link-primary-inverse, $data-gray-dark), 
+  //     (color-text-link-secondary-inverse, $data-gray-dark),
+  //   )
+  // ),
+  ( 
+    'dark',
+    'black', 
+    (
+      (color-background-primary, #EBEBEB),
+      (color-background-primary-light, $neutral-01),
+      (color-background-primary-code, #EBEBEB),
+      (color-background-icon-primary, #EBEBEB),
+      (color-text-primary, #EBEBEB),
+      (color-text-link-primary, #EBEBEB),
+      (color-text-link-secondary, #EBEBEB), 
+      (color-text-link-primary-inverse, #EBEBEB), 
+      (color-text-link-secondary-inverse, #EBEBEB),
+      (color-text-tertiary, $neutral-20),
+    )
+  ),
+);
+
+@each $name, $tokens in $themes {
+    @include setTheme($name, $tokens);
+}
+
+@each $mode, $theme, $tokens in $modeThemes {
+  @include setModeTheme($mode, $theme, $tokens);
+}
+
+$light-box-shadow: (
+  (box-shadow-1, $level-1),
+  (box-shadow-2, $level-2),
+  (box-shadow-3, $level-3),
+  (elevation-shadow-high, (0 rem-convert(8px) rem-convert(16px) rem-convert(-2px) rgba(71, 71, 71, 0.24))),
+  (elevation-shadow-medium, (0 rem-convert(4px) rem-convert(8px) rem-convert(-2px) rgba(71, 71, 71, 0.24))),
+  (elevation-shadow-low, (0 rem-convert(2px) rem-convert(4px) rem-convert(-2px) rgba(71, 71, 71, 0.24))),
+  (elevation-shadow-flat, 0)
+);
+
+$dark-box-shadow: (
+  (box-shadow-1, none),
+  (box-shadow-2, none),
+  (box-shadow-3, none),
+  (elevation-shadow-high, (0 rem-convert(8px) rem-convert(16px) rem-convert(-2px) rgba(0, 0, 0, 0.48))),
+  (elevation-shadow-medium, (0 rem-convert(4px) rem-convert(8px) rem-convert(-2px) rgba(0, 0, 0, 0.48))),
+  (elevation-shadow-low, (0 rem-convert(2px) rem-convert(4px) rem-convert(-2px) rgba(0, 0, 0, 0.48))),
+  (elevation-shadow-flat, 0)
+);
+
+@include setModeToken('light', $light-box-shadow);
+@include setModeToken('dark', $dark-box-shadow);

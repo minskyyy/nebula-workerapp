@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/download-light-outline</title>
+    <g id="Icon/Outline/download-light-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="upload-light" transform="translate(5.250000, 0.000000)">
+                <path d="M6.73502628,16.9444676 L0.969311472,11.1787528 C0.676579803,10.8860212 0.676579803,10.4114562 0.969311472,10.1187246 C1.26104405,9.82599289 1.73560903,9.82599289 2.0283407,10.1187246 L5.98571312,14.076097 L5.98571312,0 L7.48433936,0 L7.48433936,14.076097 L11.4417118,10.1187246 C11.7344435,9.82599289 12.2090085,9.82599289 12.500741,10.1187246 C12.7934727,10.4114562 12.7934727,10.8860212 12.500741,11.1787528 L6.73502628,16.9444676 Z M0,24.0000001 L0,22.5000001 L13.5,22.5000001 L13.5,24.0000001 L0,24.0000001 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

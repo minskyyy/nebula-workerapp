@@ -1,0 +1,126 @@
+@mixin setColorToken ($tokens) {
+  @each $name, $value in $tokens {
+    #{'--' + $name}: $value !important;
+    #{'--' + $name + '-rgb'}: hexToRGB($value) !important;
+  }
+}
+
+@function hexToRGB($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
+@mixin setToken($tokens) {
+  @each $name, $value in $tokens {
+    #{'--' + $name}: $value !important;
+  }
+}
+
+@mixin setModeToken($name, $tokens) {
+
+  [data-mode='#{$name}'],
+  [data-mode='#{$name}'] ::before,
+  [data-mode='#{$name}'] ::after {
+    @include setToken($tokens);
+  }
+}
+
+@mixin setMode($name, $tokens) {
+
+  [data-mode='#{$name}'],
+  [data-mode='#{$name}'] ::before,
+  [data-mode='#{$name}'] ::after {
+    @include setColorToken($tokens);
+  }
+}
+
+@mixin setTheme($name, $tokens) {
+
+  [data-theme='#{$name}'],
+  [data-theme='#{$name}'] ::before,
+  [data-theme='#{$name}'] ::after {
+    @include setColorToken($tokens);
+  }
+}
+
+@mixin setModeTheme($mode, $theme, $tokens) {
+
+  [data-mode='#{$mode}'][data-theme='#{$theme}'],
+  [data-theme='#{$theme}'] [data-mode='#{$mode}'] {
+    @include setColorToken($tokens);
+  }
+}
+
+@mixin setMultipleColors($value) {
+  background-color: $value;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: inherit;
+}
+
+@mixin setElevation($level) {
+  @if $level == 'flat' {
+    box-shadow: $elevation-shadow-flat;
+    background-color: $elevation-container-flat-default;
+
+    &:hover {
+      background-color: $elevation-container-flat-hover;
+    }
+
+    &:active {
+      background-color: $elevation-container-flat-selected;
+    }
+
+    &:hover:active {
+      background-color: $elevation-container-flat-hover-selected;
+    }
+  } @else if $level == 'low' {
+    box-shadow: $elevation-shadow-low;
+    background-color: $elevation-container-low-default;
+
+    &:hover {
+      background-color: $elevation-container-low-hover;
+    }
+
+    &:active {
+      background-color: $elevation-container-low-selected;
+    }
+
+    &:hover:active {
+      background-color: $elevation-container-low-hover-selected;
+    }
+  } @else if $level == 'medium' {
+    box-shadow: $elevation-shadow-medium;
+    background-color: $elevation-container-medium-default;
+
+    &:hover {
+      background-color: $elevation-container-medium-hover;
+    }
+
+    &:active {
+      background-color: $elevation-container-medium-selected;
+    }
+
+    &:hover:active {
+      background-color: $elevation-container-medium-hover-selected;
+    }
+  } @else {
+    box-shadow: $elevation-shadow-high;
+    background-color: $elevation-container-high-default;
+
+    &:hover {
+      background-color: $elevation-container-high-hover;
+    }
+
+    &:active {
+      background-color: $elevation-container-high-selected;
+    }
+
+    &:hover:active {
+      background-color: $elevation-container-high-hover-selected;
+    }
+  }
+}

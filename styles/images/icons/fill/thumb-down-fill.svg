@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/thumb-down-fill</title>
+    <g id="Icon/Fill/thumb-down-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.98999995">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="thumb-down">
+                <path d="M0,9.00000004 L3,9.00000004 L3,24 L0,24 L0,9.00000004 Z M15,9 L22.5,9 C23.3284272,9 24,9.67157292 24,10.5 L24,22.5 C24,23.3284272 23.3284272,24 22.5,24 L6.00000003,24 L6.00000003,9 L10.5,4.5 L10.5,2.25000001 C10.5,1.00735932 11.5073594,0 12.7500001,0 C13.9926407,0 15,1.00735932 15,2.25000001 L15,9 Z" id="icons/fill/thumb-down" transform="translate(12.000000, 12.000000) scale(-1, 1) rotate(-180.000000) translate(-12.000000, -12.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

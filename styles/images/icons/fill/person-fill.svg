@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/person-fill</title>
+    <g id="Icon/Fill/person-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="person" transform="translate(0.000000, 1.500000)">
+                <path d="M11.9998869,9.00092328 C9.51445398,9.00092328 7.49988692,6.98635623 7.49988692,4.50092328 C7.49988692,2.01456709 9.51445398,0 11.9998869,0 C14.4853198,0 16.4998869,2.01456709 16.4998869,4.50092328 C16.4998869,6.98635623 14.4853198,9.00092328 11.9998869,9.00092328 Z M12.000282,12 C17.1072262,12 21.515178,14.1059002 23.5661556,17.1501514 C24.627144,18.7239032 23.619155,21 21.8731741,21 L2.12638988,21 C0.380408953,21 -0.626580043,18.7239032 0.433408374,17.1501514 C2.48438596,14.1059002 6.89333778,12 12.000282,12 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

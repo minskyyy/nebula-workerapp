@@ -1,0 +1,10 @@
+{
+    "name": "@appkit4/styles",
+    "version": "4.10.1",
+    "dependencies": {
+        "sass-rem": "^4.0.0"
+    },
+    "devDependencies": {
+    },
+    "sideEffects": false
+}

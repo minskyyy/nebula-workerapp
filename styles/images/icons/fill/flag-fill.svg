@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/flag-fill</title>
+    <g id="Icon/Fill/flag-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 0.000000)" fill="#474747" fill-rule="nonzero">
+            <path d="M21.8454911,11.2195774 L14.5247502,0 L0.623680434,21.3652238 L0.190105801,22.0322617 C0.065944324,22.2326047 0,22.463602 0,22.6992996 C0,23.26971 0.371740522,23.7735343 0.916727842,23.9419292 C1.46171516,24.1103242 2.05283176,23.9039956 2.37465491,23.4330413 L9.04503388,13.2240263 L20.7548842,13.2240263 C21.2338869,13.2412706 21.6801909,12.9817915 21.9021893,12.5569884 C22.1309948,12.1347538 22.1092118,11.6209319 21.8454911,11.2195774 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

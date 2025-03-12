@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/cloud-fill</title>
+    <g id="Icon/Fill/cloud-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="cloud" transform="translate(0.000000, 3.750000)">
+                <path d="M5.25000002,16.5 C2.35050507,16.5 0,14.149495 0,11.25 C0,9.15251239 1.23002889,7.34231336 3.00811064,6.501379 C3.13608289,4.54621907 4.76247206,3 6.75000003,3 C7.34183224,3 7.90164273,3.13710136 8.39940371,3.3812763 C9.56561456,1.360236 11.7489573,0 14.2500001,0 C17.8952738,0 20.8656537,2.88956391 20.9955692,6.50312103 C22.771668,7.34481146 24,9.15395959 24,11.25 C24,14.149495 21.649495,16.5 18.7500001,16.5 L5.25000002,16.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

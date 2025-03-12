@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/clinic-fill</title>
+    <g id="Icon/Fill/clinic-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, 1.500000)" fill="#474747" fill-rule="nonzero">
+            <g id="clinic">
+                <path d="M12,0 L24,12 L20.2500001,12 L20.2500001,21 L3.75000002,21 L3.75000002,12 L0,12 L12,0 Z M7.50000003,12 L7.50000003,13.5 L10.5015,13.5 L10.5015,16.5 L13.5015001,16.5 L13.5015001,13.5 L16.5015001,13.5 L16.5015001,12 L16.5015001,10.5 L13.5015001,10.5 L13.5015001,7.50000003 L10.5015,7.50000003 L10.5015,10.5 L7.50000003,10.5 L7.50000003,12 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

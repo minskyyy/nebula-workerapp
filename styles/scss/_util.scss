@@ -1,0 +1,549 @@
+// @import '../../../node_modules/sass-rem/_rem.scss';
+@import './variables';
+
+$appkit-font-icon-path: "../font-icon" !default;
+
+:host,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "PwC Helvetica Neue", sans-serif;
+}
+
+:host,
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: "PwC Helvetica Neue", sans-serif;
+  letter-spacing: rem-convert(-0.4px);
+  color: $color-text-heading;
+}
+
+* {
+  vertical-align: baseline;
+  font-size: 100%;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.text-highlight {
+  font-weight: $font-weight-2;
+}
+
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0; // Remove the margin in Firefox and Safari
+  font-family: inherit;
+  line-height: inherit;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.ap-link {
+  color: $color-text-link-primary;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+a.ap-notification-link {
+  color: $neutral-01;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.ap-notification.warning {
+
+  a.ap-notification-link {
+    color: $color-text-body;
+  }
+}
+
+.ap-font-medium {
+  font-weight: $font-weight-2;
+  // padding-top: 1px;
+}
+
+.ap-flex {
+  display: flex;
+}
+
+.ap-text-underline {
+  text-decoration: underline;
+}
+
+.ap-dialog-container {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 2001;
+}
+
+$appkit-font-path: "../font" !default;
+
+/*------------------------------------------------------------*
+Colors
+*------------------------------------------------------------*/
+$colors-list: (
+  "color-background-default": $color-background-default,
+  "color-background-default-inverse": $color-background-default-inverse,
+  "color-background-alt": $color-background-alt,
+  "color-background-alt-inverse": $color-background-alt-inverse,
+  "color-background-container": $color-background-container,
+  "color-background-container-alt": $color-background-container-alt,
+  "color-background-primary": $color-background-primary,
+  "color-background-secondary": $color-background-secondary,
+  "color-background-tertiary": $color-background-tertiary,
+  "color-background-hover": $color-background-hover,
+  "color-background-selected": $color-background-selected,
+  "color-background-hover-selected": $color-background-hover-selected,
+  "color-background-triple-hover": $color-background-triple-hover,
+  "color-background-border": $color-background-border,
+  "color-background-danger": $color-background-danger,
+  "color-background-success": $color-background-success,
+  "color-background-warning": $color-background-warning,
+  "color-background-icon-primary": $color-background-icon-primary,
+  "color-background-icon-secondary": $color-background-icon-secondary,
+  "color-background-icon-alt": $color-background-icon-alt,
+  "color-text-primary": $color-text-primary,
+  "color-text-secondary": $color-text-secondary,
+  "color-text-tertiary": $color-text-tertiary,
+  "color-text-light": $color-text-light,
+  "color-text-heading": $color-text-heading,
+  "color-text-body": $color-text-body,
+  "color-text-disabled": $color-text-disabled,
+  "color-text-error": $color-text-error,
+  "color-text-success": $color-text-success,
+  "color-text-warning": $color-text-warning,
+  "color-text-link-primary": $color-text-link-primary,
+  "color-text-link-secondary": $color-text-link-secondary,
+  "color-text-link-primary-inverse": $color-text-link-primary-inverse,
+  "color-text-link-secondary-inverse": $color-text-link-secondary-inverse,
+  "primary-red-01": $primary-red-01,
+  "primary-red-02": $primary-red-02,
+  "primary-red-03": $primary-red-03,
+  "primary-red-04": $primary-red-04,
+  "primary-red-05": $primary-red-05,
+  "primary-red-06": $primary-red-06,
+  "primary-red-07": $primary-red-07,
+  "primary-red-08": $primary-red-08,
+  "primary-red-09": $primary-red-09,
+  "primary-pink-01": $primary-pink-01,
+  "primary-pink-02": $primary-pink-02,
+  "primary-pink-03": $primary-pink-03,
+  "primary-pink-04": $primary-pink-04,
+  "primary-pink-05": $primary-pink-05,
+  "primary-pink-06": $primary-pink-06,
+  "primary-pink-07": $primary-pink-07,
+  "primary-pink-08": $primary-pink-08,
+  "primary-pink-09": $primary-pink-09,
+  "primary-teal-01": $primary-teal-01,
+  "primary-teal-02": $primary-teal-02,
+  "primary-teal-03": $primary-teal-03,
+  "primary-teal-04": $primary-teal-04,
+  "primary-teal-05": $primary-teal-05,
+  "primary-teal-06": $primary-teal-06,
+  "primary-teal-07": $primary-teal-07,
+  "primary-teal-08": $primary-teal-08,
+  "primary-teal-09": $primary-teal-09,
+  "primary-orange-01": $primary-orange-01,
+  "primary-orange-02": $primary-orange-02,
+  "primary-orange-03": $primary-orange-03,
+  "primary-orange-04": $primary-orange-04,
+  "primary-orange-05": $primary-orange-05,
+  "primary-orange-06": $primary-orange-06,
+  "primary-orange-07": $primary-orange-07,
+  "primary-orange-08": $primary-orange-08,
+  "primary-orange-09": $primary-orange-09,
+  "primary-blue-01": $primary-blue-01,
+  "primary-blue-02": $primary-blue-02,
+  "primary-blue-03": $primary-blue-03,
+  "primary-blue-04": $primary-blue-04,
+  "primary-blue-05": $primary-blue-05,
+  "primary-blue-06": $primary-blue-06,
+  "primary-blue-07": $primary-blue-07,
+  "primary-blue-08": $primary-blue-08,
+  "primary-blue-09": $primary-blue-09,
+  "states-error-01": $states-error-01,
+  "states-error-02": $states-error-02,
+  "states-error-03": $states-error-03,
+  "states-error-04": $states-error-04,
+  "states-error-05": $states-error-05,
+  "states-error-06": $states-error-06,
+  "states-error-07": $states-error-07,
+  "states-error-08": $states-error-08,
+  "states-error-09": $states-error-09,
+  "states-warning-01": $states-warning-01,
+  "states-warning-02": $states-warning-02,
+  "states-warning-03": $states-warning-03,
+  "states-warning-04": $states-warning-04,
+  "states-warning-05": $states-warning-05,
+  "states-warning-06": $states-warning-06,
+  "states-warning-07": $states-warning-07,
+  "states-warning-08": $states-warning-08,
+  "states-warning-09": $states-warning-09,
+  "states-success-01": $states-success-01,
+  "states-success-02": $states-success-02,
+  "states-success-03": $states-success-03,
+  "states-success-04": $states-success-04,
+  "states-success-05": $states-success-05,
+  "states-success-06": $states-success-06,
+  "states-success-07": $states-success-07,
+  "states-success-08": $states-success-08,
+  "states-success-09": $states-success-09,
+  "orange-darker": $data-orange-darker,
+  "orange-dark": $data-orange-dark,
+  "orange": $data-orange,
+  "orange-light": $data-orange-light,
+  "orange-lighter": $data-orange-lighter,
+  "tangerine-darker": $data-tangerine-darker,
+  "tangerine-dark": $data-tangerine-dark,
+  "tangerine": $data-tangerine,
+  "tangerine-light": $data-tangerine-light,
+  "tangerine-lighter": $data-tangerine-lighter,
+  "yellow-darker": $data-yellow-darker,
+  "yellow-dark": $data-yellow-dark,
+  "yellow": $data-yellow,
+  "yellow-light": $data-yellow-light,
+  "yellow-lighter": $data-yellow-lighter,
+  "red-darker": $data-red-darker,
+  "red-dark": $data-red-dark,
+  "red": $data-red,
+  "red-light": $data-red-light,
+  "red-lighter": $data-red-lighter,
+  "rose-darker": $data-rose-darker,
+  "rose-dark": $data-rose-dark,
+  "rose": $data-rose,
+  "rose-light": $data-rose-light,
+  "rose-lighter": $data-rose-lighter,
+  "gray-darker": $data-gray-darker,
+  "gray-dark": $data-gray-dark,
+  "gray": $data-gray,
+  "gray-light": $data-gray-light,
+  "gray-lighter": $data-gray-lighter,
+  "purple-darker": $data-purple-darker,
+  "purple-dark": $data-purple-dark,
+  "purple": $data-purple,
+  "purple-light": $data-purple-light,
+  "purple-lighter": $data-purple-lighter,
+  "blue-darker": $data-blue-darker,
+  "blue-dark": $data-blue-dark,
+  "blue": $data-blue,
+  "blue-light": $data-blue-light,
+  "blue-lighter": $data-blue-lighter,
+  "green-darker": $data-green-darker,
+  "green-dark": $data-green-dark,
+  "green": $data-green,
+  "green-light": $data-green-light,
+  "green-lighter": $data-green-lighter,
+  "neutral-01": $neutral-01,
+  "neutral-02": $neutral-02,
+  "neutral-03": $neutral-03,
+  "neutral-04": $neutral-04,
+  "neutral-05": $neutral-05,
+  "neutral-06": $neutral-06,
+  "neutral-07": $neutral-07,
+  "neutral-08": $neutral-08,
+  "neutral-09": $neutral-09,
+  "neutral-10": $neutral-10,
+  "neutral-11": $neutral-11,
+  "neutral-12": $neutral-12,
+  "neutral-13": $neutral-13,
+  "neutral-14": $neutral-14,
+  "neutral-15": $neutral-15,
+  "neutral-16": $neutral-16,
+  "neutral-17": $neutral-17,
+  "neutral-18": $neutral-18,
+  "neutral-19": $neutral-19,
+  "neutral-20": $neutral-20,
+  "neutral-21": $neutral-21,
+  "neutral-22": $neutral-22,
+  "neutral-23": $neutral-23,
+);
+
+@each $name,
+$value in $colors-list {
+
+  /**---------font color-------------**/
+  .ap-text-#{$name} {
+    color: $value  !important;
+  }
+
+  /**---------border color-------------**/
+  .ap-border-#{$name} {
+    border-color: $value  !important;
+  }
+
+  /**---------background color-------------**/
+  .ap-bg-#{$name} {
+    background-color: $value  !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Font-size
+*------------------------------------------------------------*/
+$size-limit: 48;
+
+@for $i from 1 through $size-limit {
+  .ap-font-#{$i} {
+    font-size: #{$i}px !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Spacing
+*------------------------------------------------------------*/
+$spacing-list: (
+  "1": $spacing-1,
+  "2": $spacing-2,
+  "3": $spacing-3,
+  "4": $spacing-4,
+  "5": $spacing-5,
+  "6": $spacing-6,
+  "7": $spacing-7,
+  "8": $spacing-8,
+);
+
+@each $name,
+$size in $spacing-list {
+
+  .ap-m-spacing-#{$name} {
+    margin: $size  !important;
+  }
+
+  .ap-mx-spacing-#{$name} {
+    margin-left: $size  !important;
+    margin-right: $size  !important;
+  }
+
+  .ap-my-spacing-#{$name} {
+    margin-top: $size  !important;
+    margin-bottom: $size  !important;
+  }
+
+  .ap-ml-spacing-#{$name} {
+    margin-left: $size  !important;
+  }
+
+  .ap-mt-spacing-#{$name} {
+    margin-top: $size  !important;
+  }
+
+  .ap-mr-spacing-#{$name} {
+    margin-right: $size  !important;
+  }
+
+  .ap-mb-spacing-#{$name} {
+    margin-bottom: $size  !important;
+  }
+
+  .ap-p-spacing-#{$name} {
+    padding: $size  !important;
+  }
+
+  .ap-px-spacing-#{$name} {
+    padding-left: $size  !important;
+    padding-right: $size  !important;
+  }
+
+  .ap-py-spacing-#{$name} {
+    padding-top: $size  !important;
+    padding-bottom: $size  !important;
+  }
+
+  .ap-pl-spacing-#{$name} {
+    padding-left: $size  !important;
+  }
+
+  .ap-pt-spacing-#{$name} {
+    padding-top: $size  !important;
+  }
+
+  .ap-pr-spacing-#{$name} {
+    padding-right: $size  !important;
+  }
+
+  .ap-pb-spacing-#{$name} {
+    padding-bottom: $size  !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Typography
+*------------------------------------------------------------*/
+$typography-list: (
+  "1": $typography-1,
+  "2": $typography-2,
+  "3": $typography-3,
+  "4": $typography-4,
+  "5": $typography-5,
+  "6": $typography-6,
+  "body-xs": $typography-body-xs,
+  "body-s": $typography-body-s,
+  "body": $typography-body,
+  "heading-s": $typography-heading-s,
+  "heading-m": $typography-heading-m,
+  "heading-l": $typography-heading-l,
+  "data": $typography-data,
+  "subheading": $typography-subheading,
+  "heading": $typography-heading,
+  "large-heading": $typography-large-heading,
+);
+
+@each $name,
+$value in $typography-list {
+
+  .ap-typography-#{$name} {
+    font: $value !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Font weight
+*------------------------------------------------------------*/
+$font-weight-list: (
+  "1": $font-weight-1,
+  "2": $font-weight-2,
+  "3": $font-weight-3
+);
+
+@each $name,
+$value in $font-weight-list {
+
+  .ap-font-weight-#{$name} {
+    font-weight: $value !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Border radius
+*------------------------------------------------------------*/
+$border-radius-list: (
+  "1": $border-radius-1,
+  "2": $border-radius-2,
+  "3": $border-radius-3
+);
+
+@each $name,
+$value in $border-radius-list {
+
+  .ap-border-radius-#{$name} {
+    border-radius: $value !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Level
+*------------------------------------------------------------*/
+$level-list: (
+  "1": $level-1,
+  "2": $level-2,
+  "3": $level-3
+);
+
+@each $name,
+$value in $level-list {
+
+  .ap-level-#{$name} {
+    box-shadow: $value !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Background blur
+*------------------------------------------------------------*/
+$background-blur-list: (
+  "1": $blur-1,
+  "2": $blur-2,
+);
+
+@each $name,
+$value in $background-blur-list {
+
+  .ap-background-blur-#{$name} {
+    backdrop-filter: $value !important;
+    -webkit-backdrop-filter: $value !important;
+  }
+}
+
+/*------------------------------------------------------------*
+Opacity
+*------------------------------------------------------------*/
+$opacity-list: (
+  "1": $opacity-1,
+  "2": $opacity-2,
+  "3": $opacity-3,
+  "4": $opacity-4,
+  "5": $opacity-5,
+  "6": $opacity-6,
+  "7": $opacity-7,
+);
+
+@each $name,
+$value in $opacity-list {
+
+  .ap-opacity-#{$name} {
+    opacity: $value !important;
+  }
+}
+
+// .Appkit4-icon-add-user-outline {
+//   width: 24px;
+//   height: 24px;
+//   mask-image: url('#{$appkit-image-path}/icons/outline/add-user-outline.svg');
+//   -webkit-mask-image: url('#{$appkit-image-path}/icons/outline/add-user-outline.svg');
+//   mask-repeat: no-repeat;
+//   -webkit-mask-repeat: no-repeat;
+//   mask-position: center;
+//   -webkit-mask-position: center;
+//   background-color: $color-text-heading;
+// }
+
+.ap-container-16 {
+  width: rem(16px) !important;
+  height: rem(16px) !important;
+  line-height: rem(16px) !important;
+}
+
+.ap-container-24 {
+  width: rem(24px) !important;
+  height: rem(24px) !important;
+  line-height: rem(24px) !important;
+}
+
+.ap-container-32 {
+  width: rem(32px) !important;
+  height: rem(32px) !important;
+  line-height: rem(32px) !important;
+}
+
+.ap-container-40 {
+  width: rem(40px) !important;
+  height: rem(40px) !important;
+  line-height: rem(40px) !important;
+}

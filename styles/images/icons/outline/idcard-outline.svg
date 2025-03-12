@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/idcard-outline</title>
+    <g id="Icon/Outline/idcard-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(3.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="IDCard-outline">
+                <path d="M18.0135617,0 C18.4202854,0 18.7500001,0.329714684 18.7500001,0.736438359 L18.7500001,23.2635617 C18.7500001,23.6702854 18.4202854,24 18.0135617,24 L0.736438361,24 C0.329714686,24 0,23.6702854 0,23.2635617 L0,0.736438359 C0,0.329714684 0.329714686,0 0.736438361,0 L18.0135617,0 Z M17.2195891,22.4794521 L17.2195891,1.47945206 L1.46958904,1.47945206 L1.46958904,22.4794521 L17.2195891,22.4794521 Z M7.50000003,3.00000001 L12,3.00000001 L12,4.50000001 L7.50000003,4.50000001 L7.50000003,3.00000001 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

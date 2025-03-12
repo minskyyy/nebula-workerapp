@@ -1,0 +1,25 @@
+@import 'variables';
+
+.ap-pwc-logo {
+  width: rem-convert(52px);
+  height: rem-convert(40px);
+  mask-image: url('#{$ap-image-path}/pwc-logo-dark.svg');
+  -webkit-mask-image: url('#{$ap-image-path}/pwc-logo-dark.svg');
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  background-color: $neutral-20;
+}
+
+.ap-pwc-logo-simplified {
+  width: rem-convert(42px);
+  height: rem-convert(40px);
+  mask-image: url('#{$ap-image-path}/PwC_logo_simplified.svg');
+  -webkit-mask-image: url('#{$ap-image-path}/PwC_logo_simplified.svg');
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-position: center;
+  background-color: $neutral-20;
+}

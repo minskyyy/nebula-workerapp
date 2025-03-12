@@ -1,0 +1,22 @@
+@import '../variables';
+@import '../mixin';
+
+$tokens: (
+    (color-background-primary, #EBEBEB),
+    (color-background-primary-light, $neutral-01),
+    (color-background-primary-code, #EBEBEB),
+    (color-background-icon-primary, #EBEBEB),
+    (color-text-primary, #EBEBEB),
+    (color-text-link-primary, #EBEBEB),
+    (color-text-link-secondary, #EBEBEB),
+    (color-text-link-primary-inverse, #EBEBEB),
+    (color-text-link-secondary-inverse, #EBEBEB),
+    (color-text-tertiary, $neutral-20),
+);
+
+:host,
+:root,
+::before,
+::after {
+    @include setColorToken($tokens);
+}

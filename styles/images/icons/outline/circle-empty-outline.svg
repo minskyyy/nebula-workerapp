@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/circle-empty</title>
+    <g id="Icon/Outline/circle-empty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,0 C18.6280001,0 24,5.37300002 24,12 C24,18.6270001 18.6280001,24 12,24 C5.37300002,24 5.68434189e-14,18.6270001 5.68434189e-14,12 C5.68434189e-14,5.37300002 5.37300002,0 12,0 Z M12,22.5 C17.7900001,22.5 22.5,17.7900001 22.5,12 C22.5,6.21000003 17.7900001,1.50000001 12,1.50000001 C6.21000003,1.50000001 1.50000001,6.21000003 1.50000001,12 C1.50000001,17.7900001 6.21000003,22.5 12,22.5 Z" id="Combined-Shape" fill="#474747" fill-rule="nonzero"></path>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/capital-outline</title>
+    <g id="Icon/Outline/capital-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="capital-outline">
+                <path d="M2.25000001,22.5 L0,22.5 L0,24 L23.9833334,24 L23.9833334,22.5 L21.7500001,22.5 L21.7500001,9 L24,9 L24,6.16666669 L12,0 L0,6.10000002 L0,9 L2.28333334,9 L2.25000001,22.5 Z M3.75000002,9.00000004 L8.25000002,9.00000004 L8.25000002,22.5 L3.75000002,22.5 L3.75000002,9.00000004 Z M14.25,9.00000004 L14.25,22.5 L9.75000004,22.5 L9.75000004,9.00000004 L14.25,9.00000004 Z M22.4166668,7.50000003 L1.56666667,7.50000003 L1.56666667,7.10000003 L12.0000001,1.83333334 L22.4166668,7.13333336 L22.4166668,7.50000003 Z M20.2500001,22.5 L15.7500001,22.5 L15.7500001,9.00000004 L20.2500001,9.00000004 L20.2500001,22.5 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/wallet-fill</title>
+    <g id="Icon/Fill/wallet-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000000, 2.000000)" fill="#474747" fill-rule="nonzero">
+            <path d="M4.61666667,3.11 L4.61666667,1.58666667 L21.36,1.58666667 L21.36,0 L0,0 L0,20 L24,20 L24,3.11 L4.61666667,3.11 Z M17.45,12.4433333 C16.7136203,12.4433333 16.1166667,11.8463797 16.1166667,11.11 C16.1166667,10.3736203 16.7136203,9.77666667 17.45,9.77666667 C18.1863797,9.77666667 18.78335,10.3736203 18.78335,11.11 C18.7851072,11.4647757 18.6454149,11.8056294 18.3951739,12.0571216 C18.1449329,12.3086139 17.8047801,12.45 17.45,12.45 L17.45,12.4433333 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

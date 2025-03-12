@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/volume-off-fill</title>
+    <g id="Icon/Fill/volume-off-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="volume-off" transform="translate(5.250000, 0.750000)">
+                <path d="M0,7.50613308 L0,15.012994 C0,15.8414211 0.671572878,16.512994 1.5,16.512994 L3.75000002,16.512994 L12.3269614,22.3718015 C12.6689938,22.6054393 13.1356669,22.5175681 13.3693047,22.1755355 C13.4544496,22.0508883 13.5,21.903449 13.5,21.7524968 L13.5,0.750000003 C13.5,0.335786439 13.1642136,0 12.7500001,0 C12.5987101,0 12.4509569,0.0457543952 12.3261436,0.131254703 L3.75000002,6.00613311 L1.5,6.00613311 C0.671572878,6.00613311 0,6.67770599 0,7.50613308 Z" id="volume_off"></path>
+            </g>
+        </g>
+    </g>
+</svg>

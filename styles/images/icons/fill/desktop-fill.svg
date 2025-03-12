@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/desktop-fill</title>
+    <g id="Icon/Fill/desktop-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="desktop-fill" transform="translate(0.000000, 3.000000)">
+                <path d="M1.5,15 L1.5,1.5 C1.5,0.671572878 2.17157288,0 3,0 L21,0 C21.8284272,0 22.5,0.671572878 22.5,1.5 L22.5,15 L24,15 L24,18 L0,18 L0,15 L1.5,15 Z M3.75000002,2.25000001 L3.75000002,12.75 L20.25,12.75 L20.25,2.25000001 L3.75000002,2.25000001 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

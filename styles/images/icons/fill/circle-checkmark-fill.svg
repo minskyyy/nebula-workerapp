@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/circle-checkmark-fill</title>
+    <g id="Icon/Fill/circle-checkmark-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(0.000112, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="circle-checkmark" transform="translate(0.000075, 0.000300)">
+                <path d="M11.9998501,6.99179692e-16 C18.6267672,6.99179692e-16 23.9997001,5.37193288 23.9997001,11.9998501 C23.9997001,18.6267672 18.6267672,23.9997001 11.9998501,23.9997001 C5.37193288,23.9997001 1.74794923e-16,18.6267672 1.74794923e-16,11.9998501 C1.74794923e-16,5.37193288 5.37193288,6.99179692e-16 11.9998501,6.99179692e-16 Z M10.5128686,17.1277859 L18.6207673,8.99088765 L16.4957939,6.87291412 L10.5088687,12.8808391 L8.11189864,10.4858689 L5.99092514,12.6068424 L10.5128686,17.1277859 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

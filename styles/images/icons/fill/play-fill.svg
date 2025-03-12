@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/play-fill</title>
+    <g id="Icon/Fill/play-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="play-fill">
+                <path d="M12,0 C5.37258302,0 0,5.37258302 0,12 C0,18.6274171 5.37258302,24 12,24 C18.6274171,24 24,18.6274171 24,12 C24,5.37258302 18.6274171,0 12,0 Z M9.00000004,18.0000001 L9.00000004,5.25000002 L18,11.625 L9.00000004,18.0000001 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

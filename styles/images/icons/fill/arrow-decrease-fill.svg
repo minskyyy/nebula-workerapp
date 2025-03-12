@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/arrow-decrease-fill</title>
+    <g id="Icon/Fill/arrow-decrease-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="arrow-decrease">
+                <path d="M21,18.8786798 L21,1.5 C21,0.671572878 21.671573,0 22.5,0 C23.3284272,0 24,0.671572878 24,1.5 L24,24 L1.5,24 C0.671572878,24 0,23.3284272 0,22.5 C0,21.671573 0.671572878,21 1.5,21 L18.8786798,21 L0.43933983,2.56066018 C-0.14644661,1.97487374 -0.14644661,1.02512627 0.43933983,0.43933983 C1.02512627,-0.14644661 1.97487374,-0.14644661 2.56066018,0.43933983 L21,18.8786798 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

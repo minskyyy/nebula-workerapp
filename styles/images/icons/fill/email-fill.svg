@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/email-fill</title>
+    <g id="Icon/Fill/email-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="email" transform="translate(0.000000, 3.000000)">
+                <path d="M23.9994001,2.25000001 L11.9997,7.5 L0,2.25000001 L0,1.49996251 C0,0.671983203 0.671983204,0 1.49996251,0 L22.4994376,0 C23.3274169,0 23.9994001,0.671983203 23.9994001,1.49996251 L23.9994001,2.25000001 Z M12.0003001,10.5 L24.0000001,5.25000002 L24.0000001,16.4995876 C24.0000001,17.3290669 23.3280169,17.9995501 22.5000376,17.9995501 L1.50056249,17.9995501 C0.671083226,17.9995501 0.000599985003,17.3290669 0.000599985003,16.4995876 L0.000599985003,5.25000002 L12.0003001,10.5 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

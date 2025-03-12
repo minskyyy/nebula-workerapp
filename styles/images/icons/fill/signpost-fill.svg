@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/signpost-fill</title>
+    <g id="Icon/Fill/signpost-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(2.000000, 0.000000)" fill="#474747" fill-rule="nonzero">
+            <path d="M20,12.83 L17.6366667,10.05 L11.27,10.05 L11.27,8.38333333 L17.9566667,8.38333333 L17.9566667,2.86333333 L11.27,2.86333333 L11.27,0.596666667 C11.27,0.266666667 10.3333333,0 10,0 C9.66666667,0 8.39333333,0.266666667 8.39333333,0.596666667 L8.39333333,2.86333333 L2.36333333,2.86333333 L0,5.64 L2.36666667,8.38 L8.39333333,8.38 L8.39333333,10.0466667 L2.06,10.0466667 L2.06,15.5666667 L8.39333333,15.5666667 L8.39333333,24 L11.27,24 L11.27,15.5666667 L17.6333333,15.5666667 L20,12.83 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

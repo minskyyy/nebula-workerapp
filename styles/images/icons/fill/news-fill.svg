@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Fill/news-fill</title>
+    <g id="Icon/Fill/news-fill" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="news" transform="translate(2.250000, 0.000000)">
+                <path d="M17.9355001,24 L1.56600001,24 C0.702000003,24 0,23.2830001 0,22.3995001 L0,1.60050001 C0,0.717000003 0.702000003,0 1.56600001,0 L17.9355001,0 C18.7995001,0 19.5,0.717000003 19.5,1.60050001 L19.5,22.3995001 C19.5,23.2830001 18.7995001,24 17.9355001,24 Z M3.00075001,12 L16.50075,12 L16.50075,9.00000004 L3.00075001,9.00000004 L3.00075001,12 Z M3.00075001,18.0000001 L16.50075,18.0000001 L16.50075,15.0000001 L3.00075001,15.0000001 L3.00075001,18.0000001 Z M3.00075001,6.00000001 L9.00075001,6.00000001 L9.00075001,3.00000001 L3.00075001,3.00000001 L3.00075001,6.00000001 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

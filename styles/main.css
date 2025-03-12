@@ -1,0 +1,77 @@
+body {
+  background-color: #191919;
+}
+
+.container-bg {
+  background-color: #252525;
+}
+
+.container-bg-alt {
+  background-color: #3b3b3b;
+}
+
+.container-bg-alt2 {
+  background-color: #474747;
+}
+
+
+.accent-bg {
+  background-color: #415385;
+}
+
+/* .text-confirm{
+    color: : #E0301E;
+  } */
+
+.accent-bg-alt {
+  background-color: #e0301e;
+}
+
+.accent-bg-alt2 {
+  background-color: #d15548;
+}
+
+.border-primary {
+  outline: solid 2px #9aa4be;
+}
+
+.border-accent {
+  outline: solid 2px #415385;
+}
+
+.border-confirm {
+  outline: solid 2px green;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.text-accent-alt {
+  color: #d15548;
+}
+
+.text-accent-alt-hover:hover {
+  color: #e0301e;
+}
+
+.text-accent-alt2 {
+  color: #6f6f6f;
+}
+
+@keyframes pulseTextGreen {
+  0% { color: rgb(255, 255, 255); }
+  25% { color: rgba(78, 173, 88, 1); }
+  100% { color: inherit; }
+}
+
+.pulse {
+  animation: pulseTextGreen 2s ease-in-out;
+}
+#feedback-section{
+  color: rgba(209, 209, 209, 1)
+}
+#feedback-input{
+  background-color: transparent;
+}
+

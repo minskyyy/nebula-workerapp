@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Outline/calendar-declined-outline</title>
+    <g id="Icon/Outline/calendar-declined-outline" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(-0.000000, -0.000000)" fill="#474747" fill-rule="nonzero">
+            <g id="calendar-decline-outline" transform="translate(1.500000, 0.000000)">
+                <path d="M21,7.5 L21,9 L21,22.5 C21,23.3280001 20.3280001,24 19.5,24 L1.5,24 C0.672000003,24 0,23.3280001 0,22.5 L0,3 L3.75000002,3 L3.75000002,0 L5.25000002,0 L5.25000002,3 L15.7500001,3 L15.7500001,0 L17.2500001,0 L17.2500001,3 L21,3 L21,7.5 Z M1.50000001,7.50000002 L19.5,7.50000002 L19.5,4.50000002 L1.50000001,4.50000002 L1.50000001,7.50000002 Z M1.50000001,22.5 L19.5,22.5 L19.5,9.00000004 L1.50000001,9.00000004 L1.50000001,22.5 Z M15,19.2583161 L14.0083161,20.25 L10.5,16.741684 L6.991684,20.25 L6.00000003,19.2583161 L9.50831606,15.75 L6.00000003,12.241684 L6.991684,11.25 L10.5,14.7583161 L14.0083161,11.25 L15,12.241684 L11.491684,15.75 L15,19.2583161 Z" id="Icon/Calender-Declined/Outline"></path>
+            </g>
+        </g>
+    </g>
+</svg>
